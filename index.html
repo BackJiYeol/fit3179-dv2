@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who's Collecting Trading Cards?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Who's collecting trading cards?</h1>
+    <p class="standfirst">TODO — 2~3문장 도입부. 포켓몬 카드 붐과, 그 아래에서 벌어지는 2위 싸움.</p>
+    <p class="meta">FIT3179 Data Visualisation 2 · Baek · Data: Pokémon TCG catalogue, Yu-Gi-Oh card database, Google Trends</p>
+  </div>
+</header>
+
+<!-- ============ 1. OVERVIEW ============ -->
+<section id="overview">
+  <div class="wrap">
+    <p class="sec-label">1 · Overview</p>
+    <h2 class="sec-title">How big is each card world?</h2>
+    <p class="sec-intro">TODO — 섹션 도입 1~2문장.</p>
+
+    <div class="row2">
+      <figure>
+        <p class="fig-title">Pokémon dominates the trading card world</p>
+        <p class="fig-sub">Average relative search interest, 2021–2026 (Google Trends index, 100 = peak week)</p>
+        <div class="chart" data-spec="specs/c01_ranking.vg.json"></div>
+        <figcaption>TODO — 주석.</figcaption>
+      </figure>
+
+      <figure>
+        <p class="fig-title">Yu-Gi-Oh repeats concepts; Pokémon repeats characters</p>
+        <p class="fig-sub">The names that keep coming back, as a share of each game's catalogue</p>
+        <div class="chart" data-spec="specs/c02_wordcloud.vg.json"></div>
+        <figcaption>TODO — 주석.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2. THEMES & STRUCTURE ============ -->
+<section id="structure">
+  <div class="wrap">
+    <p class="sec-label">2 · Themes &amp; structure</p>
+    <h2 class="sec-title">What is a collection made of?</h2>
+    <p class="sec-intro">TODO</p>
+
+    <figure>
+      <p class="fig-title">Over half the collection was printed in the last decade</p>
+      <p class="fig-sub">Game → era → set; ribbon width = number of cards</p>
+      <div class="chart" data-spec="specs/c03_sankey.vg.json"></div>
+      <figcaption>TODO</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ 3. POWER & COLLECTING TRENDS ============ -->
+<section id="trends">
+  <div class="wrap">
+    <p class="sec-label">3 · Collecting trends</p>
+    <h2 class="sec-title">How has collecting changed?</h2>
+    <p class="sec-intro">TODO</p>
+
+    <figure>
+      <p class="fig-title">Chasing the rare card got much harder</p>
+      <p class="fig-sub">Share of cards by rarity tier: 1999–2003 vs 2022–2026</p>
+      <div class="chart" data-spec="specs/c04_rarity.vg.json"></div>
+      <figcaption>TODO</figcaption>
+    </figure>
+
+    <figure>
+      <p class="fig-title">Every era collects differently</p>
+      <p class="fig-sub">Pokémon eras compared on cards per set, rare-card share and sets released</p>
+      <div class="chart" data-spec="specs/c05_parallel.vg.json"></div>
+      <figcaption>TODO</figcaption>
+    </figure>
+
+    <figure>
+      <p class="fig-title">New sets arrive on a quarterly drumbeat</p>
+      <p class="fig-sub">Set releases by month and year — 59% land in February, May, August or November</p>
+      <div class="chart" data-spec="specs/c06_calendar.vg.json"></div>
+      <figcaption>TODO</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ 4. GLOBAL POPULARITY ============ -->
+<section id="world">
+  <div class="wrap">
+    <p class="sec-label">4 · Around the world</p>
+    <h2 class="sec-title">Where in the world?</h2>
+    <p class="sec-intro">TODO</p>
+
+    <figure>
+      <p class="fig-title">Pokémon's grip is tightest in India, loosest in Vietnam</p>
+      <p class="fig-sub">Pokémon as a share of all card-game search interest, by country</p>
+      <div class="chart" data-spec="specs/c07_share.vg.json"></div>
+      <figcaption>TODO</figcaption>
+    </figure>
+
+    <figure>
+      <p class="fig-title">The hobby only registers in a few dozen countries</p>
+      <p class="fig-sub">Search interest in "trading cards" by country; circle size = relative interest</p>
+      <div class="chart" data-spec="specs/c08_symbol.vg.json"></div>
+      <figcaption>TODO</figcaption>
+    </figure>
+
+    <figure>
+      <p class="fig-title">Pokémon wins everywhere — so the real fight is for second place</p>
+      <p class="fig-sub">Runner-up card game, binned into equal-area hexagons</p>
+      <div class="chart" data-spec="specs/c09_binmap.vg.json"></div>
+      <figcaption>TODO</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ 5. CONCLUSION ============ -->
+<section id="conclusion">
+  <div class="wrap">
+    <p class="sec-label">5 · Conclusion</p>
+    <h2 class="sec-title">A boom at the top, a changing of the guard below</h2>
+    <p class="sec-intro">TODO</p>
+
+    <figure>
+      <p class="fig-title">A boom at the top, a changing of the guard below</p>
+      <p class="fig-sub">Relative search interest, 2021–2026</p>
+      <div class="chart" data-spec="specs/c10_timeseries.vg.json"></div>
+      <figcaption>TODO</figcaption>
+    </figure>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Data sources.</strong> Pokémon TCG catalogue (pokemon-tcg-data, 176 sets / 20,635 cards) ·
+       Yu-Gi-Oh card database (7,968 cards) · Google Trends (2021-10-02 – 2026-10-02) ·
+       Natural Earth 110m country boundaries.</p>
+    <p><strong>Note.</strong> Google Trends values are a relative index (100 = peak week within each query),
+       not search counts.</p>
+    <p><strong>AI use.</strong> TODO — 고지 문구.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

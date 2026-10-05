@@ -1,0 +1,146 @@
+[
+ {
+  "word": "Dragon",
+  "count": 405,
+  "pct": 5.083,
+  "game": "Yu-Gi-Oh"
+ },
+ {
+  "word": "Dark",
+  "count": 192,
+  "pct": 2.41,
+  "game": "Yu-Gi-Oh"
+ },
+ {
+  "word": "Beast",
+  "count": 136,
+  "pct": 1.707,
+  "game": "Yu-Gi-Oh"
+ },
+ {
+  "word": "Number",
+  "count": 122,
+  "pct": 1.531,
+  "game": "Yu-Gi-Oh"
+ },
+ {
+  "word": "Knight",
+  "count": 114,
+  "pct": 1.431,
+  "game": "Yu-Gi-Oh"
+ },
+ {
+  "word": "HERO",
+  "count": 110,
+  "pct": 1.381,
+  "game": "Yu-Gi-Oh"
+ },
+ {
+  "word": "King",
+  "count": 104,
+  "pct": 1.305,
+  "game": "Yu-Gi-Oh"
+ },
+ {
+  "word": "Warrior",
+  "count": 92,
+  "pct": 1.155,
+  "game": "Yu-Gi-Oh"
+ },
+ {
+  "word": "Pikachu",
+  "count": 208,
+  "pct": 1.008,
+  "game": "Pokémon"
+ },
+ {
+  "word": "Magician",
+  "count": 79,
+  "pct": 0.991,
+  "game": "Yu-Gi-Oh"
+ },
+ {
+  "word": "Elemental",
+  "count": 71,
+  "pct": 0.891,
+  "game": "Yu-Gi-Oh"
+ },
+ {
+  "word": "Samurai",
+  "count": 69,
+  "pct": 0.866,
+  "game": "Yu-Gi-Oh"
+ },
+ {
+  "word": "Performapal",
+  "count": 68,
+  "pct": 0.853,
+  "game": "Yu-Gi-Oh"
+ },
+ {
+  "word": "Charizard",
+  "count": 98,
+  "pct": 0.475,
+  "game": "Pokémon"
+ },
+ {
+  "word": "Unown",
+  "count": 96,
+  "pct": 0.465,
+  "game": "Pokémon"
+ },
+ {
+  "word": "Mewtwo",
+  "count": 85,
+  "pct": 0.412,
+  "game": "Pokémon"
+ },
+ {
+  "word": "Eevee",
+  "count": 81,
+  "pct": 0.393,
+  "game": "Pokémon"
+ },
+ {
+  "word": "Raichu",
+  "count": 71,
+  "pct": 0.344,
+  "game": "Pokémon"
+ },
+ {
+  "word": "Meowth",
+  "count": 66,
+  "pct": 0.32,
+  "game": "Pokémon"
+ },
+ {
+  "word": "Rayquaza",
+  "count": 58,
+  "pct": 0.281,
+  "game": "Pokémon"
+ },
+ {
+  "word": "Gyarados",
+  "count": 57,
+  "pct": 0.276,
+  "game": "Pokémon"
+ },
+ {
+  "word": "Mew",
+  "count": 57,
+  "pct": 0.276,
+  "game": "Pokémon"
+ },
+ {
+  "word": "Lucario",
+  "count": 56,
+  "pct": 0.271,
+  "game": "Pokémon"
+ },
+ {
+  "word": "Ninetales",
+  "count": 56,
+  "pct": 0.271,
+  "game": "Pokémon"
+ }
+]

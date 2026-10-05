@@ -1,0 +1,9 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "data/c01_ranking.json"},
+  "mark": "bar",
+  "encoding": {
+    "y": {"field": "game", "type": "nominal"},
+    "x": {"field": "value", "type": "quantitative"}
+  }
+}

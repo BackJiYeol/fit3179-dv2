@@ -1,0 +1,130 @@
+[
+ {
+  "era": "Base",
+  "game": "Pokémon",
+  "cardsPerSet": 82.3,
+  "ultraPct": 0.2,
+  "setsReleased": 6,
+  "startYear": 1999
+ },
+ {
+  "era": "Gym",
+  "game": "Pokémon",
+  "cardsPerSet": 132.0,
+  "ultraPct": 0.0,
+  "setsReleased": 2,
+  "startYear": 2000
+ },
+ {
+  "era": "Neo",
+  "game": "Pokémon",
+  "cardsPerSet": 91.2,
+  "ultraPct": 2.7,
+  "setsReleased": 4,
+  "startYear": 2000
+ },
+ {
+  "era": "Other",
+  "game": "Pokémon",
+  "cardsPerSet": 19.6,
+  "ultraPct": 0.0,
+  "setsReleased": 15,
+  "startYear": 2001
+ },
+ {
+  "era": "E-Card",
+  "game": "Pokémon",
+  "cardsPerSet": 176.3,
+  "ultraPct": 1.7,
+  "setsReleased": 3,
+  "startYear": 2002
+ },
+ {
+  "era": "EX",
+  "game": "Pokémon",
+  "cardsPerSet": 88.3,
+  "ultraPct": 10.0,
+  "setsReleased": 20,
+  "startYear": 2003
+ },
+ {
+  "era": "POP",
+  "game": "Pokémon",
+  "cardsPerSet": 17.0,
+  "ultraPct": 0.0,
+  "setsReleased": 9,
+  "startYear": 2004
+ },
+ {
+  "era": "Diamond & Pearl",
+  "game": "Pokémon",
+  "cardsPerSet": 112.5,
+  "ultraPct": 3.6,
+  "setsReleased": 8,
+  "startYear": 2007
+ },
+ {
+  "era": "Platinum",
+  "game": "Pokémon",
+  "cardsPerSet": 129.2,
+  "ultraPct": 7.2,
+  "setsReleased": 4,
+  "startYear": 2009
+ },
+ {
+  "era": "HeartGold & SoulSilver",
+  "game": "Pokémon",
+  "cardsPerSet": 90.8,
+  "ultraPct": 8.8,
+  "setsReleased": 6,
+  "startYear": 2010
+ },
+ {
+  "era": "Black & White",
+  "game": "Pokémon",
+  "cardsPerSet": 110.5,
+  "ultraPct": 11.2,
+  "setsReleased": 13,
+  "startYear": 2011
+ },
+ {
+  "era": "XY",
+  "game": "Pokémon",
+  "cardsPerSet": 120.4,
+  "ultraPct": 16.5,
+  "setsReleased": 16,
+  "startYear": 2013
+ },
+ {
+  "era": "Sun & Moon",
+  "game": "Pokémon",
+  "cardsPerSet": 165.2,
+  "ultraPct": 26.4,
+  "setsReleased": 18,
+  "startYear": 2017
+ },
+ {
+  "era": "Sword & Shield",
+  "game": "Pokémon",
+  "cardsPerSet": 146.7,
+  "ultraPct": 33.5,
+  "setsReleased": 25,
+  "startYear": 2019
+ },
+ {
+  "era": "Scarlet & Violet",
+  "game": "Pokémon",
+  "cardsPerSet": 199.7,
+  "ultraPct": 35.5,
+  "setsReleased": 18,
+  "startYear": 2023
+ },
+ {
+  "era": "Mega Evolution",
+  "game": "Pokémon",
+  "cardsPerSet": 146.2,
+  "ultraPct": 39.1,
+  "setsReleased": 8,
+  "startYear": 2025
+ }
+]
