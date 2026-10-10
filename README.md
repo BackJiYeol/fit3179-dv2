@@ -25,3 +25,6 @@ data/_PROVENANCE.json  각 데이터의 출처·가공·판단이 들어간 지�
 - Natural Earth 110m country boundaries
 
 ⚠ Google Trends 값은 검색량이 아니라 **상대 지수**(쿼리 내 최고 주 = 100)
+
+push test
+git push test - 2026-10-10
