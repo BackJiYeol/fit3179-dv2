@@ -3,7 +3,20 @@
   "data": {"url": "data/c01_ranking.json"},
   "mark": "bar",
   "encoding": {
-    "y": {"field": "game", "type": "nominal"},
-    "x": {"field": "value", "type": "quantitative"}
+    "y": {
+      "field": "game",
+      "type": "nominal",
+      "sort": "-x",
+      "title": null
+    },
+    "x": {
+      "field": "value",
+      "type": "quantitative",
+      "title": ["Average relative search interest", "(Google Trends index, 100 = per week)"]
+    },
+    "tooltip": [
+      {"field": "game", "type": "nominal", "title": "Game"},
+      {"field": "value", "type": "quantitative", "title": "Search Interest"}
+    ]
   }
 }

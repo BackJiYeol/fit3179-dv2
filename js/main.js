@@ -1,4 +1,7 @@
-// 각 figure의 .chart[data-spec] 을 찾아 Vega-Lite 스펙을 불러와 그린다.
+// Finds every .chart[data-spec] slot on the page, fetches its
+// Vega-Lite spec and renders it. A missing spec shows an inline
+// error without stopping the remaining charts.
+
 const EMBED_OPT = {
   actions: {export:true, source:true, compiled:false, editor:true},
   renderer: "canvas",
