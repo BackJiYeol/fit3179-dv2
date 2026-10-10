@@ -26,3 +26,4 @@ data/_PROVENANCE.json  각 데이터의 출처·가공·판단이 들어간 지�
 
 ⚠ Google Trends 값은 검색량이 아니라 **상대 지수**(쿼리 내 최고 주 = 100)
 
+The CSV files in csv/ are the original downloads from Google Trends and have not been modified. All transformation happens in scripts/.

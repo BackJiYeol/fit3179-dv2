@@ -1,0 +1,6552 @@
+[
+ {
+  "date": "2021-09-26",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2021-09-26",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-09-26",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-09-26",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-09-26",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2021-10-03",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2021-10-03",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-10-03",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-10-03",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-10-03",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2021-10-10",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2021-10-10",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-10-10",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-10-10",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-10-10",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2021-10-17",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2021-10-17",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-10-17",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-10-17",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-10-17",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2021-10-24",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2021-10-24",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-10-24",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-10-24",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-10-24",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2021-10-31",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2021-10-31",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-10-31",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-10-31",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-10-31",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2021-11-07",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2021-11-07",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-11-07",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-11-07",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-11-07",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2021-11-14",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2021-11-14",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-11-14",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-11-14",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-11-14",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2021-11-21",
+  "game": "Pokémon",
+  "value": 32.0
+ },
+ {
+  "date": "2021-11-21",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-11-21",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-11-21",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-11-21",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2021-11-28",
+  "game": "Pokémon",
+  "value": 28.0
+ },
+ {
+  "date": "2021-11-28",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-11-28",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-11-28",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-11-28",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2021-12-05",
+  "game": "Pokémon",
+  "value": 30.0
+ },
+ {
+  "date": "2021-12-05",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-12-05",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-12-05",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-12-05",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2021-12-12",
+  "game": "Pokémon",
+  "value": 29.0
+ },
+ {
+  "date": "2021-12-12",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-12-12",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-12-12",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-12-12",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2021-12-19",
+  "game": "Pokémon",
+  "value": 32.0
+ },
+ {
+  "date": "2021-12-19",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-12-19",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-12-19",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-12-19",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2021-12-26",
+  "game": "Pokémon",
+  "value": 28.0
+ },
+ {
+  "date": "2021-12-26",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2021-12-26",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2021-12-26",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2021-12-26",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2022-01-02",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2022-01-02",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-01-02",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-01-02",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-01-02",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2022-01-09",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2022-01-09",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-01-09",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-01-09",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-01-09",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2022-01-16",
+  "game": "Pokémon",
+  "value": 23.0
+ },
+ {
+  "date": "2022-01-16",
+  "game": "Yu-Gi-Oh",
+  "value": 7.0
+ },
+ {
+  "date": "2022-01-16",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-01-16",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-01-16",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-01-23",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2022-01-23",
+  "game": "Yu-Gi-Oh",
+  "value": 9.0
+ },
+ {
+  "date": "2022-01-23",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-01-23",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-01-23",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-01-30",
+  "game": "Pokémon",
+  "value": 23.0
+ },
+ {
+  "date": "2022-01-30",
+  "game": "Yu-Gi-Oh",
+  "value": 8.0
+ },
+ {
+  "date": "2022-01-30",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-01-30",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-01-30",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2022-02-06",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2022-02-06",
+  "game": "Yu-Gi-Oh",
+  "value": 7.0
+ },
+ {
+  "date": "2022-02-06",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-02-06",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-02-06",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2022-02-13",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2022-02-13",
+  "game": "Yu-Gi-Oh",
+  "value": 7.0
+ },
+ {
+  "date": "2022-02-13",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-02-13",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-02-13",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-02-20",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2022-02-20",
+  "game": "Yu-Gi-Oh",
+  "value": 6.0
+ },
+ {
+  "date": "2022-02-20",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-02-20",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-02-20",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-02-27",
+  "game": "Pokémon",
+  "value": 23.0
+ },
+ {
+  "date": "2022-02-27",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-02-27",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-02-27",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-02-27",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-03-06",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2022-03-06",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-03-06",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-03-06",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-03-06",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-03-13",
+  "game": "Pokémon",
+  "value": 23.0
+ },
+ {
+  "date": "2022-03-13",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-03-13",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-03-13",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-03-13",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-03-20",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2022-03-20",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-03-20",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-03-20",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-03-20",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-03-27",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2022-03-27",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-03-27",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-03-27",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-03-27",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-04-03",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2022-04-03",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-04-03",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-04-03",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-04-03",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-04-10",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2022-04-10",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-04-10",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-04-10",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-04-10",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2022-04-17",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2022-04-17",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-04-17",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-04-17",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-04-17",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-04-24",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2022-04-24",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-04-24",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-04-24",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-04-24",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-05-01",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2022-05-01",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-05-01",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-05-01",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-05-01",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-05-08",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2022-05-08",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-05-08",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-05-08",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-05-08",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-05-15",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2022-05-15",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-05-15",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-05-15",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-05-15",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-05-22",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2022-05-22",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-05-22",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-05-22",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-05-22",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-05-29",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2022-05-29",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-05-29",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-05-29",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-05-29",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-06-05",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2022-06-05",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-06-05",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-06-05",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-06-05",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-06-12",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2022-06-12",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-06-12",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-06-12",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-06-12",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-06-19",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2022-06-19",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-06-19",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-06-19",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-06-19",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-06-26",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2022-06-26",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-06-26",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-06-26",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-06-26",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-07-03",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2022-07-03",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-07-03",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-07-03",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-07-03",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-07-10",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2022-07-10",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-07-10",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-07-10",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-07-10",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-07-17",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2022-07-17",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-07-17",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-07-17",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-07-17",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-07-24",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2022-07-24",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-07-24",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-07-24",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-07-24",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-07-31",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2022-07-31",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-07-31",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-07-31",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2022-07-31",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2022-08-07",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2022-08-07",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-08-07",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-08-07",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-08-07",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-08-14",
+  "game": "Pokémon",
+  "value": 30.0
+ },
+ {
+  "date": "2022-08-14",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-08-14",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-08-14",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-08-14",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-08-21",
+  "game": "Pokémon",
+  "value": 32.0
+ },
+ {
+  "date": "2022-08-21",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-08-21",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-08-21",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-08-21",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-08-28",
+  "game": "Pokémon",
+  "value": 31.0
+ },
+ {
+  "date": "2022-08-28",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-08-28",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-08-28",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-08-28",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-09-04",
+  "game": "Pokémon",
+  "value": 31.0
+ },
+ {
+  "date": "2022-09-04",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-09-04",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-09-04",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-09-04",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-09-11",
+  "game": "Pokémon",
+  "value": 32.0
+ },
+ {
+  "date": "2022-09-11",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-09-11",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-09-11",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-09-11",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-09-18",
+  "game": "Pokémon",
+  "value": 31.0
+ },
+ {
+  "date": "2022-09-18",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-09-18",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-09-18",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-09-18",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-09-25",
+  "game": "Pokémon",
+  "value": 30.0
+ },
+ {
+  "date": "2022-09-25",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-09-25",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-09-25",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-09-25",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2022-10-02",
+  "game": "Pokémon",
+  "value": 29.0
+ },
+ {
+  "date": "2022-10-02",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-10-02",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-10-02",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-10-02",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-10-09",
+  "game": "Pokémon",
+  "value": 28.0
+ },
+ {
+  "date": "2022-10-09",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-10-09",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-10-09",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-10-09",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-10-16",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2022-10-16",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-10-16",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-10-16",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-10-16",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2022-10-23",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2022-10-23",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-10-23",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-10-23",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-10-23",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-10-30",
+  "game": "Pokémon",
+  "value": 29.0
+ },
+ {
+  "date": "2022-10-30",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-10-30",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-10-30",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-10-30",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2022-11-06",
+  "game": "Pokémon",
+  "value": 30.0
+ },
+ {
+  "date": "2022-11-06",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-11-06",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-11-06",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-11-06",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-11-13",
+  "game": "Pokémon",
+  "value": 33.0
+ },
+ {
+  "date": "2022-11-13",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-11-13",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-11-13",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-11-13",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2022-11-20",
+  "game": "Pokémon",
+  "value": 34.0
+ },
+ {
+  "date": "2022-11-20",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-11-20",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-11-20",
+  "game": "One Piece",
+  "value": 0.5
+ },
+ {
+  "date": "2022-11-20",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-11-27",
+  "game": "Pokémon",
+  "value": 32.0
+ },
+ {
+  "date": "2022-11-27",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-11-27",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-11-27",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2022-11-27",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-12-04",
+  "game": "Pokémon",
+  "value": 35.0
+ },
+ {
+  "date": "2022-12-04",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-12-04",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-12-04",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2022-12-04",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-12-11",
+  "game": "Pokémon",
+  "value": 36.0
+ },
+ {
+  "date": "2022-12-11",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-12-11",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-12-11",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2022-12-11",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2022-12-18",
+  "game": "Pokémon",
+  "value": 38.0
+ },
+ {
+  "date": "2022-12-18",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2022-12-18",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-12-18",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2022-12-18",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2022-12-25",
+  "game": "Pokémon",
+  "value": 41.0
+ },
+ {
+  "date": "2022-12-25",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2022-12-25",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2022-12-25",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2022-12-25",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2023-01-01",
+  "game": "Pokémon",
+  "value": 35.0
+ },
+ {
+  "date": "2023-01-01",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-01-01",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-01-01",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-01-01",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-01-08",
+  "game": "Pokémon",
+  "value": 32.0
+ },
+ {
+  "date": "2023-01-08",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-01-08",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-01-08",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-01-08",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-01-15",
+  "game": "Pokémon",
+  "value": 33.0
+ },
+ {
+  "date": "2023-01-15",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-01-15",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-01-15",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-01-15",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-01-22",
+  "game": "Pokémon",
+  "value": 33.0
+ },
+ {
+  "date": "2023-01-22",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-01-22",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-01-22",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-01-22",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-01-29",
+  "game": "Pokémon",
+  "value": 31.0
+ },
+ {
+  "date": "2023-01-29",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-01-29",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-01-29",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-01-29",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-02-05",
+  "game": "Pokémon",
+  "value": 32.0
+ },
+ {
+  "date": "2023-02-05",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-02-05",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-02-05",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-02-05",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-02-12",
+  "game": "Pokémon",
+  "value": 29.0
+ },
+ {
+  "date": "2023-02-12",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-02-12",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-02-12",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-02-12",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-02-19",
+  "game": "Pokémon",
+  "value": 29.0
+ },
+ {
+  "date": "2023-02-19",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-02-19",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-02-19",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-02-19",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-02-26",
+  "game": "Pokémon",
+  "value": 29.0
+ },
+ {
+  "date": "2023-02-26",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-02-26",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-02-26",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-02-26",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-03-05",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2023-03-05",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-03-05",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-03-05",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-03-05",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-03-12",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2023-03-12",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-03-12",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-03-12",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-03-12",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-03-19",
+  "game": "Pokémon",
+  "value": 28.0
+ },
+ {
+  "date": "2023-03-19",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-03-19",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-03-19",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-03-19",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-03-26",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2023-03-26",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-03-26",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-03-26",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-03-26",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-04-02",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2023-04-02",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-04-02",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-04-02",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-04-02",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-04-09",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2023-04-09",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-04-09",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-04-09",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-04-09",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2023-04-16",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2023-04-16",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-04-16",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-04-16",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-04-16",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-04-23",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2023-04-23",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-04-23",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-04-23",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-04-23",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-04-30",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2023-04-30",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-04-30",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-04-30",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-04-30",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-05-07",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2023-05-07",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-05-07",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-05-07",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-05-07",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-05-14",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2023-05-14",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-05-14",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-05-14",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-05-14",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-05-21",
+  "game": "Pokémon",
+  "value": 21.0
+ },
+ {
+  "date": "2023-05-21",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-05-21",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-05-21",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-05-21",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-05-28",
+  "game": "Pokémon",
+  "value": 23.0
+ },
+ {
+  "date": "2023-05-28",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-05-28",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-05-28",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-05-28",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-06-04",
+  "game": "Pokémon",
+  "value": 23.0
+ },
+ {
+  "date": "2023-06-04",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2023-06-04",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-06-04",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-06-04",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-06-11",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2023-06-11",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-06-11",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-06-11",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-06-11",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-06-18",
+  "game": "Pokémon",
+  "value": 23.0
+ },
+ {
+  "date": "2023-06-18",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-06-18",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-06-18",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-06-18",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-06-25",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2023-06-25",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-06-25",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2023-06-25",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-06-25",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-07-02",
+  "game": "Pokémon",
+  "value": 23.0
+ },
+ {
+  "date": "2023-07-02",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-07-02",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-07-02",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-07-02",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-07-09",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2023-07-09",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-07-09",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-07-09",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-07-09",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-07-16",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2023-07-16",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-07-16",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-07-16",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-07-16",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-07-23",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2023-07-23",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-07-23",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-07-23",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-07-23",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2023-07-30",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2023-07-30",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-07-30",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-07-30",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-07-30",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2023-08-06",
+  "game": "Pokémon",
+  "value": 23.0
+ },
+ {
+  "date": "2023-08-06",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-08-06",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-08-06",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-08-06",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-08-13",
+  "game": "Pokémon",
+  "value": 21.0
+ },
+ {
+  "date": "2023-08-13",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-08-13",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-08-13",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-08-13",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-08-20",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2023-08-20",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-08-20",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-08-20",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-08-20",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-08-27",
+  "game": "Pokémon",
+  "value": 23.0
+ },
+ {
+  "date": "2023-08-27",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-08-27",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-08-27",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-08-27",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-09-03",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2023-09-03",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-09-03",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-09-03",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2023-09-03",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-09-10",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2023-09-10",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2023-09-10",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-09-10",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-09-10",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-09-17",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2023-09-17",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2023-09-17",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-09-17",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2023-09-17",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2023-09-24",
+  "game": "Pokémon",
+  "value": 28.0
+ },
+ {
+  "date": "2023-09-24",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-09-24",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-09-24",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2023-09-24",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2023-10-01",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2023-10-01",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2023-10-01",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-10-01",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-10-01",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2023-10-08",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2023-10-08",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2023-10-08",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-10-08",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-10-08",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2023-10-15",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2023-10-15",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2023-10-15",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-10-15",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-10-15",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2023-10-22",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2023-10-22",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-10-22",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-10-22",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-10-22",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2023-10-29",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2023-10-29",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2023-10-29",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-10-29",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-10-29",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2023-11-05",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2023-11-05",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2023-11-05",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-11-05",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-11-05",
+  "game": "Sports cards",
+  "value": 4.0
+ },
+ {
+  "date": "2023-11-12",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2023-11-12",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-11-12",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-11-12",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-11-12",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-11-19",
+  "game": "Pokémon",
+  "value": 28.0
+ },
+ {
+  "date": "2023-11-19",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2023-11-19",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-11-19",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-11-19",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-11-26",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2023-11-26",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-11-26",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-11-26",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2023-11-26",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-12-03",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2023-12-03",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2023-12-03",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-12-03",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2023-12-03",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2023-12-10",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2023-12-10",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2023-12-10",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-12-10",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2023-12-10",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2023-12-17",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2023-12-17",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-12-17",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-12-17",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2023-12-17",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2023-12-24",
+  "game": "Pokémon",
+  "value": 29.0
+ },
+ {
+  "date": "2023-12-24",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-12-24",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-12-24",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2023-12-24",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2023-12-31",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2023-12-31",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2023-12-31",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2023-12-31",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2023-12-31",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-01-07",
+  "game": "Pokémon",
+  "value": 21.0
+ },
+ {
+  "date": "2024-01-07",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-01-07",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-01-07",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-01-07",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-01-14",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2024-01-14",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-01-14",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-01-14",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-01-14",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-01-21",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-01-21",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2024-01-21",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-01-21",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-01-21",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-01-28",
+  "game": "Pokémon",
+  "value": 21.0
+ },
+ {
+  "date": "2024-01-28",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-01-28",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-01-28",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-01-28",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-02-04",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2024-02-04",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-02-04",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-02-04",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-02-04",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-02-11",
+  "game": "Pokémon",
+  "value": 21.0
+ },
+ {
+  "date": "2024-02-11",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-02-11",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-02-11",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-02-11",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-02-18",
+  "game": "Pokémon",
+  "value": 21.0
+ },
+ {
+  "date": "2024-02-18",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-02-18",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-02-18",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-02-18",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-02-25",
+  "game": "Pokémon",
+  "value": 21.0
+ },
+ {
+  "date": "2024-02-25",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-02-25",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-02-25",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-02-25",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-03-03",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2024-03-03",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2024-03-03",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-03-03",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-03-03",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-03-10",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-03-10",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-03-10",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-03-10",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-03-10",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-03-17",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-03-17",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-03-17",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-03-17",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-03-17",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-03-24",
+  "game": "Pokémon",
+  "value": 21.0
+ },
+ {
+  "date": "2024-03-24",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-03-24",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-03-24",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-03-24",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-03-31",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-03-31",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-03-31",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-03-31",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-03-31",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-04-07",
+  "game": "Pokémon",
+  "value": 19.0
+ },
+ {
+  "date": "2024-04-07",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-04-07",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-04-07",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-04-07",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-04-14",
+  "game": "Pokémon",
+  "value": 18.0
+ },
+ {
+  "date": "2024-04-14",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-04-14",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-04-14",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-04-14",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-04-21",
+  "game": "Pokémon",
+  "value": 19.0
+ },
+ {
+  "date": "2024-04-21",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-04-21",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-04-21",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-04-21",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-04-28",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-04-28",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-04-28",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-04-28",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-04-28",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-05-05",
+  "game": "Pokémon",
+  "value": 18.0
+ },
+ {
+  "date": "2024-05-05",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-05-05",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-05-05",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-05-05",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-05-12",
+  "game": "Pokémon",
+  "value": 19.0
+ },
+ {
+  "date": "2024-05-12",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-05-12",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-05-12",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-05-12",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-05-19",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-05-19",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-05-19",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-05-19",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-05-19",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-05-26",
+  "game": "Pokémon",
+  "value": 21.0
+ },
+ {
+  "date": "2024-05-26",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-05-26",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-05-26",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-05-26",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-06-02",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-06-02",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-06-02",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-06-02",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-06-02",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-06-09",
+  "game": "Pokémon",
+  "value": 21.0
+ },
+ {
+  "date": "2024-06-09",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-06-09",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2024-06-09",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-06-09",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-06-16",
+  "game": "Pokémon",
+  "value": 21.0
+ },
+ {
+  "date": "2024-06-16",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-06-16",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-06-16",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-06-16",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-06-23",
+  "game": "Pokémon",
+  "value": 19.0
+ },
+ {
+  "date": "2024-06-23",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-06-23",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-06-23",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-06-23",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-06-30",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-06-30",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-06-30",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-06-30",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-06-30",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-07-07",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-07-07",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-07-07",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-07-07",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-07-07",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-07-14",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-07-14",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-07-14",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-07-14",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-07-14",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-07-21",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-07-21",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-07-21",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-07-21",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-07-21",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-07-28",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-07-28",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2024-07-28",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-07-28",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-07-28",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-08-04",
+  "game": "Pokémon",
+  "value": 20.0
+ },
+ {
+  "date": "2024-08-04",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-08-04",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-08-04",
+  "game": "One Piece",
+  "value": 1.0
+ },
+ {
+  "date": "2024-08-04",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-08-11",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2024-08-11",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-08-11",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-08-11",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-08-11",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-08-18",
+  "game": "Pokémon",
+  "value": 23.0
+ },
+ {
+  "date": "2024-08-18",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-08-18",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2024-08-18",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-08-18",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-08-25",
+  "game": "Pokémon",
+  "value": 22.0
+ },
+ {
+  "date": "2024-08-25",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-08-25",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-08-25",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-08-25",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-09-01",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2024-09-01",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-09-01",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-09-01",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-09-01",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-09-08",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2024-09-08",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-09-08",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-09-08",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-09-08",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-09-15",
+  "game": "Pokémon",
+  "value": 24.0
+ },
+ {
+  "date": "2024-09-15",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-09-15",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-09-15",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-09-15",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-09-22",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2024-09-22",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-09-22",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-09-22",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-09-22",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-09-29",
+  "game": "Pokémon",
+  "value": 25.0
+ },
+ {
+  "date": "2024-09-29",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-09-29",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-09-29",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-09-29",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-10-06",
+  "game": "Pokémon",
+  "value": 26.0
+ },
+ {
+  "date": "2024-10-06",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-10-06",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-10-06",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-10-06",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-10-13",
+  "game": "Pokémon",
+  "value": 27.0
+ },
+ {
+  "date": "2024-10-13",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-10-13",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-10-13",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-10-13",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-10-20",
+  "game": "Pokémon",
+  "value": 29.0
+ },
+ {
+  "date": "2024-10-20",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-10-20",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-10-20",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-10-20",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-10-27",
+  "game": "Pokémon",
+  "value": 33.0
+ },
+ {
+  "date": "2024-10-27",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2024-10-27",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-10-27",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-10-27",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-11-03",
+  "game": "Pokémon",
+  "value": 40.0
+ },
+ {
+  "date": "2024-11-03",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2024-11-03",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-11-03",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-11-03",
+  "game": "Sports cards",
+  "value": 5.0
+ },
+ {
+  "date": "2024-11-10",
+  "game": "Pokémon",
+  "value": 46.0
+ },
+ {
+  "date": "2024-11-10",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-11-10",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2024-11-10",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-11-10",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-11-17",
+  "game": "Pokémon",
+  "value": 46.0
+ },
+ {
+  "date": "2024-11-17",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-11-17",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2024-11-17",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-11-17",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-11-24",
+  "game": "Pokémon",
+  "value": 51.0
+ },
+ {
+  "date": "2024-11-24",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-11-24",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2024-11-24",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-11-24",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2024-12-01",
+  "game": "Pokémon",
+  "value": 46.0
+ },
+ {
+  "date": "2024-12-01",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-12-01",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2024-12-01",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-12-01",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-12-08",
+  "game": "Pokémon",
+  "value": 47.0
+ },
+ {
+  "date": "2024-12-08",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-12-08",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2024-12-08",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-12-08",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2024-12-15",
+  "game": "Pokémon",
+  "value": 47.0
+ },
+ {
+  "date": "2024-12-15",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-12-15",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2024-12-15",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-12-15",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2024-12-22",
+  "game": "Pokémon",
+  "value": 53.0
+ },
+ {
+  "date": "2024-12-22",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-12-22",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2024-12-22",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2024-12-22",
+  "game": "Sports cards",
+  "value": 8.0
+ },
+ {
+  "date": "2024-12-29",
+  "game": "Pokémon",
+  "value": 52.0
+ },
+ {
+  "date": "2024-12-29",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2024-12-29",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2024-12-29",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2024-12-29",
+  "game": "Sports cards",
+  "value": 8.0
+ },
+ {
+  "date": "2025-01-05",
+  "game": "Pokémon",
+  "value": 45.0
+ },
+ {
+  "date": "2025-01-05",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-01-05",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-01-05",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-01-05",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2025-01-12",
+  "game": "Pokémon",
+  "value": 51.0
+ },
+ {
+  "date": "2025-01-12",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-01-12",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-01-12",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-01-12",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-01-19",
+  "game": "Pokémon",
+  "value": 59.0
+ },
+ {
+  "date": "2025-01-19",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-01-19",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-01-19",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-01-19",
+  "game": "Sports cards",
+  "value": 8.0
+ },
+ {
+  "date": "2025-01-26",
+  "game": "Pokémon",
+  "value": 62.0
+ },
+ {
+  "date": "2025-01-26",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-01-26",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-01-26",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-01-26",
+  "game": "Sports cards",
+  "value": 8.0
+ },
+ {
+  "date": "2025-02-02",
+  "game": "Pokémon",
+  "value": 56.0
+ },
+ {
+  "date": "2025-02-02",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-02-02",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-02-02",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-02-02",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-02-09",
+  "game": "Pokémon",
+  "value": 56.0
+ },
+ {
+  "date": "2025-02-09",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-02-09",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-02-09",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-02-09",
+  "game": "Sports cards",
+  "value": 8.0
+ },
+ {
+  "date": "2025-02-16",
+  "game": "Pokémon",
+  "value": 53.0
+ },
+ {
+  "date": "2025-02-16",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-02-16",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-02-16",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-02-16",
+  "game": "Sports cards",
+  "value": 8.0
+ },
+ {
+  "date": "2025-02-23",
+  "game": "Pokémon",
+  "value": 55.0
+ },
+ {
+  "date": "2025-02-23",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-02-23",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-02-23",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-02-23",
+  "game": "Sports cards",
+  "value": 8.0
+ },
+ {
+  "date": "2025-03-02",
+  "game": "Pokémon",
+  "value": 57.0
+ },
+ {
+  "date": "2025-03-02",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-03-02",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-03-02",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-03-02",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-03-09",
+  "game": "Pokémon",
+  "value": 55.0
+ },
+ {
+  "date": "2025-03-09",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-03-09",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-03-09",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-03-09",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-03-16",
+  "game": "Pokémon",
+  "value": 53.0
+ },
+ {
+  "date": "2025-03-16",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-03-16",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-03-16",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-03-16",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-03-23",
+  "game": "Pokémon",
+  "value": 58.0
+ },
+ {
+  "date": "2025-03-23",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-03-23",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-03-23",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-03-23",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-03-30",
+  "game": "Pokémon",
+  "value": 54.0
+ },
+ {
+  "date": "2025-03-30",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-03-30",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-03-30",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-03-30",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-04-06",
+  "game": "Pokémon",
+  "value": 50.0
+ },
+ {
+  "date": "2025-04-06",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-04-06",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-04-06",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-04-06",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-04-13",
+  "game": "Pokémon",
+  "value": 47.0
+ },
+ {
+  "date": "2025-04-13",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-04-13",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-04-13",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-04-13",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-04-20",
+  "game": "Pokémon",
+  "value": 44.0
+ },
+ {
+  "date": "2025-04-20",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2025-04-20",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-04-20",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-04-20",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-04-27",
+  "game": "Pokémon",
+  "value": 46.0
+ },
+ {
+  "date": "2025-04-27",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2025-04-27",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-04-27",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-04-27",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-05-04",
+  "game": "Pokémon",
+  "value": 44.0
+ },
+ {
+  "date": "2025-05-04",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-05-04",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-05-04",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-05-04",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2025-05-11",
+  "game": "Pokémon",
+  "value": 44.0
+ },
+ {
+  "date": "2025-05-11",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-05-11",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-05-11",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-05-11",
+  "game": "Sports cards",
+  "value": 6.0
+ },
+ {
+  "date": "2025-05-18",
+  "game": "Pokémon",
+  "value": 45.0
+ },
+ {
+  "date": "2025-05-18",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-05-18",
+  "game": "Magic: The Gathering",
+  "value": 1.0
+ },
+ {
+  "date": "2025-05-18",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-05-18",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-05-25",
+  "game": "Pokémon",
+  "value": 47.0
+ },
+ {
+  "date": "2025-05-25",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-05-25",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-05-25",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-05-25",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-06-01",
+  "game": "Pokémon",
+  "value": 47.0
+ },
+ {
+  "date": "2025-06-01",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-06-01",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-06-01",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-06-01",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-06-08",
+  "game": "Pokémon",
+  "value": 47.0
+ },
+ {
+  "date": "2025-06-08",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2025-06-08",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-06-08",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-06-08",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-06-15",
+  "game": "Pokémon",
+  "value": 42.0
+ },
+ {
+  "date": "2025-06-15",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-06-15",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2025-06-15",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-06-15",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-06-22",
+  "game": "Pokémon",
+  "value": 41.0
+ },
+ {
+  "date": "2025-06-22",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-06-22",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-06-22",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-06-22",
+  "game": "Sports cards",
+  "value": 7.0
+ },
+ {
+  "date": "2025-06-29",
+  "game": "Pokémon",
+  "value": 40.0
+ },
+ {
+  "date": "2025-06-29",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-06-29",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-06-29",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-06-29",
+  "game": "Sports cards",
+  "value": 8.0
+ },
+ {
+  "date": "2025-07-06",
+  "game": "Pokémon",
+  "value": 41.0
+ },
+ {
+  "date": "2025-07-06",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-07-06",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-07-06",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-07-06",
+  "game": "Sports cards",
+  "value": 8.0
+ },
+ {
+  "date": "2025-07-13",
+  "game": "Pokémon",
+  "value": 43.0
+ },
+ {
+  "date": "2025-07-13",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-07-13",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-07-13",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-07-13",
+  "game": "Sports cards",
+  "value": 8.0
+ },
+ {
+  "date": "2025-07-20",
+  "game": "Pokémon",
+  "value": 45.0
+ },
+ {
+  "date": "2025-07-20",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-07-20",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-07-20",
+  "game": "One Piece",
+  "value": 2.0
+ },
+ {
+  "date": "2025-07-20",
+  "game": "Sports cards",
+  "value": 8.0
+ },
+ {
+  "date": "2025-07-27",
+  "game": "Pokémon",
+  "value": 45.0
+ },
+ {
+  "date": "2025-07-27",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-07-27",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-07-27",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-07-27",
+  "game": "Sports cards",
+  "value": 9.0
+ },
+ {
+  "date": "2025-08-03",
+  "game": "Pokémon",
+  "value": 47.0
+ },
+ {
+  "date": "2025-08-03",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-08-03",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-08-03",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-08-03",
+  "game": "Sports cards",
+  "value": 11.0
+ },
+ {
+  "date": "2025-08-10",
+  "game": "Pokémon",
+  "value": 51.0
+ },
+ {
+  "date": "2025-08-10",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-08-10",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2025-08-10",
+  "game": "One Piece",
+  "value": 4.0
+ },
+ {
+  "date": "2025-08-10",
+  "game": "Sports cards",
+  "value": 11.0
+ },
+ {
+  "date": "2025-08-17",
+  "game": "Pokémon",
+  "value": 46.0
+ },
+ {
+  "date": "2025-08-17",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-08-17",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-08-17",
+  "game": "One Piece",
+  "value": 4.0
+ },
+ {
+  "date": "2025-08-17",
+  "game": "Sports cards",
+  "value": 11.0
+ },
+ {
+  "date": "2025-08-24",
+  "game": "Pokémon",
+  "value": 48.0
+ },
+ {
+  "date": "2025-08-24",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-08-24",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-08-24",
+  "game": "One Piece",
+  "value": 4.0
+ },
+ {
+  "date": "2025-08-24",
+  "game": "Sports cards",
+  "value": 10.0
+ },
+ {
+  "date": "2025-08-31",
+  "game": "Pokémon",
+  "value": 49.0
+ },
+ {
+  "date": "2025-08-31",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-08-31",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-08-31",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-08-31",
+  "game": "Sports cards",
+  "value": 9.0
+ },
+ {
+  "date": "2025-09-07",
+  "game": "Pokémon",
+  "value": 43.0
+ },
+ {
+  "date": "2025-09-07",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2025-09-07",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-09-07",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-09-07",
+  "game": "Sports cards",
+  "value": 9.0
+ },
+ {
+  "date": "2025-09-14",
+  "game": "Pokémon",
+  "value": 45.0
+ },
+ {
+  "date": "2025-09-14",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2025-09-14",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-09-14",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-09-14",
+  "game": "Sports cards",
+  "value": 9.0
+ },
+ {
+  "date": "2025-09-21",
+  "game": "Pokémon",
+  "value": 47.0
+ },
+ {
+  "date": "2025-09-21",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-09-21",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-09-21",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-09-21",
+  "game": "Sports cards",
+  "value": 10.0
+ },
+ {
+  "date": "2025-09-28",
+  "game": "Pokémon",
+  "value": 48.0
+ },
+ {
+  "date": "2025-09-28",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-09-28",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-09-28",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-09-28",
+  "game": "Sports cards",
+  "value": 10.0
+ },
+ {
+  "date": "2025-10-05",
+  "game": "Pokémon",
+  "value": 47.0
+ },
+ {
+  "date": "2025-10-05",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2025-10-05",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-10-05",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-10-05",
+  "game": "Sports cards",
+  "value": 9.0
+ },
+ {
+  "date": "2025-10-12",
+  "game": "Pokémon",
+  "value": 47.0
+ },
+ {
+  "date": "2025-10-12",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-10-12",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-10-12",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-10-12",
+  "game": "Sports cards",
+  "value": 9.0
+ },
+ {
+  "date": "2025-10-19",
+  "game": "Pokémon",
+  "value": 46.0
+ },
+ {
+  "date": "2025-10-19",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-10-19",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-10-19",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-10-19",
+  "game": "Sports cards",
+  "value": 10.0
+ },
+ {
+  "date": "2025-10-26",
+  "game": "Pokémon",
+  "value": 46.0
+ },
+ {
+  "date": "2025-10-26",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2025-10-26",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-10-26",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-10-26",
+  "game": "Sports cards",
+  "value": 10.0
+ },
+ {
+  "date": "2025-11-02",
+  "game": "Pokémon",
+  "value": 46.0
+ },
+ {
+  "date": "2025-11-02",
+  "game": "Yu-Gi-Oh",
+  "value": 3.0
+ },
+ {
+  "date": "2025-11-02",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-11-02",
+  "game": "One Piece",
+  "value": 3.0
+ },
+ {
+  "date": "2025-11-02",
+  "game": "Sports cards",
+  "value": 11.0
+ },
+ {
+  "date": "2025-11-09",
+  "game": "Pokémon",
+  "value": 50.0
+ },
+ {
+  "date": "2025-11-09",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-11-09",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-11-09",
+  "game": "One Piece",
+  "value": 4.0
+ },
+ {
+  "date": "2025-11-09",
+  "game": "Sports cards",
+  "value": 13.0
+ },
+ {
+  "date": "2025-11-16",
+  "game": "Pokémon",
+  "value": 50.0
+ },
+ {
+  "date": "2025-11-16",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-11-16",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2025-11-16",
+  "game": "One Piece",
+  "value": 4.0
+ },
+ {
+  "date": "2025-11-16",
+  "game": "Sports cards",
+  "value": 13.0
+ },
+ {
+  "date": "2025-11-23",
+  "game": "Pokémon",
+  "value": 54.0
+ },
+ {
+  "date": "2025-11-23",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-11-23",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2025-11-23",
+  "game": "One Piece",
+  "value": 4.0
+ },
+ {
+  "date": "2025-11-23",
+  "game": "Sports cards",
+  "value": 17.0
+ },
+ {
+  "date": "2025-11-30",
+  "game": "Pokémon",
+  "value": 54.0
+ },
+ {
+  "date": "2025-11-30",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-11-30",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2025-11-30",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2025-11-30",
+  "game": "Sports cards",
+  "value": 17.0
+ },
+ {
+  "date": "2025-12-07",
+  "game": "Pokémon",
+  "value": 54.0
+ },
+ {
+  "date": "2025-12-07",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-12-07",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2025-12-07",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2025-12-07",
+  "game": "Sports cards",
+  "value": 16.0
+ },
+ {
+  "date": "2025-12-14",
+  "game": "Pokémon",
+  "value": 54.0
+ },
+ {
+  "date": "2025-12-14",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2025-12-14",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2025-12-14",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2025-12-14",
+  "game": "Sports cards",
+  "value": 16.0
+ },
+ {
+  "date": "2025-12-21",
+  "game": "Pokémon",
+  "value": 63.0
+ },
+ {
+  "date": "2025-12-21",
+  "game": "Yu-Gi-Oh",
+  "value": 6.0
+ },
+ {
+  "date": "2025-12-21",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2025-12-21",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2025-12-21",
+  "game": "Sports cards",
+  "value": 13.0
+ },
+ {
+  "date": "2025-12-28",
+  "game": "Pokémon",
+  "value": 60.0
+ },
+ {
+  "date": "2025-12-28",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2025-12-28",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2025-12-28",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2025-12-28",
+  "game": "Sports cards",
+  "value": 16.0
+ },
+ {
+  "date": "2026-01-04",
+  "game": "Pokémon",
+  "value": 53.0
+ },
+ {
+  "date": "2026-01-04",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-01-04",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-01-04",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-01-04",
+  "game": "Sports cards",
+  "value": 14.0
+ },
+ {
+  "date": "2026-01-11",
+  "game": "Pokémon",
+  "value": 51.0
+ },
+ {
+  "date": "2026-01-11",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-01-11",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-01-11",
+  "game": "One Piece",
+  "value": 7.0
+ },
+ {
+  "date": "2026-01-11",
+  "game": "Sports cards",
+  "value": 14.0
+ },
+ {
+  "date": "2026-01-18",
+  "game": "Pokémon",
+  "value": 52.0
+ },
+ {
+  "date": "2026-01-18",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-01-18",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-01-18",
+  "game": "One Piece",
+  "value": 8.0
+ },
+ {
+  "date": "2026-01-18",
+  "game": "Sports cards",
+  "value": 17.0
+ },
+ {
+  "date": "2026-01-25",
+  "game": "Pokémon",
+  "value": 53.0
+ },
+ {
+  "date": "2026-01-25",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-01-25",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-01-25",
+  "game": "One Piece",
+  "value": 7.0
+ },
+ {
+  "date": "2026-01-25",
+  "game": "Sports cards",
+  "value": 17.0
+ },
+ {
+  "date": "2026-02-01",
+  "game": "Pokémon",
+  "value": 52.0
+ },
+ {
+  "date": "2026-02-01",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-02-01",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-02-01",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-02-01",
+  "game": "Sports cards",
+  "value": 19.0
+ },
+ {
+  "date": "2026-02-08",
+  "game": "Pokémon",
+  "value": 52.0
+ },
+ {
+  "date": "2026-02-08",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-02-08",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-02-08",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-02-08",
+  "game": "Sports cards",
+  "value": 17.0
+ },
+ {
+  "date": "2026-02-15",
+  "game": "Pokémon",
+  "value": 60.0
+ },
+ {
+  "date": "2026-02-15",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-02-15",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-02-15",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-02-15",
+  "game": "Sports cards",
+  "value": 20.0
+ },
+ {
+  "date": "2026-02-22",
+  "game": "Pokémon",
+  "value": 65.0
+ },
+ {
+  "date": "2026-02-22",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-02-22",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-02-22",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-02-22",
+  "game": "Sports cards",
+  "value": 18.0
+ },
+ {
+  "date": "2026-03-01",
+  "game": "Pokémon",
+  "value": 67.0
+ },
+ {
+  "date": "2026-03-01",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-03-01",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-03-01",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-03-01",
+  "game": "Sports cards",
+  "value": 16.0
+ },
+ {
+  "date": "2026-03-08",
+  "game": "Pokémon",
+  "value": 72.0
+ },
+ {
+  "date": "2026-03-08",
+  "game": "Yu-Gi-Oh",
+  "value": 6.0
+ },
+ {
+  "date": "2026-03-08",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2026-03-08",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-03-08",
+  "game": "Sports cards",
+  "value": 16.0
+ },
+ {
+  "date": "2026-03-15",
+  "game": "Pokémon",
+  "value": 72.0
+ },
+ {
+  "date": "2026-03-15",
+  "game": "Yu-Gi-Oh",
+  "value": 6.0
+ },
+ {
+  "date": "2026-03-15",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2026-03-15",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-03-15",
+  "game": "Sports cards",
+  "value": 17.0
+ },
+ {
+  "date": "2026-03-22",
+  "game": "Pokémon",
+  "value": 76.0
+ },
+ {
+  "date": "2026-03-22",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-03-22",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2026-03-22",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-03-22",
+  "game": "Sports cards",
+  "value": 17.0
+ },
+ {
+  "date": "2026-03-29",
+  "game": "Pokémon",
+  "value": 84.0
+ },
+ {
+  "date": "2026-03-29",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-03-29",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-03-29",
+  "game": "One Piece",
+  "value": 8.0
+ },
+ {
+  "date": "2026-03-29",
+  "game": "Sports cards",
+  "value": 21.0
+ },
+ {
+  "date": "2026-04-05",
+  "game": "Pokémon",
+  "value": 79.0
+ },
+ {
+  "date": "2026-04-05",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-04-05",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2026-04-05",
+  "game": "One Piece",
+  "value": 7.0
+ },
+ {
+  "date": "2026-04-05",
+  "game": "Sports cards",
+  "value": 20.0
+ },
+ {
+  "date": "2026-04-12",
+  "game": "Pokémon",
+  "value": 79.0
+ },
+ {
+  "date": "2026-04-12",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-04-12",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2026-04-12",
+  "game": "One Piece",
+  "value": 7.0
+ },
+ {
+  "date": "2026-04-12",
+  "game": "Sports cards",
+  "value": 19.0
+ },
+ {
+  "date": "2026-04-19",
+  "game": "Pokémon",
+  "value": 76.0
+ },
+ {
+  "date": "2026-04-19",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-04-19",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2026-04-19",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-04-19",
+  "game": "Sports cards",
+  "value": 18.0
+ },
+ {
+  "date": "2026-04-26",
+  "game": "Pokémon",
+  "value": 74.0
+ },
+ {
+  "date": "2026-04-26",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-04-26",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-04-26",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-04-26",
+  "game": "Sports cards",
+  "value": 18.0
+ },
+ {
+  "date": "2026-05-03",
+  "game": "Pokémon",
+  "value": 74.0
+ },
+ {
+  "date": "2026-05-03",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-05-03",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2026-05-03",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-05-03",
+  "game": "Sports cards",
+  "value": 20.0
+ },
+ {
+  "date": "2026-05-10",
+  "game": "Pokémon",
+  "value": 75.0
+ },
+ {
+  "date": "2026-05-10",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-05-10",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-05-10",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-05-10",
+  "game": "Sports cards",
+  "value": 21.0
+ },
+ {
+  "date": "2026-05-17",
+  "game": "Pokémon",
+  "value": 76.0
+ },
+ {
+  "date": "2026-05-17",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-05-17",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2026-05-17",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-05-17",
+  "game": "Sports cards",
+  "value": 17.0
+ },
+ {
+  "date": "2026-05-24",
+  "game": "Pokémon",
+  "value": 84.0
+ },
+ {
+  "date": "2026-05-24",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-05-24",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-05-24",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-05-24",
+  "game": "Sports cards",
+  "value": 18.0
+ },
+ {
+  "date": "2026-05-31",
+  "game": "Pokémon",
+  "value": 87.0
+ },
+ {
+  "date": "2026-05-31",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-05-31",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-05-31",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-05-31",
+  "game": "Sports cards",
+  "value": 19.0
+ },
+ {
+  "date": "2026-06-07",
+  "game": "Pokémon",
+  "value": 77.0
+ },
+ {
+  "date": "2026-06-07",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-06-07",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-06-07",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-06-07",
+  "game": "Sports cards",
+  "value": 19.0
+ },
+ {
+  "date": "2026-06-14",
+  "game": "Pokémon",
+  "value": 73.0
+ },
+ {
+  "date": "2026-06-14",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-06-14",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-06-14",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-06-14",
+  "game": "Sports cards",
+  "value": 20.0
+ },
+ {
+  "date": "2026-06-21",
+  "game": "Pokémon",
+  "value": 70.0
+ },
+ {
+  "date": "2026-06-21",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-06-21",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-06-21",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-06-21",
+  "game": "Sports cards",
+  "value": 20.0
+ },
+ {
+  "date": "2026-06-28",
+  "game": "Pokémon",
+  "value": 66.0
+ },
+ {
+  "date": "2026-06-28",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-06-28",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-06-28",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-06-28",
+  "game": "Sports cards",
+  "value": 17.0
+ },
+ {
+  "date": "2026-07-05",
+  "game": "Pokémon",
+  "value": 64.0
+ },
+ {
+  "date": "2026-07-05",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-07-05",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-07-05",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-07-05",
+  "game": "Sports cards",
+  "value": 18.0
+ },
+ {
+  "date": "2026-07-12",
+  "game": "Pokémon",
+  "value": 66.0
+ },
+ {
+  "date": "2026-07-12",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-07-12",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2026-07-12",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-07-12",
+  "game": "Sports cards",
+  "value": 15.0
+ },
+ {
+  "date": "2026-07-19",
+  "game": "Pokémon",
+  "value": 77.0
+ },
+ {
+  "date": "2026-07-19",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-07-19",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-07-19",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-07-19",
+  "game": "Sports cards",
+  "value": 16.0
+ },
+ {
+  "date": "2026-07-26",
+  "game": "Pokémon",
+  "value": 75.0
+ },
+ {
+  "date": "2026-07-26",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-07-26",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-07-26",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-07-26",
+  "game": "Sports cards",
+  "value": 16.0
+ },
+ {
+  "date": "2026-08-02",
+  "game": "Pokémon",
+  "value": 72.0
+ },
+ {
+  "date": "2026-08-02",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-08-02",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-08-02",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-08-02",
+  "game": "Sports cards",
+  "value": 15.0
+ },
+ {
+  "date": "2026-08-09",
+  "game": "Pokémon",
+  "value": 76.0
+ },
+ {
+  "date": "2026-08-09",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-08-09",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-08-09",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-08-09",
+  "game": "Sports cards",
+  "value": 16.0
+ },
+ {
+  "date": "2026-08-16",
+  "game": "Pokémon",
+  "value": 70.0
+ },
+ {
+  "date": "2026-08-16",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-08-16",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-08-16",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-08-16",
+  "game": "Sports cards",
+  "value": 14.0
+ },
+ {
+  "date": "2026-08-23",
+  "game": "Pokémon",
+  "value": 66.0
+ },
+ {
+  "date": "2026-08-23",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-08-23",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-08-23",
+  "game": "One Piece",
+  "value": 7.0
+ },
+ {
+  "date": "2026-08-23",
+  "game": "Sports cards",
+  "value": 14.0
+ },
+ {
+  "date": "2026-08-30",
+  "game": "Pokémon",
+  "value": 64.0
+ },
+ {
+  "date": "2026-08-30",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-08-30",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-08-30",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-08-30",
+  "game": "Sports cards",
+  "value": 15.0
+ },
+ {
+  "date": "2026-09-06",
+  "game": "Pokémon",
+  "value": 61.0
+ },
+ {
+  "date": "2026-09-06",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-09-06",
+  "game": "Magic: The Gathering",
+  "value": 3.0
+ },
+ {
+  "date": "2026-09-06",
+  "game": "One Piece",
+  "value": 6.0
+ },
+ {
+  "date": "2026-09-06",
+  "game": "Sports cards",
+  "value": 14.0
+ },
+ {
+  "date": "2026-09-13",
+  "game": "Pokémon",
+  "value": 100.0
+ },
+ {
+  "date": "2026-09-13",
+  "game": "Yu-Gi-Oh",
+  "value": 4.0
+ },
+ {
+  "date": "2026-09-13",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2026-09-13",
+  "game": "One Piece",
+  "value": 5.0
+ },
+ {
+  "date": "2026-09-13",
+  "game": "Sports cards",
+  "value": 14.0
+ },
+ {
+  "date": "2026-09-20",
+  "game": "Pokémon",
+  "value": 74.0
+ },
+ {
+  "date": "2026-09-20",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-09-20",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2026-09-20",
+  "game": "One Piece",
+  "value": 4.0
+ },
+ {
+  "date": "2026-09-20",
+  "game": "Sports cards",
+  "value": 12.0
+ },
+ {
+  "date": "2026-09-27",
+  "game": "Pokémon",
+  "value": 76.0
+ },
+ {
+  "date": "2026-09-27",
+  "game": "Yu-Gi-Oh",
+  "value": 5.0
+ },
+ {
+  "date": "2026-09-27",
+  "game": "Magic: The Gathering",
+  "value": 2.0
+ },
+ {
+  "date": "2026-09-27",
+  "game": "One Piece",
+  "value": 4.0
+ },
+ {
+  "date": "2026-09-27",
+  "game": "Sports cards",
+  "value": 10.0
+ }
+]
