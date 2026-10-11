@@ -23,7 +23,13 @@ async function drawAll(){
       const res = await fetch(el.dataset.spec);
       if(!res.ok) throw new Error(`${res.status} ${res.statusText} — ${el.dataset.spec}`);
       const spec = await res.json();
-      spec.width  = spec.width  ?? "container";
+      const panels = spec.vconcat || spec.hconcat || spec.concat;
+      if (panels) {
+        const w = Math.max(240, el.clientWidth - 80);
+        for (const p of panels) p.width = p.width ?? w;
+      } else {
+        spec.width = spec.width ?? "container";
+      }
       await vegaEmbed(el, spec, EMBED_OPT);
       el.classList.remove("is-loading");
     }catch(err){
