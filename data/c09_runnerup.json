@@ -1,0 +1,310 @@
+[
+ {
+  "country": "Australia",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 7.0,
+  "lon": 134.04972,
+  "lat": -24.129522
+ },
+ {
+  "country": "United States of America",
+  "runnerup": "Sports cards",
+  "pct": 18.0,
+  "lon": -97.482602,
+  "lat": 39.538479
+ },
+ {
+  "country": "Singapore",
+  "runnerup": "One Piece",
+  "pct": 7.0,
+  "lon": 103.853875,
+  "lat": 1.294979
+ },
+ {
+  "country": "New Zealand",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 8.0,
+  "lon": 172.787,
+  "lat": -39.759
+ },
+ {
+  "country": "United Kingdom",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 7.0,
+  "lon": -2.116346,
+  "lat": 54.402739
+ },
+ {
+  "country": "Canada",
+  "runnerup": "Sports cards",
+  "pct": 16.0,
+  "lon": -101.9107,
+  "lat": 60.324287
+ },
+ {
+  "country": "Ireland",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 9.0,
+  "lon": -7.798588,
+  "lat": 53.078726
+ },
+ {
+  "country": "Puerto Rico",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 19.0,
+  "lon": -66.481065,
+  "lat": 18.234668
+ },
+ {
+  "country": "Netherlands",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 6.0,
+  "lon": 5.61144,
+  "lat": 52.422211
+ },
+ {
+  "country": "United Arab Emirates",
+  "runnerup": "Sports cards",
+  "pct": 5.0,
+  "lon": 54.547256,
+  "lat": 23.466285
+ },
+ {
+  "country": "Norway",
+  "runnerup": "Magic: The Gathering",
+  "pct": 5.0,
+  "lon": 9.679975,
+  "lat": 61.357092
+ },
+ {
+  "country": "Denmark",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 8.0,
+  "lon": 9.018163,
+  "lat": 55.966965
+ },
+ {
+  "country": "Philippines",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 13.0,
+  "lon": 122.465,
+  "lat": 11.198
+ },
+ {
+  "country": "Sweden",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 8.0,
+  "lon": 19.01705,
+  "lat": 65.85918
+ },
+ {
+  "country": "Finland",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 5.0,
+  "lon": 27.276449,
+  "lat": 63.252361
+ },
+ {
+  "country": "Hong Kong",
+  "runnerup": "Sports cards",
+  "pct": 6.0,
+  "lon": 114.183064,
+  "lat": 22.306927
+ },
+ {
+  "country": "Belgium",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 7.0,
+  "lon": 4.800448,
+  "lat": 50.785392
+ },
+ {
+  "country": "Slovakia",
+  "runnerup": "Magic: The Gathering",
+  "pct": 3.0,
+  "lon": 19.049868,
+  "lat": 48.734044
+ },
+ {
+  "country": "South Africa",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 13.0,
+  "lon": 23.665734,
+  "lat": -29.708776
+ },
+ {
+  "country": "Malaysia",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 8.0,
+  "lon": 113.83708,
+  "lat": 2.528667
+ },
+ {
+  "country": "Czechia",
+  "runnerup": "Magic: The Gathering",
+  "pct": 5.0,
+  "lon": 15.377555,
+  "lat": 49.882364
+ },
+ {
+  "country": "Portugal",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 11.0,
+  "lon": -8.271754,
+  "lat": 39.606675
+ },
+ {
+  "country": "Greece",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 28.0,
+  "lon": 21.72568,
+  "lat": 39.492763
+ },
+ {
+  "country": "India",
+  "runnerup": "Sports cards",
+  "pct": 5.0,
+  "lon": 79.358105,
+  "lat": 22.686852
+ },
+ {
+  "country": "Switzerland",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 12.0,
+  "lon": 7.463965,
+  "lat": 46.719114
+ },
+ {
+  "country": "Israel",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 9.0,
+  "lon": 34.847915,
+  "lat": 30.911148
+ },
+ {
+  "country": "Romania",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 10.0,
+  "lon": 24.972624,
+  "lat": 45.733237
+ },
+ {
+  "country": "Austria",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 19.0,
+  "lon": 14.130515,
+  "lat": 47.518859
+ },
+ {
+  "country": "Germany",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 20.0,
+  "lon": 9.678348,
+  "lat": 50.961733
+ },
+ {
+  "country": "South Korea",
+  "runnerup": "Sports cards",
+  "pct": 22.0,
+  "lon": 128.129504,
+  "lat": 36.384924
+ },
+ {
+  "country": "Poland",
+  "runnerup": "Sports cards",
+  "pct": 6.0,
+  "lon": 19.490468,
+  "lat": 51.990316
+ },
+ {
+  "country": "Pakistan",
+  "runnerup": "Sports cards",
+  "pct": 13.0,
+  "lon": 68.545632,
+  "lat": 29.328389
+ },
+ {
+  "country": "Italy",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 17.0,
+  "lon": 11.076907,
+  "lat": 44.732482
+ },
+ {
+  "country": "Spain",
+  "runnerup": "One Piece",
+  "pct": 9.0,
+  "lon": -3.464718,
+  "lat": 40.090953
+ },
+ {
+  "country": "Chile",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 17.0,
+  "lon": -72.318871,
+  "lat": -38.151771
+ },
+ {
+  "country": "Mexico",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 22.0,
+  "lon": -102.289448,
+  "lat": 23.919988
+ },
+ {
+  "country": "Brazil",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 24.0,
+  "lon": -49.55945,
+  "lat": -12.098687
+ },
+ {
+  "country": "Japan",
+  "runnerup": "Sports cards",
+  "pct": 10.0,
+  "lon": 138.44217,
+  "lat": 36.142538
+ },
+ {
+  "country": "Thailand",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 17.0,
+  "lon": 101.073198,
+  "lat": 15.45974
+ },
+ {
+  "country": "France",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 11.0,
+  "lon": 2.552275,
+  "lat": 46.696113
+ },
+ {
+  "country": "Vietnam",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 24.0,
+  "lon": 105.387292,
+  "lat": 21.715416
+ },
+ {
+  "country": "Indonesia",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 19.0,
+  "lon": 101.892949,
+  "lat": -0.954404
+ },
+ {
+  "country": "Argentina",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 24.0,
+  "lon": -64.173331,
+  "lat": -33.501159
+ },
+ {
+  "country": "Turkey",
+  "runnerup": "Yu-Gi-Oh",
+  "pct": 14.0,
+  "lon": 34.508268,
+  "lat": 39.345388
+ }
+]

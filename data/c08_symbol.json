@@ -1,0 +1,302 @@
+[
+ {
+  "country": "Australia",
+  "value": 100.0,
+  "lon": 134.04972,
+  "lat": -24.129522
+ },
+ {
+  "country": "United States of America",
+  "value": 99.0,
+  "lon": -97.482602,
+  "lat": 39.538479
+ },
+ {
+  "country": "Canada",
+  "value": 70.0,
+  "lon": -101.9107,
+  "lat": 60.324287
+ },
+ {
+  "country": "New Zealand",
+  "value": 69.0,
+  "lon": 172.787,
+  "lat": -39.759
+ },
+ {
+  "country": "United Kingdom",
+  "value": 58.0,
+  "lon": -2.116346,
+  "lat": 54.402739
+ },
+ {
+  "country": "Singapore",
+  "value": 50.0,
+  "lon": 103.853875,
+  "lat": 1.294979
+ },
+ {
+  "country": "United Arab Emirates",
+  "value": 48.0,
+  "lon": 54.547256,
+  "lat": 23.466285
+ },
+ {
+  "country": "Ireland",
+  "value": 31.0,
+  "lon": -7.798588,
+  "lat": 53.078726
+ },
+ {
+  "country": "Germany",
+  "value": 27.0,
+  "lon": 9.678348,
+  "lat": 50.961733
+ },
+ {
+  "country": "Netherlands",
+  "value": 27.0,
+  "lon": 5.61144,
+  "lat": 52.422211
+ },
+ {
+  "country": "Austria",
+  "value": 23.0,
+  "lon": 14.130515,
+  "lat": 47.518859
+ },
+ {
+  "country": "Norway",
+  "value": 20.0,
+  "lon": 9.679975,
+  "lat": 61.357092
+ },
+ {
+  "country": "Finland",
+  "value": 19.0,
+  "lon": 27.276449,
+  "lat": 63.252361
+ },
+ {
+  "country": "South Korea",
+  "value": 19.0,
+  "lon": 128.129504,
+  "lat": 36.384924
+ },
+ {
+  "country": "Denmark",
+  "value": 17.0,
+  "lon": 9.018163,
+  "lat": 55.966965
+ },
+ {
+  "country": "Philippines",
+  "value": 17.0,
+  "lon": 122.465,
+  "lat": 11.198
+ },
+ {
+  "country": "Switzerland",
+  "value": 17.0,
+  "lon": 7.463965,
+  "lat": 46.719114
+ },
+ {
+  "country": "Hong Kong",
+  "value": 16.0,
+  "lon": 114.183064,
+  "lat": 22.306927
+ },
+ {
+  "country": "Hungary",
+  "value": 16.0,
+  "lon": 19.447867,
+  "lat": 47.086841
+ },
+ {
+  "country": "Sweden",
+  "value": 16.0,
+  "lon": 19.01705,
+  "lat": 65.85918
+ },
+ {
+  "country": "South Africa",
+  "value": 14.0,
+  "lon": 23.665734,
+  "lat": -29.708776
+ },
+ {
+  "country": "Belgium",
+  "value": 14.0,
+  "lon": 4.800448,
+  "lat": 50.785392
+ },
+ {
+  "country": "Czechia",
+  "value": 12.0,
+  "lon": 15.377555,
+  "lat": 49.882364
+ },
+ {
+  "country": "Romania",
+  "value": 12.0,
+  "lon": 24.972624,
+  "lat": 45.733237
+ },
+ {
+  "country": "Portugal",
+  "value": 12.0,
+  "lon": -8.271754,
+  "lat": 39.606675
+ },
+ {
+  "country": "Greece",
+  "value": 11.0,
+  "lon": 21.72568,
+  "lat": 39.492763
+ },
+ {
+  "country": "Malaysia",
+  "value": 11.0,
+  "lon": 113.83708,
+  "lat": 2.528667
+ },
+ {
+  "country": "Israel",
+  "value": 11.0,
+  "lon": 34.847915,
+  "lat": 30.911148
+ },
+ {
+  "country": "Nigeria",
+  "value": 10.0,
+  "lon": 7.50322,
+  "lat": 9.439799
+ },
+ {
+  "country": "Spain",
+  "value": 8.0,
+  "lon": -3.464718,
+  "lat": 40.090953
+ },
+ {
+  "country": "Pakistan",
+  "value": 6.0,
+  "lon": 68.545632,
+  "lat": 29.328389
+ },
+ {
+  "country": "Poland",
+  "value": 6.0,
+  "lon": 19.490468,
+  "lat": 51.990316
+ },
+ {
+  "country": "France",
+  "value": 6.0,
+  "lon": 2.552275,
+  "lat": 46.696113
+ },
+ {
+  "country": "Chile",
+  "value": 6.0,
+  "lon": -72.318871,
+  "lat": -38.151771
+ },
+ {
+  "country": "Taiwan",
+  "value": 6.0,
+  "lon": 120.868204,
+  "lat": 23.652408
+ },
+ {
+  "country": "Italy",
+  "value": 5.0,
+  "lon": 11.076907,
+  "lat": 44.732482
+ },
+ {
+  "country": "Mexico",
+  "value": 5.0,
+  "lon": -102.289448,
+  "lat": 23.919988
+ },
+ {
+  "country": "Saudi Arabia",
+  "value": 5.0,
+  "lon": 44.6996,
+  "lat": 23.806908
+ },
+ {
+  "country": "Argentina",
+  "value": 5.0,
+  "lon": -64.173331,
+  "lat": -33.501159
+ },
+ {
+  "country": "Vietnam",
+  "value": 5.0,
+  "lon": 105.387292,
+  "lat": 21.715416
+ },
+ {
+  "country": "Thailand",
+  "value": 5.0,
+  "lon": 101.073198,
+  "lat": 15.45974
+ },
+ {
+  "country": "India",
+  "value": 4.0,
+  "lon": 79.358105,
+  "lat": 22.686852
+ },
+ {
+  "country": "Japan",
+  "value": 4.0,
+  "lon": 138.44217,
+  "lat": 36.142538
+ },
+ {
+  "country": "Egypt",
+  "value": 4.0,
+  "lon": 29.445837,
+  "lat": 26.186173
+ },
+ {
+  "country": "Ukraine",
+  "value": 3.0,
+  "lon": 32.140865,
+  "lat": 49.724739
+ },
+ {
+  "country": "Colombia",
+  "value": 3.0,
+  "lon": -73.174347,
+  "lat": 3.373111
+ },
+ {
+  "country": "Turkey",
+  "value": 3.0,
+  "lon": 34.508268,
+  "lat": 39.345388
+ },
+ {
+  "country": "Brazil",
+  "value": 2.0,
+  "lon": -49.55945,
+  "lat": -12.098687
+ },
+ {
+  "country": "Indonesia",
+  "value": 2.0,
+  "lon": 101.892949,
+  "lat": -0.954404
+ },
+ {
+  "country": "Russia",
+  "value": 2.0,
+  "lon": 44.686469,
+  "lat": 58.249357
+ }
+]
