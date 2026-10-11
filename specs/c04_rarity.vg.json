@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "data/c04_rarity.json"},
+  "height": 340,
+
+  "encoding": {
+    "x": {
+      "field": "period",
+      "type": "ordinal",
+      "title": null,
+      "scale": {"padding": 0.42},
+      "axis": {
+        "orient": "top", "labelAngle": 0, "labelFontSize": 13,
+        "labelFontWeight": 600, "domain": false, "ticks": false, "labelPadding": 8
+      }
+    },
+    "y": {
+      "field": "pct",
+      "type": "quantitative",
+      "title": ["Share of cards printed", "in that period (%)"],
+      "scale": {"domain": [0, 42]},
+      "axis": {"grid": true, "gridColor": "#eef1f6", "tickCount": 5}
+    },
+    "color": {
+      "field": "tier",
+      "type": "ordinal",
+      "sort": ["Common", "Uncommon", "Rare", "Rare Holo", "Ultra / Secret"],
+      "scale": {
+        "domain": ["Common", "Uncommon", "Rare", "Rare Holo", "Ultra / Secret"],
+        "range":  ["#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#08306b"]
+      },
+      "legend": null
+    },
+    "detail": {"field": "tier", "type": "nominal"}
+  },
+
+  "layer": [
+    {"mark": {"type": "line", "strokeWidth": 2.5}},
+    {
+      "mark": {"type": "point", "filled": true, "size": 70},
+      "encoding": {
+        "tooltip": [
+          {"field": "tier",   "type": "ordinal",      "title": "Rarity tier"},
+          {"field": "period", "type": "ordinal",      "title": "Period"},
+          {"field": "pct",    "type": "quantitative", "title": "Share of cards (%)"}
+        ]
+      }
+    },
+    {
+      "transform": [{"filter": "datum.period === '1999–2003'"}],
+      "mark": {"type": "text", "align": "right", "dx": -11, "fontSize": 12},
+      "encoding": {
+        "text": {"field": "tier", "type": "ordinal"},
+        "color": {"value": "#3d4654"}
+      }
+    },
+    {
+      "transform": [{"filter": "datum.period === '1999–2003'"}],
+      "mark": {"type": "text", "align": "left", "dx": 11, "fontSize": 11},
+      "encoding": {
+        "text": {"field": "pct", "type": "quantitative", "format": ".1f"},
+        "color": {"value": "#78839a"}
+      }
+    },
+    {
+      "transform": [{"filter": "datum.period === '2022–2026'"}],
+      "mark": {"type": "text", "align": "left", "dx": 11, "fontSize": 12, "fontWeight": 600},
+      "encoding": {
+        "text": {"field": "pct", "type": "quantitative", "format": ".1f"},
+        "color": {"value": "#3d4654"}
+      }
+    }
+  ]
+}

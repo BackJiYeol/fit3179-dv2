@@ -1,0 +1,323 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "data/c06_calendar.json"
+  },
+  "vconcat": [
+    {
+      "title": {
+        "text": "Pokémon",
+        "anchor": "start",
+        "fontSize": 13,
+        "dy": -4,
+        "color": "#14181f"
+      },
+      "transform": [
+        {
+          "filter": "datum.game === 'Pokémon'"
+        }
+      ],
+      "height": 190,
+      "mark": {
+        "type": "rect",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "cornerRadius": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "scale": {
+            "domain": [
+              2002,
+              2003,
+              2004,
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011,
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022,
+              2023,
+              2024,
+              2025
+            ]
+          },
+          "title": null,
+          "axis": null
+        },
+        "y": {
+          "field": "month",
+          "type": "ordinal",
+          "scale": {
+            "domain": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          },
+          "title": null,
+          "axis": {
+            "labelExpr": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value - 1]",
+            "labelFontSize": 10,
+            "domain": false,
+            "ticks": false
+          }
+        },
+        "color": {
+          "condition": {
+            "test": "datum.sets === 0",
+            "value": "#e4e7ec"
+          },
+          "field": "pct",
+          "type": "quantitative",
+          "title": [
+            "Share of that game's",
+            "sets released (%)"
+          ],
+          "scale": {
+            "type": "linear",
+            "domain": [
+              0,
+              0.6,
+              1.2,
+              2.0
+            ],
+            "range": [
+              "#c6dbef",
+              "#6baed6",
+              "#2171b5",
+              "#08306b"
+            ],
+            "clamp": true
+          },
+          "legend": {
+            "orient": "right",
+            "gradientLength": 120,
+            "titleFontSize": 11,
+            "labelFontSize": 10,
+            "format": ".1f"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "game",
+            "type": "nominal",
+            "title": "Game"
+          },
+          {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "month",
+            "type": "ordinal",
+            "title": "Month"
+          },
+          {
+            "field": "sets",
+            "type": "quantitative",
+            "title": "Sets released"
+          },
+          {
+            "field": "pct",
+            "type": "quantitative",
+            "title": "Share of its sets (%)",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "text": "Yu-Gi-Oh",
+        "anchor": "start",
+        "fontSize": 13,
+        "dy": -4,
+        "color": "#14181f"
+      },
+      "transform": [
+        {
+          "filter": "datum.game === 'Yu-Gi-Oh'"
+        }
+      ],
+      "height": 190,
+      "mark": {
+        "type": "rect",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "cornerRadius": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "scale": {
+            "domain": [
+              2002,
+              2003,
+              2004,
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011,
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022,
+              2023,
+              2024,
+              2025
+            ]
+          },
+          "title": null,
+          "axis": {
+            "labelAngle": 0,
+            "labelFontSize": 10,
+            "labelOverlap": false,
+            "values": [
+              2005,
+              2010,
+              2015,
+              2020,
+              2025
+            ],
+            "domain": false,
+            "ticks": false
+          }
+        },
+        "y": {
+          "field": "month",
+          "type": "ordinal",
+          "scale": {
+            "domain": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          },
+          "title": null,
+          "axis": {
+            "labelExpr": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value - 1]",
+            "labelFontSize": 10,
+            "domain": false,
+            "ticks": false
+          }
+        },
+        "color": {
+          "condition": {
+            "test": "datum.sets === 0",
+            "value": "#e4e7ec"
+          },
+          "field": "pct",
+          "type": "quantitative",
+          "title": [
+            "Share of that game's",
+            "sets released (%)"
+          ],
+          "scale": {
+            "type": "linear",
+            "domain": [
+              0,
+              0.6,
+              1.2,
+              2.0
+            ],
+            "range": [
+              "#c6dbef",
+              "#6baed6",
+              "#2171b5",
+              "#08306b"
+            ],
+            "clamp": true
+          },
+          "legend": {
+            "orient": "right",
+            "gradientLength": 120,
+            "titleFontSize": 11,
+            "labelFontSize": 10,
+            "format": ".1f"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "game",
+            "type": "nominal",
+            "title": "Game"
+          },
+          {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "month",
+            "type": "ordinal",
+            "title": "Month"
+          },
+          {
+            "field": "sets",
+            "type": "quantitative",
+            "title": "Sets released"
+          },
+          {
+            "field": "pct",
+            "type": "quantitative",
+            "title": "Share of its sets (%)",
+            "format": ".2f"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concat": {
+      "spacing": 22
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}
