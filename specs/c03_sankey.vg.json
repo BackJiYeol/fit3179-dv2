@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "Game → Set → Era Sankey. 게임별·era별 상위 2세트만 다룬다(전체 카드 아님 — index.html 부제에 명시 필요). 좌표는 scripts/build_c03.py 에서 미리 계산(raw Vega엔 sankey transform이 없음). merge는 같은 게임의 세트들이 era로 합쳐지는 지점에서만 일어나 카탈로그 크기가 다른 두 게임을 섞어 더하지 않는다.",
-  "width": 860,
+  "width": 1060,
   "height": 1500,
   "background": "white",
   "padding": {"left": 10, "right": 150, "top": 10, "bottom": 10},

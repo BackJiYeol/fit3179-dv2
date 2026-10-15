@@ -1,10 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "Pokémon species names, Yu-Gi-Oh/Magic/One Piece card-name words in one cloud, sized by each word's share (%) within its own game so all four games are compared fairly",
-  "width": 760,
+  "width": 600,
   "height": 420,
-  "padding": 0,
-  "autosize": {"type": "none", "contains": "padding"},
+  "padding": {"left": 10, "top": 10, "right": 200, "bottom": 10},  "autosize": {"type": "none", "contains": "padding"},
   "data": [
     {
       "name": "source",
@@ -36,7 +35,7 @@
     {
       "fill": "color",
       "title": "Game",
-      "orient": "top-right",
+      "orient": "right",
       "symbolType": "circle",
       "labelFontSize": 12,
       "titleFontSize": 12
