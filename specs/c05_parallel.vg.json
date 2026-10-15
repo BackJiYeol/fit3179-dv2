@@ -1,0 +1,224 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 300,
+  "data": {
+    "url": "data/c05_parallel.json"
+  },
+  "transform": [
+    {
+      "fold": [
+        "Sets released",
+        "Sets per year",
+        "Cards per set",
+        "Share of all cards"
+      ],
+      "as": [
+        "axis",
+        "value"
+      ]
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "min",
+          "field": "value",
+          "as": "axis_min"
+        },
+        {
+          "op": "max",
+          "field": "value",
+          "as": "axis_max"
+        }
+      ],
+      "groupby": [
+        "axis"
+      ]
+    },
+    {
+      "calculate": "(datum.value - datum.axis_min) / (datum.axis_max - datum.axis_min)",
+      "as": "norm"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#c9d1dc",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "axis",
+          "type": "nominal",
+          "sort": [
+            "Sets released",
+            "Sets per year",
+            "Cards per set",
+            "Share of all cards"
+          ],
+          "title": null,
+          "axis": {
+            "labelAngle": 0,
+            "labelFontSize": 11,
+            "labelFontWeight": 600,
+            "orient": "top",
+            "domain": false,
+            "ticks": false,
+            "labelPadding": 10
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 1.6,
+        "opacity": 0.75,
+        "point": {
+          "size": 28,
+          "filled": true
+        }
+      },
+      "encoding": {
+        "x": {
+          "field": "axis",
+          "type": "nominal",
+          "sort": [
+            "Sets released",
+            "Sets per year",
+            "Cards per set",
+            "Share of all cards"
+          ]
+        },
+        "y": {
+          "field": "norm",
+          "type": "quantitative",
+          "title": null,
+          "axis": {
+            "labels": false,
+            "ticks": false,
+            "domain": false,
+            "grid": false
+          }
+        },
+        "color": {
+          "field": "game",
+          "type": "nominal",
+          "title": null,
+          "scale": {
+            "domain": [
+              "Pokémon",
+              "Yu-Gi-Oh"
+            ],
+            "range": [
+              "#0072B2",
+              "#CC79A7"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "symbolType": "stroke",
+            "symbolStrokeWidth": 3,
+            "labelFontSize": 12
+          }
+        },
+        "detail": {
+          "field": "era",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "game",
+            "type": "nominal",
+            "title": "Game"
+          },
+          {
+            "field": "era",
+            "type": "nominal",
+            "title": "Era"
+          },
+          {
+            "field": "_years",
+            "type": "nominal",
+            "title": "Years"
+          },
+          {
+            "field": "axis",
+            "type": "nominal",
+            "title": "Measure"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Value"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 6,
+        "dy": -2,
+        "fontSize": 10,
+        "color": "#78839a"
+      },
+      "encoding": {
+        "x": {
+          "field": "axis",
+          "type": "nominal",
+          "sort": [
+            "Sets released",
+            "Sets per year",
+            "Cards per set",
+            "Share of all cards"
+          ]
+        },
+        "y": {
+          "value": 0
+        },
+        "text": {
+          "field": "axis_max",
+          "type": "quantitative",
+          "format": ".0f"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 6,
+        "dy": 10,
+        "fontSize": 10,
+        "color": "#78839a"
+      },
+      "encoding": {
+        "x": {
+          "field": "axis",
+          "type": "nominal",
+          "sort": [
+            "Sets released",
+            "Sets per year",
+            "Cards per set",
+            "Share of all cards"
+          ]
+        },
+        "y": {
+          "value": 300
+        },
+        "text": {
+          "field": "axis_min",
+          "type": "quantitative",
+          "format": ".0f"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

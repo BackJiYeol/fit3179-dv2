@@ -1,130 +1,200 @@
 [
  {
+  "game": "Pokémon",
   "era": "Base",
-  "game": "Pokémon",
-  "cardsPerSet": 82.3,
-  "ultraPct": 0.2,
-  "setsReleased": 6,
-  "startYear": 1999
+  "Sets released": 6,
+  "Cards per set": 82.3,
+  "Sets per year": 3.0,
+  "Share of all cards": 2.5,
+  "_years": "1999-2000"
  },
  {
-  "era": "Gym",
   "game": "Pokémon",
-  "cardsPerSet": 132.0,
-  "ultraPct": 0.0,
-  "setsReleased": 2,
-  "startYear": 2000
- },
- {
-  "era": "Neo",
-  "game": "Pokémon",
-  "cardsPerSet": 91.2,
-  "ultraPct": 2.7,
-  "setsReleased": 4,
-  "startYear": 2000
- },
- {
-  "era": "Other",
-  "game": "Pokémon",
-  "cardsPerSet": 19.6,
-  "ultraPct": 0.0,
-  "setsReleased": 15,
-  "startYear": 2001
- },
- {
-  "era": "E-Card",
-  "game": "Pokémon",
-  "cardsPerSet": 176.3,
-  "ultraPct": 1.7,
-  "setsReleased": 3,
-  "startYear": 2002
- },
- {
-  "era": "EX",
-  "game": "Pokémon",
-  "cardsPerSet": 88.3,
-  "ultraPct": 10.0,
-  "setsReleased": 20,
-  "startYear": 2003
- },
- {
-  "era": "POP",
-  "game": "Pokémon",
-  "cardsPerSet": 17.0,
-  "ultraPct": 0.0,
-  "setsReleased": 9,
-  "startYear": 2004
- },
- {
-  "era": "Diamond & Pearl",
-  "game": "Pokémon",
-  "cardsPerSet": 112.5,
-  "ultraPct": 3.6,
-  "setsReleased": 8,
-  "startYear": 2007
- },
- {
-  "era": "Platinum",
-  "game": "Pokémon",
-  "cardsPerSet": 129.2,
-  "ultraPct": 7.2,
-  "setsReleased": 4,
-  "startYear": 2009
- },
- {
-  "era": "HeartGold & SoulSilver",
-  "game": "Pokémon",
-  "cardsPerSet": 90.8,
-  "ultraPct": 8.8,
-  "setsReleased": 6,
-  "startYear": 2010
- },
- {
   "era": "Black & White",
-  "game": "Pokémon",
-  "cardsPerSet": 110.5,
-  "ultraPct": 11.2,
-  "setsReleased": 13,
-  "startYear": 2011
+  "Sets released": 13,
+  "Cards per set": 110.5,
+  "Sets per year": 4.3,
+  "Share of all cards": 7.4,
+  "_years": "2011-2013"
  },
  {
-  "era": "XY",
   "game": "Pokémon",
-  "cardsPerSet": 120.4,
-  "ultraPct": 16.5,
-  "setsReleased": 16,
-  "startYear": 2013
+  "era": "Diamond & Pearl",
+  "Sets released": 8,
+  "Cards per set": 112.5,
+  "Sets per year": 4.0,
+  "Share of all cards": 4.6,
+  "_years": "2007-2008"
  },
  {
-  "era": "Sun & Moon",
   "game": "Pokémon",
-  "cardsPerSet": 165.2,
-  "ultraPct": 26.4,
-  "setsReleased": 18,
-  "startYear": 2017
+  "era": "E-Card",
+  "Sets released": 3,
+  "Cards per set": 176.3,
+  "Sets per year": 1.5,
+  "Share of all cards": 2.7,
+  "_years": "2002-2003"
  },
  {
-  "era": "Sword & Shield",
   "game": "Pokémon",
-  "cardsPerSet": 146.7,
-  "ultraPct": 33.5,
-  "setsReleased": 25,
-  "startYear": 2019
+  "era": "EX",
+  "Sets released": 20,
+  "Cards per set": 88.3,
+  "Sets per year": 4.0,
+  "Share of all cards": 9.1,
+  "_years": "2003-2007"
  },
  {
+  "game": "Pokémon",
+  "era": "HeartGold & SoulSilver",
+  "Sets released": 6,
+  "Cards per set": 90.8,
+  "Sets per year": 3.0,
+  "Share of all cards": 2.8,
+  "_years": "2010-2011"
+ },
+ {
+  "game": "Pokémon",
+  "era": "Neo",
+  "Sets released": 4,
+  "Cards per set": 91.2,
+  "Sets per year": 1.3,
+  "Share of all cards": 1.9,
+  "_years": "2000-2002"
+ },
+ {
+  "game": "Pokémon",
+  "era": "POP",
+  "Sets released": 9,
+  "Cards per set": 17.0,
+  "Sets per year": 1.5,
+  "Share of all cards": 0.8,
+  "_years": "2004-2009"
+ },
+ {
+  "game": "Pokémon",
+  "era": "Platinum",
+  "Sets released": 4,
+  "Cards per set": 129.2,
+  "Sets per year": 4.0,
+  "Share of all cards": 2.7,
+  "_years": "2009-2009"
+ },
+ {
+  "game": "Pokémon",
   "era": "Scarlet & Violet",
-  "game": "Pokémon",
-  "cardsPerSet": 199.7,
-  "ultraPct": 35.5,
-  "setsReleased": 18,
-  "startYear": 2023
+  "Sets released": 17,
+  "Cards per set": 205.2,
+  "Sets per year": 5.7,
+  "Share of all cards": 18.0,
+  "_years": "2023-2025"
  },
  {
-  "era": "Mega Evolution",
   "game": "Pokémon",
-  "cardsPerSet": 146.2,
-  "ultraPct": 39.1,
-  "setsReleased": 8,
-  "startYear": 2025
+  "era": "Sun & Moon",
+  "Sets released": 18,
+  "Cards per set": 164.8,
+  "Sets per year": 6.0,
+  "Share of all cards": 15.3,
+  "_years": "2017-2019"
+ },
+ {
+  "game": "Pokémon",
+  "era": "Sword & Shield",
+  "Sets released": 25,
+  "Cards per set": 146.7,
+  "Sets per year": 5.0,
+  "Share of all cards": 18.9,
+  "_years": "2019-2023"
+ },
+ {
+  "game": "Pokémon",
+  "era": "XY",
+  "Sets released": 16,
+  "Cards per set": 120.3,
+  "Sets per year": 4.0,
+  "Share of all cards": 9.9,
+  "_years": "2013-2016"
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "era": "5D's",
+  "Sets released": 63,
+  "Cards per set": 54.3,
+  "Sets per year": 21.0,
+  "Share of all cards": 9.4,
+  "_years": "2009-2011"
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "era": "Arc-V",
+  "Sets released": 69,
+  "Cards per set": 67.2,
+  "Sets per year": 23.0,
+  "Share of all cards": 12.8,
+  "_years": "2015-2017"
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "era": "Current",
+  "Sets released": 35,
+  "Cards per set": 105.7,
+  "Sets per year": 17.5,
+  "Share of all cards": 10.2,
+  "_years": "2024-2025"
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "era": "Duel Monsters",
+  "Sets released": 28,
+  "Cards per set": 134.8,
+  "Sets per year": 9.3,
+  "Share of all cards": 10.4,
+  "_years": "2002-2004"
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "era": "GO RUSH!!",
+  "Sets released": 52,
+  "Cards per set": 81.2,
+  "Sets per year": 26.0,
+  "Share of all cards": 11.6,
+  "_years": "2022-2023"
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "era": "GX",
+  "Sets released": 63,
+  "Cards per set": 60.3,
+  "Sets per year": 15.8,
+  "Share of all cards": 10.5,
+  "_years": "2005-2008"
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "era": "SEVENS",
+  "Sets released": 50,
+  "Cards per set": 80.2,
+  "Sets per year": 25.0,
+  "Share of all cards": 11.0,
+  "_years": "2020-2021"
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "era": "VRAINS",
+  "Sets released": 63,
+  "Cards per set": 59.7,
+  "Sets per year": 31.5,
+  "Share of all cards": 10.4,
+  "_years": "2018-2019"
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "era": "Zexal",
+  "Sets released": 67,
+  "Cards per set": 74.0,
+  "Sets per year": 22.3,
+  "Share of all cards": 13.7,
+  "_years": "2012-2014"
  }
 ]
