@@ -17,6 +17,7 @@
     "tooltip": [
       {"field": "game", "type": "nominal", "title": "Game"},
       {"field": "value", "type": "quantitative", "title": "Search Interest"}
-    ]
+    ],
+    "height": 420
   }
 }
