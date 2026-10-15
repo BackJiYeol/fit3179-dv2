@@ -21,6 +21,8 @@ data/_PROVENANCE.json  각 데이터의 출처·가공·판단이 들어간 지�
 ## 데이터 출처
 - Pokémon TCG: [pokemon-tcg-data](https://github.com/PokemonTCG/pokemon-tcg-data) — 176 sets / 20,635 cards
 - Yu-Gi-Oh: [Yugioh-Database-Downloader](https://github.com/KianBennett/Yugioh-Database-Downloader) — 7,968 cards
+- Magic: The Gathering: [Scryfall API — `/catalog/card-names`](https://api.scryfall.com/catalog/card-names) — 35,176 unique card names
+- One Piece: [buhbbl/punk-records — `english/index/by_name.json`](https://raw.githubusercontent.com/buhbbl/punk-records/main/english/index/by_name.json) (vegapull로 공식 One Piece TCG 사이트를 스크래핑한 데이터) — 1,170 unique card names
 - Google Trends: 2021-10-02 ~ 2026-10-02
 - Natural Earth 110m country boundaries
 

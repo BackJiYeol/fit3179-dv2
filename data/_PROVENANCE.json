@@ -7,12 +7,15 @@
     ]
   },
   "c02_wordcloud.json": {
-    "source_file": "pokemon-tcg-data cards/en/*.json (20,635장) + KianBennett/Yugioh-Database-Downloader cards.json (7,968장)",
-    "transform": "포켓몬=nationalPokedexNumbers로 종족 묶어 카드 수 집계 / 유희왕=title에서 3글자 이상 단어 추출 빈도. 둘 다 각 게임 카드 수 대비 %로 정규화",
+    "source_file": "pokemon-tcg-data cards/en/*.json (20,635장) + KianBennett/Yugioh-Database-Downloader cards.json (7,968장) + Scryfall /catalog/card-names (35,176장, MTG 공식 API) + buhbbl/punk-records english/index/by_name.json (1,170장, 공식 One Piece TCG 사이트 스크래핑)",
+    "transform": "포켓몬=nationalPokedexNumbers로 종족 묶어 카드 수 집계 / 나머지 3개 게임(유희왕·MTG·원피스)=카드 이름에서 3글자 이상 단어 추출 빈도(같은 방법, 종족 같은 구조적 식별자가 없어서). 넷 다 각 게임 카드 수 대비 %로 정규화",
     "judgment_calls": [
-      "게임별로 추출 방법이 다름(포켓몬 종족 vs 유희왕 단어) — 이름 구조가 달라서",
+      "게임별로 추출 방법이 다름(포켓몬 종족 vs 나머지 3개 게임 단어) — 포켓몬만 종족(Pokedex 번호) 같은 구조적 식별자가 있어서",
       "유희왕 덤프가 7,968장으로 실제 카탈로그(약 13,000장)보다 적음 → % 분모가 불완전",
-      "불용어 목록(the, of, a …)은 임의 선정"
+      "불용어 목록(the, of, a …)은 임의 선정, 게임마다 살짝 다름 — 원피스는 카드 이름이 대사/문장 형태가 많아 포켓몬·유희왕·MTG보다 불용어를 더 많이 추가함",
+      "원피스 원본에 &amp; 같은 HTML 엔티티가 안 풀린 채로 들어있어서 집계 전에 html.unescape 처리함 (안 했으면 \"amp\"라는 가짜 단어가 27번 나와서 Dragon보다 높은 순위에 들었을 것)",
+      "MTG·원피스는 재판(reprint) 안 세고 고유 카드 이름 기준으로 1번만 셈 — 포켓몬(재판마다 셈)과는 다른 기준. 유희왕도 원래 고유 카드 기준이라 이 셋끼리는 일관됨",
+      "4개 게임의 카드 이름 수 차이가 커서(원피스 1,170 vs MTG 35,176) 1위 단어의 비중도 게임마다 크게 다름(원피스 Gum 3.33% vs MTG Goblin 0.71%) — 이건 오류가 아니라 게임별 이름 다양성의 실제 차이"
     ]
   },
   "c03_sankey.json": {

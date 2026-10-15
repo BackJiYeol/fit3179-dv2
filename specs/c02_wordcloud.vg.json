@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Pokémon species names, Yu-Gi-Oh/Magic/One Piece card-name words in one cloud, sized by each word's share (%) within its own game so all four games are compared fairly",
+  "width": 760,
+  "height": 420,
+  "padding": 0,
+  "autosize": {"type": "none", "contains": "padding"},
+  "data": [
+    {
+      "name": "source",
+      "url": "data/c02_wordcloud.json",
+      "transform": [
+        {
+          "type": "wordcloud",
+          "size": [{"signal": "width"}, {"signal": "height"}],
+          "text": {"field": "word"},
+          "font": "Inter, Segoe UI, system-ui, sans-serif",
+          "fontWeight": "bold",
+          "fontSize": {"field": "pct"},
+          "fontSizeRange": [13, 64],
+          "rotate": 0,
+          "padding": 3
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["Pokémon", "Yu-Gi-Oh", "Magic: The Gathering", "One Piece"],
+      "range": ["#0072B2", "#CC79A7", "#009E73", "#D55E00"]
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "title": "Game",
+      "orient": "top-right",
+      "symbolType": "circle",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    }
+  ],
+  "marks": [
+    {
+      "type": "text",
+      "from": {"data": "source"},
+      "encode": {
+        "enter": {
+          "text": {"field": "word"},
+          "align": {"value": "center"},
+          "baseline": {"value": "alphabetic"},
+          "fill": {"scale": "color", "field": "game"},
+          "tooltip": {
+            "signal": "datum.word + ' (' + datum.game + ') — ' + format(datum.pct, '.2f') + '% of that game\\'s cards'"
+          }
+        },
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "angle": {"field": "angle"},
+          "fontSize": {"field": "fontSize"},
+          "fontFamily": {"field": "font"},
+          "fontWeight": {"field": "fontWeight"}
+        }
+      }
+    }
+  ]
+}

@@ -1,146 +1,290 @@
 [
- {
-  "word": "Dragon",
-  "count": 405,
-  "pct": 5.083,
-  "game": "Yu-Gi-Oh"
- },
- {
-  "word": "Dark",
-  "count": 192,
-  "pct": 2.41,
-  "game": "Yu-Gi-Oh"
- },
- {
-  "word": "Beast",
-  "count": 136,
-  "pct": 1.707,
-  "game": "Yu-Gi-Oh"
- },
- {
-  "word": "Number",
-  "count": 122,
-  "pct": 1.531,
-  "game": "Yu-Gi-Oh"
- },
- {
-  "word": "Knight",
-  "count": 114,
-  "pct": 1.431,
-  "game": "Yu-Gi-Oh"
- },
- {
-  "word": "HERO",
-  "count": 110,
-  "pct": 1.381,
-  "game": "Yu-Gi-Oh"
- },
- {
-  "word": "King",
-  "count": 104,
-  "pct": 1.305,
-  "game": "Yu-Gi-Oh"
- },
- {
-  "word": "Warrior",
-  "count": 92,
-  "pct": 1.155,
-  "game": "Yu-Gi-Oh"
- },
- {
-  "word": "Pikachu",
-  "count": 208,
-  "pct": 1.008,
-  "game": "Pokémon"
- },
- {
-  "word": "Magician",
-  "count": 79,
-  "pct": 0.991,
-  "game": "Yu-Gi-Oh"
- },
- {
-  "word": "Elemental",
-  "count": 71,
-  "pct": 0.891,
-  "game": "Yu-Gi-Oh"
- },
- {
-  "word": "Samurai",
-  "count": 69,
-  "pct": 0.866,
-  "game": "Yu-Gi-Oh"
- },
- {
-  "word": "Performapal",
-  "count": 68,
-  "pct": 0.853,
-  "game": "Yu-Gi-Oh"
- },
- {
-  "word": "Charizard",
-  "count": 98,
-  "pct": 0.475,
-  "game": "Pokémon"
- },
- {
-  "word": "Unown",
-  "count": 96,
-  "pct": 0.465,
-  "game": "Pokémon"
- },
- {
-  "word": "Mewtwo",
-  "count": 85,
-  "pct": 0.412,
-  "game": "Pokémon"
- },
- {
-  "word": "Eevee",
-  "count": 81,
-  "pct": 0.393,
-  "game": "Pokémon"
- },
- {
-  "word": "Raichu",
-  "count": 71,
-  "pct": 0.344,
-  "game": "Pokémon"
- },
- {
-  "word": "Meowth",
-  "count": 66,
-  "pct": 0.32,
-  "game": "Pokémon"
- },
- {
-  "word": "Rayquaza",
-  "count": 58,
-  "pct": 0.281,
-  "game": "Pokémon"
- },
- {
-  "word": "Gyarados",
-  "count": 57,
-  "pct": 0.276,
-  "game": "Pokémon"
- },
- {
-  "word": "Mew",
-  "count": 57,
-  "pct": 0.276,
-  "game": "Pokémon"
- },
- {
-  "word": "Lucario",
-  "count": 56,
-  "pct": 0.271,
-  "game": "Pokémon"
- },
- {
-  "word": "Ninetales",
-  "count": 56,
-  "pct": 0.271,
-  "game": "Pokémon"
- }
+  {
+    "word": "Dragon",
+    "count": 405,
+    "pct": 5.083,
+    "game": "Yu-Gi-Oh"
+  },
+  {
+    "word": "Dark",
+    "count": 192,
+    "pct": 2.41,
+    "game": "Yu-Gi-Oh"
+  },
+  {
+    "word": "Beast",
+    "count": 136,
+    "pct": 1.707,
+    "game": "Yu-Gi-Oh"
+  },
+  {
+    "word": "Number",
+    "count": 122,
+    "pct": 1.531,
+    "game": "Yu-Gi-Oh"
+  },
+  {
+    "word": "Knight",
+    "count": 114,
+    "pct": 1.431,
+    "game": "Yu-Gi-Oh"
+  },
+  {
+    "word": "HERO",
+    "count": 110,
+    "pct": 1.381,
+    "game": "Yu-Gi-Oh"
+  },
+  {
+    "word": "King",
+    "count": 104,
+    "pct": 1.305,
+    "game": "Yu-Gi-Oh"
+  },
+  {
+    "word": "Warrior",
+    "count": 92,
+    "pct": 1.155,
+    "game": "Yu-Gi-Oh"
+  },
+  {
+    "word": "Pikachu",
+    "count": 208,
+    "pct": 1.008,
+    "game": "Pokémon"
+  },
+  {
+    "word": "Magician",
+    "count": 79,
+    "pct": 0.991,
+    "game": "Yu-Gi-Oh"
+  },
+  {
+    "word": "Elemental",
+    "count": 71,
+    "pct": 0.891,
+    "game": "Yu-Gi-Oh"
+  },
+  {
+    "word": "Samurai",
+    "count": 69,
+    "pct": 0.866,
+    "game": "Yu-Gi-Oh"
+  },
+  {
+    "word": "Performapal",
+    "count": 68,
+    "pct": 0.853,
+    "game": "Yu-Gi-Oh"
+  },
+  {
+    "word": "Charizard",
+    "count": 98,
+    "pct": 0.475,
+    "game": "Pokémon"
+  },
+  {
+    "word": "Unown",
+    "count": 96,
+    "pct": 0.465,
+    "game": "Pokémon"
+  },
+  {
+    "word": "Mewtwo",
+    "count": 85,
+    "pct": 0.412,
+    "game": "Pokémon"
+  },
+  {
+    "word": "Eevee",
+    "count": 81,
+    "pct": 0.393,
+    "game": "Pokémon"
+  },
+  {
+    "word": "Raichu",
+    "count": 71,
+    "pct": 0.344,
+    "game": "Pokémon"
+  },
+  {
+    "word": "Meowth",
+    "count": 66,
+    "pct": 0.32,
+    "game": "Pokémon"
+  },
+  {
+    "word": "Rayquaza",
+    "count": 58,
+    "pct": 0.281,
+    "game": "Pokémon"
+  },
+  {
+    "word": "Gyarados",
+    "count": 57,
+    "pct": 0.276,
+    "game": "Pokémon"
+  },
+  {
+    "word": "Mew",
+    "count": 57,
+    "pct": 0.276,
+    "game": "Pokémon"
+  },
+  {
+    "word": "Lucario",
+    "count": 56,
+    "pct": 0.271,
+    "game": "Pokémon"
+  },
+  {
+    "word": "Ninetales",
+    "count": 56,
+    "pct": 0.271,
+    "game": "Pokémon"
+  },
+  {
+    "word": "Goblin",
+    "count": 250,
+    "pct": 0.711,
+    "game": "Magic: The Gathering"
+  },
+  {
+    "word": "Dragon",
+    "count": 202,
+    "pct": 0.574,
+    "game": "Magic: The Gathering"
+  },
+  {
+    "word": "Master",
+    "count": 129,
+    "pct": 0.367,
+    "game": "Magic: The Gathering"
+  },
+  {
+    "word": "Giant",
+    "count": 128,
+    "pct": 0.364,
+    "game": "Magic: The Gathering"
+  },
+  {
+    "word": "War",
+    "count": 125,
+    "pct": 0.355,
+    "game": "Magic: The Gathering"
+  },
+  {
+    "word": "Sliver",
+    "count": 122,
+    "pct": 0.347,
+    "game": "Magic: The Gathering"
+  },
+  {
+    "word": "Knight",
+    "count": 119,
+    "pct": 0.338,
+    "game": "Magic: The Gathering"
+  },
+  {
+    "word": "Elemental",
+    "count": 116,
+    "pct": 0.33,
+    "game": "Magic: The Gathering"
+  },
+  {
+    "word": "Fire",
+    "count": 115,
+    "pct": 0.327,
+    "game": "Magic: The Gathering"
+  },
+  {
+    "word": "Guardian",
+    "count": 108,
+    "pct": 0.307,
+    "game": "Magic: The Gathering"
+  },
+  {
+    "word": "Spirit",
+    "count": 105,
+    "pct": 0.298,
+    "game": "Magic: The Gathering"
+  },
+  {
+    "word": "Soul",
+    "count": 104,
+    "pct": 0.296,
+    "game": "Magic: The Gathering"
+  },
+  {
+    "word": "Gum",
+    "count": 39,
+    "pct": 3.333,
+    "game": "One Piece"
+  },
+  {
+    "word": "Charlotte",
+    "count": 25,
+    "pct": 2.137,
+    "game": "One Piece"
+  },
+  {
+    "word": "King",
+    "count": 18,
+    "pct": 1.538,
+    "game": "One Piece"
+  },
+  {
+    "word": "Dragon",
+    "count": 13,
+    "pct": 1.111,
+    "game": "One Piece"
+  },
+  {
+    "word": "Pirates",
+    "count": 12,
+    "pct": 1.026,
+    "game": "One Piece"
+  },
+  {
+    "word": "Pistol",
+    "count": 11,
+    "pct": 0.94,
+    "game": "One Piece"
+  },
+  {
+    "word": "Luffy",
+    "count": 9,
+    "pct": 0.769,
+    "game": "One Piece"
+  },
+  {
+    "word": "World",
+    "count": 9,
+    "pct": 0.769,
+    "game": "One Piece"
+  },
+  {
+    "word": "Sword",
+    "count": 7,
+    "pct": 0.598,
+    "game": "One Piece"
+  },
+  {
+    "word": "Fist",
+    "count": 7,
+    "pct": 0.598,
+    "game": "One Piece"
+  },
+  {
+    "word": "Black",
+    "count": 7,
+    "pct": 0.598,
+    "game": "One Piece"
+  },
+  {
+    "word": "Jet",
+    "count": 7,
+    "pct": 0.598,
+    "game": "One Piece"
+  }
 ]
