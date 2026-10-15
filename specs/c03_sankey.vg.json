@@ -1,0 +1,153 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Game → Set → Era Sankey. 게임별·era별 상위 2세트만 다룬다(전체 카드 아님 — index.html 부제에 명시 필요). 좌표는 scripts/build_c03.py 에서 미리 계산(raw Vega엔 sankey transform이 없음). merge는 같은 게임의 세트들이 era로 합쳐지는 지점에서만 일어나 카탈로그 크기가 다른 두 게임을 섞어 더하지 않는다.",
+  "width": 860,
+  "height": 1500,
+  "background": "white",
+  "padding": {"left": 10, "right": 150, "top": 10, "bottom": 10},
+  "autosize": {"type": "none", "contains": "padding"},
+
+  "data": [
+    {
+      "name": "nodes",
+      "url": "data/c03_sankey_nodes.json"
+    },
+    {
+      "name": "links",
+      "url": "data/c03_sankey_links.json"
+    },
+    {
+      "name": "eraLabels",
+      "source": "nodes",
+      "transform": [
+        {"type": "filter", "expr": "datum.kind === 'era'"},
+        {"type": "aggregate", "groupby": ["era"], "fields": ["y0", "y1"], "ops": ["min", "max"], "as": ["y0min", "y1max"]},
+        {"type": "formula", "as": "ycenter", "expr": "(datum.y0min + datum.y1max) / 2"}
+      ]
+    },
+    {
+      "name": "gameLabels",
+      "source": "nodes",
+      "transform": [
+        {"type": "filter", "expr": "datum.kind === 'game'"},
+        {"type": "formula", "as": "ycenter", "expr": "(datum.y0 + datum.y1) / 2"}
+      ]
+    },
+    {
+      "name": "setLabels",
+      "source": "nodes",
+      "transform": [
+        {"type": "filter", "expr": "datum.kind === 'set'"},
+        {"type": "formula", "as": "ycenter", "expr": "(datum.y0 + datum.y1) / 2"}
+      ]
+    }
+  ],
+
+  "scales": [
+    {"name": "x", "type": "linear", "domain": [0, 1], "range": [0, {"signal": "width"}]},
+    {"name": "y", "type": "linear", "domain": {"data": "nodes", "fields": ["y0", "y1"]}, "range": [{"signal": "height"}, 0]},
+    {"name": "gameColor", "type": "ordinal", "domain": ["Pokémon", "Yu-Gi-Oh"], "range": ["#0072B2", "#CC79A7"]}
+  ],
+
+  "legends": [
+    {"fill": "gameColor", "title": "Game", "orient": "top-right", "symbolType": "circle", "labelFontSize": 12, "titleFontSize": 12}
+  ],
+
+  "marks": [
+    {
+      "type": "group",
+      "from": {"facet": {"data": "links", "name": "facetedLink", "groupby": "link"}},
+      "marks": [
+        {
+          "type": "area",
+          "from": {"data": "facetedLink"},
+          "encode": {
+            "enter": {
+              "interpolate": {"value": "monotone"},
+              "fillOpacity": {"value": 0.42},
+              "tooltip": {"signal": "datum.game"}
+            },
+            "update": {
+              "x": {"scale": "x", "field": "x"},
+              "y": {"scale": "y", "field": "y_lo"},
+              "y2": {"scale": "y", "field": "y_hi"},
+              "fill": {"signal": "scale('gameColor', datum.game)"}
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "rect",
+      "from": {"data": "nodes"},
+      "encode": {
+        "enter": {
+          "tooltip": {"signal": "datum.label + (datum.kind === 'set' ? ' (' + datum.game + ', ' + datum.era + ')' : '') + ' — ' + format(datum.value, ',') + ' cards'"}
+        },
+        "update": {
+          "x": {"scale": "x", "field": "x", "offset": -4},
+          "x2": {"scale": "x", "field": "x", "offset": 4},
+          "y": {"scale": "y", "field": "y0"},
+          "y2": {"scale": "y", "field": "y1"},
+          "fill": {"signal": "scale('gameColor', datum.game)"},
+          "stroke": {"value": "white"},
+          "strokeWidth": {"value": 0.5}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "gameLabels"},
+      "encode": {
+        "enter": {
+          "text": {"field": "label"},
+          "fontSize": {"value": 13},
+          "fontWeight": {"value": 600},
+          "baseline": {"value": "middle"},
+          "fill": {"value": "#3d4654"}
+        },
+        "update": {
+          "x": {"scale": "x", "field": "x", "offset": 10},
+          "y": {"scale": "y", "field": "ycenter"},
+          "align": {"value": "left"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "setLabels"},
+      "encode": {
+        "enter": {
+          "text": {"field": "label"},
+          "fontSize": {"value": 9.5},
+          "baseline": {"value": "middle"},
+          "limit": {"value": 160}
+        },
+        "update": {
+          "x": {"scale": "x", "field": "x", "offset": 8},
+          "y": {"scale": "y", "field": "ycenter"},
+          "align": {"value": "left"},
+          "fill": {"signal": "scale('gameColor', datum.game)"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "eraLabels"},
+      "encode": {
+        "enter": {
+          "text": {"field": "era"},
+          "fontSize": {"value": 12},
+          "fontWeight": {"value": 600},
+          "baseline": {"value": "middle"},
+          "align": {"value": "left"},
+          "fill": {"value": "#3d4654"}
+        },
+        "update": {
+          "x": {"scale": "x", "value": 0.97, "offset": 10},
+          "y": {"scale": "y", "field": "ycenter"}
+        }
+      }
+    }
+  ]
+}

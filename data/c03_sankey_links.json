@@ -1,0 +1,6122 @@
+[
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 3305.076,
+  "y_hi": 3487.076,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 3282.134354960802,
+  "y_hi": 3464.134354960802,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 3214.191054396241,
+  "y_hi": 3396.191054396241,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 3103.8571212439715,
+  "y_hi": 3285.8571212439715,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 2955.3726266790527,
+  "y_hi": 3137.3726266790527,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 2774.4437465565506,
+  "y_hi": 2956.4437465565506,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 2568.023476273487,
+  "y_hi": 2750.023476273487,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 2344.0444310550206,
+  "y_hi": 2526.0444310550206,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 2111.1140000000005,
+  "y_hi": 2293.1140000000005,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 1878.1835689449797,
+  "y_hi": 2060.18356894498,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 1654.204523726513,
+  "y_hi": 1836.204523726513,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 1447.78425344345,
+  "y_hi": 1629.78425344345,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 1266.8553733209474,
+  "y_hi": 1448.8553733209474,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 1118.3708787560286,
+  "y_hi": 1300.3708787560286,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 1008.0369456037592,
+  "y_hi": 1190.0369456037592,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 940.0936450391982,
+  "y_hi": 1122.0936450391982,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 917.152,
+  "y_hi": 1099.152,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 3487.076,
+  "y_hi": 3669.076,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 3464.7595635070415,
+  "y_hi": 3646.7595635070415,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 3398.6678621673886,
+  "y_hi": 3580.6678621673886,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 3291.3407629988715,
+  "y_hi": 3473.3407629988715,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 3146.902786232805,
+  "y_hi": 3328.902786232805,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 2970.9046023145584,
+  "y_hi": 3152.9046023145584,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 2770.1097227511923,
+  "y_hi": 2952.1097227511923,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 2552.23458215726,
+  "y_hi": 2734.23458215726,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 2325.652,
+  "y_hi": 2507.652,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 2099.06941784274,
+  "y_hi": 2281.06941784274,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 1881.1942772488082,
+  "y_hi": 2063.1942772488082,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 1680.399397685442,
+  "y_hi": 1862.399397685442,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 1504.4012137671953,
+  "y_hi": 1686.4012137671953,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 1359.9632370011286,
+  "y_hi": 1541.9632370011286,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 1252.6361378326114,
+  "y_hi": 1434.6361378326114,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 1186.5444364929585,
+  "y_hi": 1368.5444364929585,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Pokémon::Skyridge",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 1164.228,
+  "y_hi": 1346.228,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 432.0,
+  "y_hi": 787.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 432.6252085462397,
+  "y_hi": 787.6252085462397,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 434.4768077711477,
+  "y_hi": 789.4768077711477,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 437.48364175489974,
+  "y_hi": 792.4836417548997,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 441.5301595537521,
+  "y_hi": 796.5301595537521,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 446.46085575800817,
+  "y_hi": 801.4608557580082,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 452.08624647770466,
+  "y_hi": 807.0862464777047,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 458.19015110223927,
+  "y_hi": 813.1901511022393,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 464.538,
+  "y_hi": 819.538,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 470.88584889776075,
+  "y_hi": 825.8858488977608,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 476.98975352229536,
+  "y_hi": 831.9897535222954,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 482.61514424199186,
+  "y_hi": 837.6151442419919,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 487.5458404462479,
+  "y_hi": 842.5458404462479,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 491.5923582451003,
+  "y_hi": 846.5923582451003,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 494.5991922288523,
+  "y_hi": 849.5991922288523,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 496.4507914537603,
+  "y_hi": 851.4507914537603,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 497.076,
+  "y_hi": 852.076,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 3669.076,
+  "y_hi": 3822.076,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 3653.2947586479772,
+  "y_hi": 3806.2947586479772,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 3606.5574988468447,
+  "y_hi": 3759.5574988468447,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 3530.6603072802036,
+  "y_hi": 3683.6603072802036,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 3428.5198704563236,
+  "y_hi": 3581.5198704563236,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 3304.06138808133,
+  "y_hi": 3457.06138808133,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 3162.067729835772,
+  "y_hi": 3315.067729835772,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 3007.9956323750666,
+  "y_hi": 3160.9956323750666,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 2847.766,
+  "y_hi": 3000.766,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 2687.536367624934,
+  "y_hi": 2840.536367624934,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 2533.4642701642283,
+  "y_hi": 2686.4642701642283,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 2391.470611918671,
+  "y_hi": 2544.470611918671,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 2267.0121295436766,
+  "y_hi": 2420.0121295436766,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 2164.8716927197966,
+  "y_hi": 2317.8716927197966,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 2088.974501153155,
+  "y_hi": 2241.974501153155,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 2042.237241352023,
+  "y_hi": 2195.237241352023,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 2026.4560000000001,
+  "y_hi": 2179.456,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 3822.076,
+  "y_hi": 3968.076,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 3806.919967194217,
+  "y_hi": 3952.919967194217,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 3762.0343066179926,
+  "y_hi": 3908.0343066179926,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 3689.143949035103,
+  "y_hi": 3835.143949035103,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 3591.0500300100757,
+  "y_hi": 3737.0500300100757,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 3471.5222438393375,
+  "y_hi": 3617.5222438393375,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 3335.1539763134765,
+  "y_hi": 3481.1539763134765,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 3187.1857834773054,
+  "y_hi": 3333.1857834773054,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 3033.304,
+  "y_hi": 3179.304,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 2879.4222165226947,
+  "y_hi": 3025.4222165226947,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 2731.4540236865237,
+  "y_hi": 2877.4540236865237,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 2595.0857561606626,
+  "y_hi": 2741.0857561606626,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 2475.5579699899245,
+  "y_hi": 2621.5579699899245,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 2377.464050964897,
+  "y_hi": 2523.464050964897,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 2304.573693382007,
+  "y_hi": 2450.573693382007,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 2259.688032805783,
+  "y_hi": 2405.688032805783,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 2244.532,
+  "y_hi": 2390.532,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 787.0,
+  "y_hi": 1032.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 792.9979131515709,
+  "y_hi": 1037.9979131515709,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 810.7611561675368,
+  "y_hi": 1055.7611561675367,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 839.6070975805359,
+  "y_hi": 1084.607097580536,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 878.4272040390568,
+  "y_hi": 1123.427204039057,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 925.729640622465,
+  "y_hi": 1170.729640622465,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 979.6966012203725,
+  "y_hi": 1224.6966012203725,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 1038.2541658020216,
+  "y_hi": 1283.2541658020216,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 1099.152,
+  "y_hi": 1344.152,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 1160.0498341979785,
+  "y_hi": 1405.0498341979785,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 1218.6073987796276,
+  "y_hi": 1463.6073987796276,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 1272.5743593775348,
+  "y_hi": 1517.5743593775348,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 1319.8767959609431,
+  "y_hi": 1564.8767959609431,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 1358.696902419464,
+  "y_hi": 1603.696902419464,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 1387.5428438324634,
+  "y_hi": 1632.5428438324634,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 1405.3060868484292,
+  "y_hi": 1650.3060868484292,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 1411.304,
+  "y_hi": 1656.304,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 1032.0,
+  "y_hi": 1272.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 1038.6231216978106,
+  "y_hi": 1278.6231216978106,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 1058.2379639386845,
+  "y_hi": 1298.2379639386845,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 1090.0907393354357,
+  "y_hi": 1330.0907393354357,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 1132.9573635928089,
+  "y_hi": 1372.9573635928089,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 1185.1904963804734,
+  "y_hi": 1425.1904963804734,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 1244.7828476980771,
+  "y_hi": 1484.7828476980771,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 1309.4443169042609,
+  "y_hi": 1549.4443169042609,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 1376.69,
+  "y_hi": 1616.69,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 1443.9356830957393,
+  "y_hi": 1683.9356830957393,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 1508.5971523019227,
+  "y_hi": 1748.5971523019227,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 1568.1895036195267,
+  "y_hi": 1808.1895036195267,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 1620.422636407191,
+  "y_hi": 1860.422636407191,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 1663.2892606645646,
+  "y_hi": 1903.2892606645646,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 1695.1420360613156,
+  "y_hi": 1935.1420360613156,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 1714.7568783021898,
+  "y_hi": 1954.7568783021898,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 1721.38,
+  "y_hi": 1961.38,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 3968.076,
+  "y_hi": 4184.076,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 3960.5984381511603,
+  "y_hi": 4176.598438151161,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 3938.4531111130273,
+  "y_hi": 4154.453111113027,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 3902.491051384434,
+  "y_hi": 4118.491051384433,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 3854.0942607529946,
+  "y_hi": 4070.0942607529946,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 3795.1226007414425,
+  "y_hi": 4011.1226007414425,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 3727.8423191723336,
+  "y_hi": 3943.8423191723336,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 3654.8389595351528,
+  "y_hi": 3870.8389595351528,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 3578.918,
+  "y_hi": 3794.918,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 3502.9970404648475,
+  "y_hi": 3718.9970404648475,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 3429.9936808276666,
+  "y_hi": 3645.9936808276666,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 3362.7133992585577,
+  "y_hi": 3578.7133992585577,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 3303.7417392470056,
+  "y_hi": 3519.7417392470056,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 3255.3449486155664,
+  "y_hi": 3471.3449486155664,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 3219.382888886973,
+  "y_hi": 3435.382888886973,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 3197.23756184884,
+  "y_hi": 3413.23756184884,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 3189.76,
+  "y_hi": 3405.76,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 4184.076,
+  "y_hi": 4349.076,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 4177.2236466974,
+  "y_hi": 4342.2236466974,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 4156.929918884175,
+  "y_hi": 4321.929918884175,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 4123.974693139334,
+  "y_hi": 4288.974693139334,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 4079.6244203067463,
+  "y_hi": 4244.624420306746,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 4025.58345649945,
+  "y_hi": 4190.58345649945,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 3963.9285656500383,
+  "y_hi": 4128.928565650038,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 3897.0291106373916,
+  "y_hi": 4062.0291106373916,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 3827.456,
+  "y_hi": 3992.456,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 3757.8828893626087,
+  "y_hi": 3922.8828893626087,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 3690.983434349962,
+  "y_hi": 3855.983434349962,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 3629.3285435005496,
+  "y_hi": 3794.3285435005496,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 3575.2875796932535,
+  "y_hi": 3740.2875796932535,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 3530.9373068606665,
+  "y_hi": 3695.9373068606665,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 3497.982081115825,
+  "y_hi": 3662.982081115825,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 3477.6883533026003,
+  "y_hi": 3642.6883533026003,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 3470.8360000000002,
+  "y_hi": 3635.8360000000002,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 1272.0,
+  "y_hi": 1578.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 1283.3713479162466,
+  "y_hi": 1589.3713479162466,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 1317.0483971416904,
+  "y_hi": 1623.0483971416904,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 1371.7369575609046,
+  "y_hi": 1677.7369575609046,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 1445.3353784666765,
+  "y_hi": 1751.3353784666765,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 1535.0153138180674,
+  "y_hi": 1841.0153138180674,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 1637.3304139926104,
+  "y_hi": 1943.3304139926104,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 1748.3487670695672,
+  "y_hi": 2054.348767069567,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 1863.804,
+  "y_hi": 2169.804,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 1979.259232930433,
+  "y_hi": 2285.259232930433,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 2090.27758600739,
+  "y_hi": 2396.27758600739,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 2192.5926861819325,
+  "y_hi": 2498.5926861819325,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 2282.2726215333237,
+  "y_hi": 2588.2726215333237,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 2355.8710424390956,
+  "y_hi": 2661.8710424390956,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 2410.5596028583095,
+  "y_hi": 2716.5596028583095,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 2444.2366520837536,
+  "y_hi": 2750.2366520837536,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 2455.608,
+  "y_hi": 2761.608,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 1578.0,
+  "y_hi": 1876.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 1589.9965564624863,
+  "y_hi": 1887.9965564624863,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 1625.5252049128383,
+  "y_hi": 1923.5252049128383,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 1683.2205993158043,
+  "y_hi": 1981.2205993158043,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 1760.8655380204286,
+  "y_hi": 2058.8655380204286,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 1855.4761695760756,
+  "y_hi": 2153.4761695760753,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 1963.416660470315,
+  "y_hi": 2261.416660470315,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 2080.5389181718065,
+  "y_hi": 2378.5389181718065,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 2202.342,
+  "y_hi": 2500.342,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 2324.1450818281937,
+  "y_hi": 2622.1450818281937,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 2441.267339529685,
+  "y_hi": 2739.267339529685,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 2549.2078304239244,
+  "y_hi": 2847.2078304239244,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 2643.8184619795716,
+  "y_hi": 2941.8184619795716,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 2721.463400684196,
+  "y_hi": 3019.463400684196,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 2779.1587950871617,
+  "y_hi": 3077.1587950871617,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 2814.687443537514,
+  "y_hi": 3112.687443537514,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 2826.684,
+  "y_hi": 3124.684,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 4349.076,
+  "y_hi": 4653.076,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 4349.0566699920855,
+  "y_hi": 4653.0566699920855,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 4348.999422809707,
+  "y_hi": 4652.999422809707,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 4348.906458429977,
+  "y_hi": 4652.906458429977,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 4348.7813494218735,
+  "y_hi": 4652.7813494218735,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 4348.628903654418,
+  "y_hi": 4652.628903654418,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 4348.454979532959,
+  "y_hi": 4652.454979532959,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 4348.266260863948,
+  "y_hi": 4652.266260863948,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 4348.070000000001,
+  "y_hi": 4652.070000000001,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 4347.873739136052,
+  "y_hi": 4651.873739136052,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 4347.685020467041,
+  "y_hi": 4651.685020467041,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 4347.511096345583,
+  "y_hi": 4651.511096345583,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 4347.358650578127,
+  "y_hi": 4651.358650578127,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 4347.233541570024,
+  "y_hi": 4651.233541570024,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 4347.140577190294,
+  "y_hi": 4651.140577190294,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 4347.083330007915,
+  "y_hi": 4651.083330007915,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 4347.064,
+  "y_hi": 4651.064,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 4653.076,
+  "y_hi": 4925.076,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 4653.681878538326,
+  "y_hi": 4925.681878538326,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 4655.4762305808545,
+  "y_hi": 4927.4762305808545,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 4658.390100184876,
+  "y_hi": 4930.390100184876,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 4662.311508975626,
+  "y_hi": 4934.311508975626,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 4667.089759412426,
+  "y_hi": 4939.089759412426,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 4672.541226010664,
+  "y_hi": 4944.541226010664,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 4678.456411966187,
+  "y_hi": 4950.456411966187,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 4684.608,
+  "y_hi": 4956.608,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 4690.759588033813,
+  "y_hi": 4962.759588033813,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 4696.674773989336,
+  "y_hi": 4968.674773989336,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 4702.126240587574,
+  "y_hi": 4974.126240587574,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 4706.904491024375,
+  "y_hi": 4978.904491024375,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 4710.825899815124,
+  "y_hi": 4982.825899815124,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 4713.739769419146,
+  "y_hi": 4985.739769419146,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 4715.534121461675,
+  "y_hi": 4987.534121461675,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 4716.14,
+  "y_hi": 4988.14,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 1876.0,
+  "y_hi": 2146.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 1893.53258618439,
+  "y_hi": 2163.5325861843903,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 1945.4565772828814,
+  "y_hi": 2215.4565772828814,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 2029.7765634368689,
+  "y_hi": 2299.776563436869,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 2143.2521748656477,
+  "y_hi": 2413.2521748656477,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 2281.522607459866,
+  "y_hi": 2551.522607459866,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 2439.2742060378796,
+  "y_hi": 2709.2742060378796,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 2610.4446651344515,
+  "y_hi": 2880.4446651344515,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 2788.456,
+  "y_hi": 3058.456,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 2966.4673348655483,
+  "y_hi": 3236.4673348655483,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 3137.6377939621207,
+  "y_hi": 3407.6377939621207,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 3295.3893925401344,
+  "y_hi": 3565.3893925401344,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 3433.6598251343526,
+  "y_hi": 3703.6598251343526,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 3547.1354365631314,
+  "y_hi": 3817.1354365631314,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 3631.455422717119,
+  "y_hi": 3901.455422717119,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 3683.37941381561,
+  "y_hi": 3953.37941381561,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 3700.9120000000003,
+  "y_hi": 3970.9120000000003,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 2146.0,
+  "y_hi": 2392.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 2164.1577947306296,
+  "y_hi": 2410.1577947306296,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 2217.9333850540293,
+  "y_hi": 2463.9333850540293,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 2305.2602051917684,
+  "y_hi": 2551.2602051917684,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 2422.7823344194,
+  "y_hi": 2668.7823344194,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 2565.983463217874,
+  "y_hi": 2811.983463217874,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 2729.3604525155843,
+  "y_hi": 2975.3604525155843,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 2906.634816236691,
+  "y_hi": 3152.634816236691,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 3090.994,
+  "y_hi": 3336.994,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 3275.353183763309,
+  "y_hi": 3521.353183763309,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 3452.627547484416,
+  "y_hi": 3698.627547484416,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 3616.004536782126,
+  "y_hi": 3862.004536782126,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 3759.2056655806005,
+  "y_hi": 4005.2056655806005,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 3876.727794808232,
+  "y_hi": 4122.727794808232,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 3964.0546149459715,
+  "y_hi": 4210.0546149459715,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 4017.8302052693707,
+  "y_hi": 4263.830205269371,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 4035.9880000000003,
+  "y_hi": 4281.988,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 4925.076,
+  "y_hi": 5209.076,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 4935.704545286075,
+  "y_hi": 5219.704545286075,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 4967.181732109512,
+  "y_hi": 5251.181732109512,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 5018.297909833296,
+  "y_hi": 5302.297909833296,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 5087.088712413786,
+  "y_hi": 5371.088712413786,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 5170.910547886139,
+  "y_hi": 5454.910547886139,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 5266.54219012098,
+  "y_hi": 5550.54219012098,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 5370.308568738067,
+  "y_hi": 5654.308568738067,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 5478.222,
+  "y_hi": 5762.222,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 5586.135431261933,
+  "y_hi": 5870.135431261933,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 5689.90180987902,
+  "y_hi": 5973.90180987902,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 5785.533452113861,
+  "y_hi": 6069.533452113861,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 5869.355287586214,
+  "y_hi": 6153.355287586214,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 5938.146090166704,
+  "y_hi": 6222.146090166704,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 5989.262267890488,
+  "y_hi": 6273.262267890488,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 6020.739454713926,
+  "y_hi": 6304.739454713926,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 6031.368,
+  "y_hi": 6315.368,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 5209.076,
+  "y_hi": 5488.076,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 5220.329753832314,
+  "y_hi": 5499.329753832314,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 5253.658539880659,
+  "y_hi": 5532.658539880659,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 5307.781551588196,
+  "y_hi": 5586.781551588196,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 5380.618871967538,
+  "y_hi": 5659.618871967538,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 5469.371403644147,
+  "y_hi": 5748.371403644147,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 5570.628436598685,
+  "y_hi": 5849.628436598685,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 5680.498719840306,
+  "y_hi": 5959.498719840306,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 5794.76,
+  "y_hi": 6073.76,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 5909.0212801596945,
+  "y_hi": 6188.0212801596945,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 6018.891563401316,
+  "y_hi": 6297.891563401316,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 6120.1485963558525,
+  "y_hi": 6399.1485963558525,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 6208.901128032462,
+  "y_hi": 6487.901128032462,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 6281.738448411805,
+  "y_hi": 6560.738448411805,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 6335.86146011934,
+  "y_hi": 6614.86146011934,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 6369.1902461676855,
+  "y_hi": 6648.1902461676855,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 6380.444,
+  "y_hi": 6659.444,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 2392.0,
+  "y_hi": 2842.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 2417.5672596132185,
+  "y_hi": 2867.5672596132185,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 2493.2865030042217,
+  "y_hi": 2943.2865030042217,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 2616.247882113335,
+  "y_hi": 3066.247882113335,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 2781.7260600989302,
+  "y_hi": 3231.7260600989302,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 2983.361803382253,
+  "y_hi": 3433.361803382253,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 3213.4063634275526,
+  "y_hi": 3663.4063634275526,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 3463.0192568027637,
+  "y_hi": 3913.0192568027637,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 3722.608,
+  "y_hi": 4172.608,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 3982.196743197236,
+  "y_hi": 4432.196743197236,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 4231.809636572448,
+  "y_hi": 4681.809636572448,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 4461.854196617747,
+  "y_hi": 4911.854196617747,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 4663.48993990107,
+  "y_hi": 5113.48993990107,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 4828.968117886665,
+  "y_hi": 5278.968117886665,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 4951.929496995779,
+  "y_hi": 5401.929496995779,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 5027.648740386781,
+  "y_hi": 5477.648740386781,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 5053.216,
+  "y_hi": 5503.216,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 0,
+  "x": 0.03,
+  "y_lo": 2842.0,
+  "y_hi": 3240.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 1,
+  "x": 0.059375,
+  "y_lo": 2868.1924681594583,
+  "y_hi": 3266.1924681594583,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 2,
+  "x": 0.08875,
+  "y_lo": 2945.7633107753695,
+  "y_hi": 3343.7633107753695,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 3,
+  "x": 0.118125,
+  "y_lo": 3071.731523868235,
+  "y_hi": 3469.731523868235,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 4,
+  "x": 0.1475,
+  "y_lo": 3241.2562196526824,
+  "y_hi": 3639.2562196526824,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 5,
+  "x": 0.17687499999999998,
+  "y_lo": 3447.8226591402613,
+  "y_hi": 3845.8226591402613,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 6,
+  "x": 0.20625,
+  "y_lo": 3683.4926099052573,
+  "y_hi": 4081.4926099052573,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 7,
+  "x": 0.235625,
+  "y_lo": 3939.209407905003,
+  "y_hi": 4337.209407905003,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 8,
+  "x": 0.265,
+  "y_lo": 4205.146,
+  "y_hi": 4603.146,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 9,
+  "x": 0.29437499999999994,
+  "y_lo": 4471.082592094997,
+  "y_hi": 4869.082592094997,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 10,
+  "x": 0.32375,
+  "y_lo": 4726.799390094742,
+  "y_hi": 5124.799390094742,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 11,
+  "x": 0.353125,
+  "y_lo": 4962.469340859739,
+  "y_hi": 5360.469340859739,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 12,
+  "x": 0.38249999999999995,
+  "y_lo": 5169.035780347318,
+  "y_hi": 5567.035780347318,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 13,
+  "x": 0.411875,
+  "y_lo": 5338.560476131766,
+  "y_hi": 5736.560476131766,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 14,
+  "x": 0.44125000000000003,
+  "y_lo": 5464.528689224631,
+  "y_hi": 5862.528689224631,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 15,
+  "x": 0.47062499999999996,
+  "y_lo": 5542.099531840542,
+  "y_hi": 5940.099531840542,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link1::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 16,
+  "x": 0.5,
+  "y_lo": 5568.292,
+  "y_hi": 5966.292,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 917.152,
+  "y_hi": 1099.152,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 915.9015829075207,
+  "y_hi": 1097.9015829075206,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 912.1983844577045,
+  "y_hi": 1094.1983844577044,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 906.1847164902005,
+  "y_hi": 1088.1847164902006,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 898.0916808924958,
+  "y_hi": 1080.0916808924958,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 888.2302884839837,
+  "y_hi": 1070.2302884839837,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 876.9795070445906,
+  "y_hi": 1058.9795070445907,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 864.7716977955216,
+  "y_hi": 1046.7716977955215,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 852.076,
+  "y_hi": 1034.076,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 839.3803022044784,
+  "y_hi": 1021.3803022044784,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 827.1724929554094,
+  "y_hi": 1009.1724929554094,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 815.9217115160163,
+  "y_hi": 997.9217115160163,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 806.0603191075043,
+  "y_hi": 988.0603191075043,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 797.9672835097996,
+  "y_hi": 979.9672835097996,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 791.9536155422956,
+  "y_hi": 973.9536155422956,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 788.2504170924794,
+  "y_hi": 970.2504170924794,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Aquapolis",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 787.0,
+  "y_hi": 969.0,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 1164.228,
+  "y_hi": 1346.228,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 1162.352374361281,
+  "y_hi": 1344.352374361281,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 1156.7975766865568,
+  "y_hi": 1338.7975766865568,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 1147.7770747353006,
+  "y_hi": 1329.7770747353006,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 1135.6375213387437,
+  "y_hi": 1317.6375213387437,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 1120.8454327259756,
+  "y_hi": 1302.8454327259756,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 1103.9692605668859,
+  "y_hi": 1285.9692605668859,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 1085.6575466932825,
+  "y_hi": 1267.6575466932825,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 1066.614,
+  "y_hi": 1248.614,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 1047.5704533067178,
+  "y_hi": 1229.5704533067178,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 1029.2587394331142,
+  "y_hi": 1211.2587394331142,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 1012.3825672740245,
+  "y_hi": 1194.3825672740245,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 997.5904786612564,
+  "y_hi": 1179.5904786612564,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 985.4509252646994,
+  "y_hi": 1167.4509252646994,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 976.4304233134433,
+  "y_hi": 1158.4304233134433,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 970.8756256387192,
+  "y_hi": 1152.8756256387192,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Pokémon::Skyridge",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 969.0,
+  "y_hi": 1151.0,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Metal Raiders",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 0.0,
+  "y_hi": 432.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 497.076,
+  "y_hi": 852.076,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 496.4507914537603,
+  "y_hi": 851.4507914537603,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 494.5991922288523,
+  "y_hi": 849.5991922288523,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 491.5923582451003,
+  "y_hi": 846.5923582451003,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 487.5458404462479,
+  "y_hi": 842.5458404462479,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 482.61514424199186,
+  "y_hi": 837.6151442419919,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 476.98975352229536,
+  "y_hi": 831.9897535222954,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 470.88584889776075,
+  "y_hi": 825.8858488977608,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 464.538,
+  "y_hi": 819.538,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 458.19015110223927,
+  "y_hi": 813.1901511022393,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 452.08624647770466,
+  "y_hi": 807.0862464777047,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 446.46085575800817,
+  "y_hi": 801.4608557580082,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 441.5301595537521,
+  "y_hi": 796.5301595537521,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 437.48364175489974,
+  "y_hi": 792.4836417548997,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 434.4768077711477,
+  "y_hi": 789.4768077711477,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 432.6252085462397,
+  "y_hi": 787.6252085462397,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2001-2005::Yu-Gi-Oh::Legend of Blue Eyes White Dragon",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 432.0,
+  "y_hi": 787.0,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 2026.4560000000001,
+  "y_hi": 2179.456,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 2023.7050823965455,
+  "y_hi": 2176.7050823965455,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 2015.5580458069498,
+  "y_hi": 2168.55804580695,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 2002.327976278441,
+  "y_hi": 2155.327976278441,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 1984.5232979634907,
+  "y_hi": 2137.5232979634907,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 1962.828234664764,
+  "y_hi": 2115.828234664764,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 1938.0765154980993,
+  "y_hi": 2091.076515498099,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 1911.2193351501476,
+  "y_hi": 2064.2193351501473,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 1883.2888,
+  "y_hi": 2036.2888,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 1855.3582648498525,
+  "y_hi": 2008.3582648498525,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 1828.5010845019008,
+  "y_hi": 1981.5010845019008,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 1803.749365335236,
+  "y_hi": 1956.749365335236,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 1782.0543020365094,
+  "y_hi": 1935.0543020365094,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 1764.249623721559,
+  "y_hi": 1917.249623721559,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 1751.01955419305,
+  "y_hi": 1904.01955419305,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 1742.8725176034545,
+  "y_hi": 1895.8725176034545,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Supreme Victors",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 1740.1216,
+  "y_hi": 1893.1216,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 2244.532,
+  "y_hi": 2390.532,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 2241.155873850306,
+  "y_hi": 2387.155873850306,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 2231.1572380358025,
+  "y_hi": 2377.1572380358025,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 2214.9203345235414,
+  "y_hi": 2360.9203345235414,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 2193.0691384097386,
+  "y_hi": 2339.0691384097386,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 2166.443378906756,
+  "y_hi": 2312.443378906756,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 2136.066269020395,
+  "y_hi": 2282.066269020395,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 2103.105184047908,
+  "y_hi": 2249.105184047908,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 2068.8268000000003,
+  "y_hi": 2214.8268000000003,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 2034.548415952092,
+  "y_hi": 2180.548415952092,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 2001.5873309796057,
+  "y_hi": 2147.5873309796057,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 1971.2102210932442,
+  "y_hi": 2117.2102210932444,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 1944.5844615902615,
+  "y_hi": 2090.5844615902615,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 1922.7332654764587,
+  "y_hi": 2068.7332654764587,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 1906.4963619641978,
+  "y_hi": 2052.4963619641976,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 1896.4977261496942,
+  "y_hi": 2042.4977261496942,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Pokémon::Legends Awakened",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 1893.1216,
+  "y_hi": 2039.1216,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 1411.304,
+  "y_hi": 1656.304,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 1409.803499489025,
+  "y_hi": 1654.803499489025,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 1405.3596613492455,
+  "y_hi": 1650.3596613492455,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 1398.1432597882406,
+  "y_hi": 1643.1432597882406,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 1388.431617070995,
+  "y_hi": 1633.431617070995,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 1376.5979461807804,
+  "y_hi": 1621.5979461807804,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 1363.0970084535088,
+  "y_hi": 1608.0970084535088,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 1348.4476373546258,
+  "y_hi": 1593.4476373546258,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 1333.2128,
+  "y_hi": 1578.2128,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 1317.9779626453742,
+  "y_hi": 1562.9779626453742,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 1303.3285915464912,
+  "y_hi": 1548.3285915464912,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 1289.8276538192197,
+  "y_hi": 1534.8276538192197,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 1277.9939829290051,
+  "y_hi": 1522.9939829290051,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 1268.2823402117594,
+  "y_hi": 1513.2823402117594,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 1261.0659386507546,
+  "y_hi": 1506.0659386507546,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 1256.622100510975,
+  "y_hi": 1501.622100510975,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 4",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 1255.1216,
+  "y_hi": 1500.1216,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 1721.38,
+  "y_hi": 1961.38,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 1719.2542909427852,
+  "y_hi": 1959.2542909427852,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 1712.9588535780977,
+  "y_hi": 1952.9588535780977,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 1702.7356180333409,
+  "y_hi": 1942.7356180333409,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 1688.9774575172428,
+  "y_hi": 1928.9774575172428,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 1672.2130904227722,
+  "y_hi": 1912.2130904227722,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 1653.0867619758042,
+  "y_hi": 1893.0867619758042,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 1632.3334862523866,
+  "y_hi": 1872.3334862523866,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 1610.7508,
+  "y_hi": 1850.7508,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 1589.1681137476135,
+  "y_hi": 1829.1681137476135,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 1568.4148380241961,
+  "y_hi": 1808.4148380241961,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 1549.2885095772278,
+  "y_hi": 1789.2885095772278,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 1532.5241424827573,
+  "y_hi": 1772.5241424827573,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 1518.7659819666592,
+  "y_hi": 1758.7659819666592,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 1508.5427464219024,
+  "y_hi": 1748.5427464219024,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 1502.2473090572148,
+  "y_hi": 1742.2473090572148,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2006-2010::Yu-Gi-Oh::Dark Revelation Volume 3",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 1500.1216,
+  "y_hi": 1740.1216,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 3189.76,
+  "y_hi": 3405.76,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 3185.5085818855705,
+  "y_hi": 3401.5085818855705,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 3172.9177071561953,
+  "y_hi": 3388.9177071561953,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 3152.4712360666817,
+  "y_hi": 3368.4712360666817,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 3124.9549150344856,
+  "y_hi": 3340.9549150344856,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 3091.4261808455444,
+  "y_hi": 3307.4261808455444,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 3053.1735239516083,
+  "y_hi": 3269.1735239516083,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 3011.666972504773,
+  "y_hi": 3227.666972504773,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 2968.5016,
+  "y_hi": 3184.5016,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 2925.336227495227,
+  "y_hi": 3141.336227495227,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 2883.8296760483922,
+  "y_hi": 3099.8296760483922,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 2845.5770191544557,
+  "y_hi": 3061.5770191544557,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 2812.0482849655145,
+  "y_hi": 3028.0482849655145,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 2784.5319639333184,
+  "y_hi": 3000.5319639333184,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 2764.085492843805,
+  "y_hi": 2980.085492843805,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 2751.4946181144296,
+  "y_hi": 2967.4946181144296,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::XY Black Star Promos",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 2747.2432,
+  "y_hi": 2963.2432,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 3470.8360000000002,
+  "y_hi": 3635.8360000000002,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 3465.959373339331,
+  "y_hi": 3630.959373339331,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 3451.516899385048,
+  "y_hi": 3616.516899385048,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 3428.063594311782,
+  "y_hi": 3593.063594311782,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 3396.5007554807335,
+  "y_hi": 3561.5007554807335,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 3358.0413250875363,
+  "y_hi": 3523.0413250875363,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 3314.1632774739032,
+  "y_hi": 3479.1632774739032,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 3266.5528214025344,
+  "y_hi": 3431.5528214025344,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 3217.0396,
+  "y_hi": 3382.0396,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 3167.5263785974657,
+  "y_hi": 3332.5263785974657,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 3119.915922526097,
+  "y_hi": 3284.915922526097,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 3076.037874912464,
+  "y_hi": 3241.037874912464,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 3037.5784445192667,
+  "y_hi": 3202.5784445192667,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 3006.0156056882183,
+  "y_hi": 3171.0156056882183,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 2982.5623006149526,
+  "y_hi": 3147.5623006149526,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 2968.1198266606693,
+  "y_hi": 3133.1198266606693,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Pokémon::BREAKthrough",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 2963.2432,
+  "y_hi": 3128.2432,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 2455.608,
+  "y_hi": 2761.608,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 2452.60699897805,
+  "y_hi": 2758.60699897805,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 2443.719322698491,
+  "y_hi": 2749.719322698491,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 2429.286519576481,
+  "y_hi": 2735.286519576481,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 2409.86323414199,
+  "y_hi": 2715.86323414199,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 2386.1958923615607,
+  "y_hi": 2692.1958923615607,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 2359.1940169070176,
+  "y_hi": 2665.1940169070176,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 2329.8952747092517,
+  "y_hi": 2635.8952747092517,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 2299.4256,
+  "y_hi": 2605.4256,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 2268.9559252907484,
+  "y_hi": 2574.9559252907484,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 2239.6571830929825,
+  "y_hi": 2545.6571830929825,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 2212.6553076384394,
+  "y_hi": 2518.6553076384394,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 2188.9879658580103,
+  "y_hi": 2494.9879658580103,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 2169.564680423519,
+  "y_hi": 2475.564680423519,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 2155.131877301509,
+  "y_hi": 2461.131877301509,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 2146.24420102195,
+  "y_hi": 2452.24420102195,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 3: Yugi's World Mega Pack",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 2143.2432,
+  "y_hi": 2449.2432,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 2826.684,
+  "y_hi": 3124.684,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 2823.05779043181,
+  "y_hi": 3121.05779043181,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 2812.318514927343,
+  "y_hi": 3110.318514927343,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 2794.878877821581,
+  "y_hi": 3092.878877821581,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 2771.4090745882377,
+  "y_hi": 3069.4090745882377,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 2742.8110366035526,
+  "y_hi": 3040.8110366035526,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 2710.183770429313,
+  "y_hi": 3008.183770429313,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 2674.7811236070124,
+  "y_hi": 2972.7811236070124,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 2637.9636,
+  "y_hi": 2935.9636,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 2601.1460763929877,
+  "y_hi": 2899.1460763929877,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 2565.743429570687,
+  "y_hi": 2863.743429570687,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 2533.1161633964475,
+  "y_hi": 2831.1161633964475,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 2504.5181254117624,
+  "y_hi": 2802.5181254117624,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 2481.048322178419,
+  "y_hi": 2779.048322178419,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 2463.608685072657,
+  "y_hi": 2761.608685072657,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 2452.86940956819,
+  "y_hi": 2750.86940956819,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2011-2015::Yu-Gi-Oh::Legendary Collection 4: Joey's World Mega Pack",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 2449.2432,
+  "y_hi": 2747.2432,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 4347.064,
+  "y_hi": 4651.064,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 4341.312081374595,
+  "y_hi": 4645.312081374595,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 4324.277368505441,
+  "y_hi": 4628.277368505441,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 4296.614495854922,
+  "y_hi": 4600.614495854922,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 4259.386532105481,
+  "y_hi": 4563.386532105481,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 4214.024127026325,
+  "y_hi": 4518.024127026325,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 4162.270532405117,
+  "y_hi": 4466.270532405117,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 4106.114609859399,
+  "y_hi": 4410.114609859399,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 4047.7144,
+  "y_hi": 4351.7144,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 3989.3141901406007,
+  "y_hi": 4293.314190140601,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 3933.1582675948835,
+  "y_hi": 4237.158267594883,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 3881.404672973675,
+  "y_hi": 4185.404672973675,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 3836.0422678945192,
+  "y_hi": 4140.04226789452,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 3798.8143041450776,
+  "y_hi": 4102.814304145078,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 3771.151431494559,
+  "y_hi": 4075.151431494559,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 3754.116718625405,
+  "y_hi": 4058.116718625405,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::SWSH Black Star Promos",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 3748.3648,
+  "y_hi": 4052.3648,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 4716.14,
+  "y_hi": 4988.14,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 4709.762872828355,
+  "y_hi": 4981.762872828355,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 4690.876560734293,
+  "y_hi": 4962.876560734293,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 4660.206854100023,
+  "y_hi": 4932.206854100023,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 4618.932372551729,
+  "y_hi": 4890.932372551729,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 4568.639271268316,
+  "y_hi": 4840.639271268316,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 4511.260285927412,
+  "y_hi": 4783.260285927412,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 4449.00045875716,
+  "y_hi": 4721.00045875716,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 4384.2524,
+  "y_hi": 4656.2524,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 4319.5043412428395,
+  "y_hi": 4591.5043412428395,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 4257.244514072588,
+  "y_hi": 4529.244514072588,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 4199.865528731683,
+  "y_hi": 4471.865528731683,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 4149.572427448271,
+  "y_hi": 4421.572427448271,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 4108.297945899977,
+  "y_hi": 4380.297945899977,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 4077.6282392657067,
+  "y_hi": 4349.628239265707,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 4058.7419271716444,
+  "y_hi": 4330.741927171644,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Pokémon::Cosmic Eclipse",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 4052.3647999999994,
+  "y_hi": 4324.364799999999,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 3700.9120000000003,
+  "y_hi": 3970.9120000000003,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 3696.4104984670744,
+  "y_hi": 3966.4104984670744,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 3683.0789840477364,
+  "y_hi": 3953.0789840477364,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 3661.429779364722,
+  "y_hi": 3931.429779364722,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 3632.294851212985,
+  "y_hi": 3902.294851212985,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 3596.7938385423413,
+  "y_hi": 3866.7938385423413,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 3556.2910253605264,
+  "y_hi": 3826.2910253605264,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 3512.3429120638775,
+  "y_hi": 3782.3429120638775,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 3466.6384000000003,
+  "y_hi": 3736.6384000000003,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 3420.9338879361226,
+  "y_hi": 3690.9338879361226,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 3376.9857746394737,
+  "y_hi": 3646.9857746394737,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 3336.482961457659,
+  "y_hi": 3606.482961457659,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 3300.981948787015,
+  "y_hi": 3570.981948787015,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 3271.847020635278,
+  "y_hi": 3541.847020635278,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 3250.1978159522637,
+  "y_hi": 3520.1978159522637,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 3236.8663015329257,
+  "y_hi": 3506.8663015329257,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2019 Gold Sarcophagus Tin Mega Pack",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 3232.3648,
+  "y_hi": 3502.3648,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 4035.9880000000003,
+  "y_hi": 4281.988,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 4030.8612899208347,
+  "y_hi": 4276.861289920835,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 4015.6781762765886,
+  "y_hi": 4261.678176276589,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 3991.0221376098216,
+  "y_hi": 4237.022137609822,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 3957.840691659233,
+  "y_hi": 4203.840691659233,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 3917.408982784333,
+  "y_hi": 4163.408982784333,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 3871.2807788828213,
+  "y_hi": 4117.280778882821,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 3821.2287609616387,
+  "y_hi": 4067.2287609616387,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 3769.1764000000003,
+  "y_hi": 4015.1764000000003,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 3717.124039038362,
+  "y_hi": 3963.124039038362,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 3667.072021117179,
+  "y_hi": 3913.072021117179,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 3620.943817215667,
+  "y_hi": 3866.943817215667,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 3580.512108340767,
+  "y_hi": 3826.512108340767,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 3547.330662390178,
+  "y_hi": 3793.330662390178,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 3522.6746237234115,
+  "y_hi": 3768.6746237234115,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 3507.4915100791654,
+  "y_hi": 3753.4915100791654,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2016-2020::Yu-Gi-Oh::2020 Tin of Lost Memories Mega Pack",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 3502.3648,
+  "y_hi": 3748.3648,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 6031.368,
+  "y_hi": 6315.368,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 6024.11558086362,
+  "y_hi": 6308.11558086362,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 6002.637029854686,
+  "y_hi": 6286.637029854686,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 5967.757755643162,
+  "y_hi": 6251.757755643162,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 5920.818149176475,
+  "y_hi": 6204.818149176475,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 5863.622073207105,
+  "y_hi": 6147.622073207105,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 5798.367540858626,
+  "y_hi": 6082.367540858626,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 5727.562247214025,
+  "y_hi": 6011.562247214025,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 5653.9272,
+  "y_hi": 5937.9272,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 5580.292152785975,
+  "y_hi": 5864.292152785975,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 5509.486859141374,
+  "y_hi": 5793.486859141374,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 5444.232326792895,
+  "y_hi": 5728.232326792895,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 5387.036250823525,
+  "y_hi": 5671.036250823525,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 5340.096644356838,
+  "y_hi": 5624.096644356838,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 5305.217370145314,
+  "y_hi": 5589.217370145314,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 5283.73881913638,
+  "y_hi": 5567.73881913638,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Fusion Strike",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 5276.4864,
+  "y_hi": 5560.4864,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 6380.444,
+  "y_hi": 6659.444,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 6372.56637231738,
+  "y_hi": 6651.56637231738,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 6349.236222083538,
+  "y_hi": 6628.236222083538,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 6311.350113888263,
+  "y_hi": 6590.350113888263,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 6260.363989622723,
+  "y_hi": 6539.363989622723,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 6198.237217449097,
+  "y_hi": 6477.237217449097,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 6127.357294380921,
+  "y_hi": 6406.357294380921,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 6050.448096111786,
+  "y_hi": 6329.448096111786,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 5970.465200000001,
+  "y_hi": 6249.465200000001,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 5890.482303888214,
+  "y_hi": 6169.482303888214,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 5813.57310561908,
+  "y_hi": 6092.57310561908,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 5742.693182550903,
+  "y_hi": 6021.693182550903,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 5680.566410377277,
+  "y_hi": 5959.566410377277,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 5629.580286111737,
+  "y_hi": 5908.580286111737,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 5591.694177916462,
+  "y_hi": 5870.694177916462,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 5568.36402768262,
+  "y_hi": 5847.36402768262,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Pokémon::Paldea Evolved",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 5560.4864,
+  "y_hi": 5839.4864,
+  "game": "Pokémon",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 5053.216,
+  "y_hi": 5503.216,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 5047.2139979561,
+  "y_hi": 5497.2139979561,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 5029.438645396982,
+  "y_hi": 5479.438645396982,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 5000.573039152962,
+  "y_hi": 5450.573039152962,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 4961.72646828398,
+  "y_hi": 5411.72646828398,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 4914.391784723121,
+  "y_hi": 5364.391784723121,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 4860.388033814035,
+  "y_hi": 5310.388033814035,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 4801.790549418503,
+  "y_hi": 5251.790549418503,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 4740.8512,
+  "y_hi": 5190.8512,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 4679.911850581497,
+  "y_hi": 5129.911850581497,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 4621.314366185965,
+  "y_hi": 5071.314366185965,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 4567.310615276879,
+  "y_hi": 5017.310615276879,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 4519.975931716021,
+  "y_hi": 4969.975931716021,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 4481.129360847038,
+  "y_hi": 4931.129360847038,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 4452.263754603018,
+  "y_hi": 4902.263754603018,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 4434.4884020439,
+  "y_hi": 4884.4884020439,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::2025 Mega-Pack Tin",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 4428.4864,
+  "y_hi": 4878.4864,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 0,
+  "x": 0.5,
+  "y_lo": 5568.292,
+  "y_hi": 5966.292,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 1,
+  "x": 0.529375,
+  "y_lo": 5561.66478940986,
+  "y_hi": 5959.66478940986,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 2,
+  "x": 0.55875,
+  "y_lo": 5542.037837625834,
+  "y_hi": 5940.037837625834,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 3,
+  "x": 0.588125,
+  "y_lo": 5510.165397398063,
+  "y_hi": 5908.165397398063,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 4,
+  "x": 0.6174999999999999,
+  "y_lo": 5467.272308730227,
+  "y_hi": 5865.272308730227,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 5,
+  "x": 0.646875,
+  "y_lo": 5415.006928965114,
+  "y_hi": 5813.006928965114,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 6,
+  "x": 0.67625,
+  "y_lo": 5355.377787336331,
+  "y_hi": 5753.377787336331,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 7,
+  "x": 0.705625,
+  "y_lo": 5290.676398316265,
+  "y_hi": 5688.676398316265,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 8,
+  "x": 0.735,
+  "y_lo": 5223.3892000000005,
+  "y_hi": 5621.3892000000005,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 9,
+  "x": 0.764375,
+  "y_lo": 5156.102001683736,
+  "y_hi": 5554.102001683736,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 10,
+  "x": 0.79375,
+  "y_lo": 5091.40061266367,
+  "y_hi": 5489.40061266367,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 11,
+  "x": 0.823125,
+  "y_lo": 5031.771471034886,
+  "y_hi": 5429.771471034886,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 12,
+  "x": 0.8525,
+  "y_lo": 4979.506091269773,
+  "y_hi": 5377.506091269773,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 13,
+  "x": 0.881875,
+  "y_lo": 4936.613002601937,
+  "y_hi": 5334.613002601937,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 14,
+  "x": 0.91125,
+  "y_lo": 4904.740562374166,
+  "y_hi": 5302.740562374166,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 15,
+  "x": 0.940625,
+  "y_lo": 4885.1136105901405,
+  "y_hi": 5283.1136105901405,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ },
+ {
+  "link": "link2::set::2021-2025::Yu-Gi-Oh::25th Anniversary Tin: Dueling Mirrors",
+  "seq": 16,
+  "x": 0.97,
+  "y_lo": 4878.4864,
+  "y_hi": 5276.4864,
+  "game": "Yu-Gi-Oh",
+  "kind": "set"
+ }
+]
