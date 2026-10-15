@@ -35,7 +35,7 @@ async function drawAll(){
     }catch(err){
       el.classList.remove("is-loading");
       el.classList.add("is-error");
-      el.textContent = "⚠ " + err.message;
+      // el.textContent = "⚠ " + err.message;
       console.error(el.dataset.spec, err);
     }
   }
