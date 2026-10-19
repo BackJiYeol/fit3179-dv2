@@ -1,0 +1,207 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Chasing the rare card got much harder — in both games. Share of cards by rarity tier, year by year (1999/2001–2026). Pokémon's top tier (Ultra/Secret) rose from 2.4% to 39.0%; Yu-Gi-Oh's (Secret+) rose from 4.2% to 26.1%. Streamgraph: width at each year = total cards printed that year, band width = cards in that rarity tier.",
+  "data": {
+    "url": "data/c04_streamgraph.json"
+  },
+  "transform": [
+    {
+      "filter": "datum.year >= 1999"
+    }
+  ],
+  "vconcat": [
+    {
+      "title": {
+        "text": "Pokémon",
+        "anchor": "start",
+        "fontSize": 13,
+        "dy": -4
+      },
+      "height": 150,
+      "transform": [
+        {
+          "filter": "datum.game === 'Pokémon'"
+        }
+      ],
+      "mark": {
+        "type": "area",
+        "interpolate": "monotone",
+        "line": {
+          "strokeWidth": 0.5,
+          "stroke": "white"
+        }
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "axis": {
+            "title": null,
+            "format": "d",
+            "tickCount": 10,
+            "grid": false
+          },
+          "scale": {
+            "domain": [
+              1999,
+              2026
+            ]
+          }
+        },
+        "y": {
+          "field": "count",
+          "type": "quantitative",
+          "stack": "center",
+          "axis": null
+        },
+        "order": {
+          "field": "tier_rank"
+        },
+        "color": {
+          "field": "tier_rank",
+          "type": "ordinal",
+          "scale": {
+            "domain": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "range": [
+              "#fff7bc",
+              "#fee391",
+              "#fec44f",
+              "#d95f0e",
+              "#993404"
+            ]
+          },
+          "legend": {
+            "title": "Rarity tier",
+            "orient": "right",
+            "labelExpr": "{1:'1 — most common',2:'2',3:'3',4:'4',5:'5 — rarest'}[datum.value]"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "game",
+            "title": "Game"
+          },
+          {
+            "field": "year",
+            "title": "Year"
+          },
+          {
+            "field": "rarity_tier",
+            "title": "Rarity tier"
+          },
+          {
+            "field": "count",
+            "title": "Cards printed",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "text": "Yu-Gi-Oh",
+        "anchor": "start",
+        "fontSize": 13,
+        "dy": -4
+      },
+      "height": 150,
+      "transform": [
+        {
+          "filter": "datum.game === 'Yu-Gi-Oh'"
+        }
+      ],
+      "mark": {
+        "type": "area",
+        "interpolate": "monotone",
+        "line": {
+          "strokeWidth": 0.5,
+          "stroke": "white"
+        }
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "axis": {
+            "title": "Year",
+            "format": "d",
+            "tickCount": 10,
+            "grid": false
+          },
+          "scale": {
+            "domain": [
+              1999,
+              2026
+            ]
+          }
+        },
+        "y": {
+          "field": "count",
+          "type": "quantitative",
+          "stack": "center",
+          "axis": null
+        },
+        "order": {
+          "field": "tier_rank"
+        },
+        "color": {
+          "field": "tier_rank",
+          "type": "ordinal",
+          "scale": {
+            "domain": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "range": [
+              "#fff7bc",
+              "#fee391",
+              "#fec44f",
+              "#d95f0e",
+              "#993404"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "game",
+            "title": "Game"
+          },
+          {
+            "field": "year",
+            "title": "Year"
+          },
+          {
+            "field": "rarity_tier",
+            "title": "Rarity tier"
+          },
+          {
+            "field": "count",
+            "title": "Cards printed",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "shared"
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Inter, Segoe UI, system-ui, sans-serif"
+  }
+}

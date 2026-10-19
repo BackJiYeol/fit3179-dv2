@@ -58,6 +58,12 @@
       "data": {
         "url": "data/c08_symbol.json"
       },
+      "transform": [
+        {
+          "calculate": "datum.value <= 5 ? '1–5' : datum.value <= 15 ? '6–15' : datum.value <= 30 ? '16–30' : datum.value <= 60 ? '31–60' : '61–100'",
+          "as": "size_class"
+        }
+      ],
       "mark": {
         "type": "circle",
         "opacity": 0.65,
@@ -74,31 +80,19 @@
           "type": "quantitative"
         },
         "size": {
-          "field": "value",
-          "type": "quantitative",
+          "field": "size_class",
+          "type": "ordinal",
           "title": [
             "Search interest in",
-            "\"trading cards\""
+            "\"trading cards\" (class)"
           ],
           "scale": {
-            "domain": [
-              0,
-              100
-            ],
-            "range": [
-              10,
-              900
-            ]
+            "domain": ["1–5", "6–15", "16–30", "31–60", "61–100"],
+            "range": [55, 145, 280, 545, 900]
           },
           "legend": {
             "orient": "bottom-left",
-            "direction": "horizontal",
-            "values": [
-              10,
-              25,
-              50,
-              100
-            ],
+            "direction": "vertical",
             "titleFontSize": 11,
             "titleLimit": 320,
             "labelFontSize": 10,
@@ -124,7 +118,7 @@
           {
             "field": "value",
             "type": "quantitative",
-            "title": "Search interest (0-100)"
+            "title": "Search interest (0-100, exact)"
           }
         ]
       }

@@ -16,6 +16,7 @@
 <header class="hero">
   <div class="wrap">
     <h1>Who's collecting trading cards?</h1>
+    <p class="standfirst">TODO — 2~3문장 도입부. 포켓몬 카드 붐과, 그 아래에서 벌어지는 2위 싸움.</p>
     <p class="meta">FIT3179 Data Visualisation 2 · Baek · Data: Pokémon TCG catalogue, Yu-Gi-Oh card database, Google Trends</p>
   </div>
 </header>
@@ -25,20 +26,21 @@
   <div class="wrap">
     <p class="sec-label">1 · Overview</p>
     <h2 class="sec-title">How big is each card world?</h2>
+    <p class="sec-intro">TODO — 섹션 도입 1~2문장.</p>
 
     <div class="row2">
       <figure>
         <p class="fig-title">Pokémon dominates the trading card world</p>
         <p class="fig-sub">Average relative search interest, 2021–2026 (Google Trends index, 100 = peak week)</p>
         <div class="chart" data-spec="specs/c01_ranking.vg.json"></div>
-        <figcaption>Sports cards are the closest rival, far behind</figcaption>
+        <figcaption>TODO — 주석.</figcaption>
       </figure>
 
       <figure>
         <p class="fig-title">Yu-Gi-Oh repeats concepts; Pokémon repeats characters</p>
         <p class="fig-sub">The names that keep coming back, as a share of each game's catalogue</p>
         <div class="chart" data-spec="specs/c02_wordcloud.vg.json"></div>
-        <figcaption>Word size shows how often each term appears.</figcaption>
+        <figcaption>TODO — 주석.</figcaption>
       </figure>
     </div>
   </div>
@@ -47,14 +49,15 @@
 <!-- ============ 2. THEMES & STRUCTURE ============ -->
 <section id="structure">
   <div class="wrap">
-    <p class="sec-label">2 · Themes & Structure</p>
+    <p class="sec-label">2 · Themes &amp; structure</p>
     <h2 class="sec-title">What is a collection made of?</h2>
+    <p class="sec-intro">TODO</p>
 
     <figure>
-      <p class="fig-title">Pokémon and Yu-Gi-Oh’s best-selling sets, era by era</p>
-      <p class="fig-sub">Game → Set → Era; ribbon width = number of cards (2001-2025)</p>
+      <p class="fig-title">Over half the collection was printed in the last decade</p>
+      <p class="fig-sub">Game → era → set; ribbon width = number of cards</p>
       <div class="chart" data-spec="specs/c03_sankey.vg.json"></div>
-      <figcaption>Only each era’s two biggest sets are shown.</figcaption>
+      <figcaption>TODO</figcaption>
     </figure>
   </div>
 </section>
@@ -64,19 +67,21 @@
   <div class="wrap">
     <p class="sec-label">3 · Collecting trends</p>
     <h2 class="sec-title">How has collecting changed?</h2>
+    <p class="sec-intro">TODO</p>
 
     <figure>
-      <p class="fig-title">Chasing the rare card got much harder</p>
-      <p class="fig-sub">Share of Pokémon cards by rarity tier: 1999–2003 vs 2022–2026</p>
-      <div class="chart" data-spec="specs/c04_rarity.vg.json"></div>
-      <figcaption>Ultra and Secret rares rose from 2% to 38%.</figcaption>
+      <p class="fig-title">Chasing the rare card got much harder — in both games</p>
+      <p class="fig-sub">Share of cards by rarity tier, year by year (1999/2001–2026)</p>
+      <div class="chart" data-spec="specs/c04_streamgraph.vl.json"></div>
+      <figcaption>Pokémon's top tier (Ultra/Secret) rose from 2.4% to 39.0%; Yu-Gi-Oh's (Secret+) rose from 4.2% to 26.1%.
+Band width at each year = share of that year's cards in that rarity tier (both games stacked symmetrically around a centre line).</figcaption>
     </figure>
 
     <figure>
       <p class="fig-title">Every era collects differently</p>
       <p class="fig-sub">Pokémon eras compared on cards per set, rare-card share and sets released</p>
       <div class="chart" data-spec="specs/c05_parallel.vg.json"></div>
-      <figcaption>Yu-Gi-Oh releases more, smaller sets than Pokémon.</figcaption>
+      <figcaption>TODO</figcaption>
     </figure>
 
     <figure>
@@ -97,26 +102,28 @@ Percentages are each game's own share within the window.</figcaption>
   <div class="wrap">
     <p class="sec-label">4 · Around the world</p>
     <h2 class="sec-title">Where in the world?</h2>
+    <p class="sec-intro">TODO</p>
 
     <figure>
       <p class="fig-title">Pokémon's grip is tightest in India, loosest in Vietnam</p>
       <p class="fig-sub">Pokémon as a share of all card-game search interest, by country</p>
       <div class="chart" data-spec="specs/c07_share.vg.json"></div>
-      <figcaption>Highest in India (93%), lowest in Vietnam (56%).</figcaption>
+      <figcaption>TODO</figcaption>
     </figure>
 
     <figure>
       <p class="fig-title">The hobby only registers in a few dozen countries</p>
       <p class="fig-sub">Search interest in "trading cards" by country; circle size = relative interest</p>
       <div class="chart" data-spec="specs/c08_symbol.vg.json"></div>
-      <figcaption>Circle size shows search interest, not collector counts.</figcaption>
+      <figcaption>TODO</figcaption>
     </figure>
 
     <figure>
       <p class="fig-title">Pokémon wins everywhere — so the real fight is for second place</p>
-      <p class="fig-sub">Runner-up card game, binned into equal-area hexagons</p>
+      <p class="fig-sub">Runner-up card game, binned into equal-area hexagons. Colour = which game; fade = how convincingly it won 2nd place. Click a legend item to isolate one game.</p>
       <div class="chart" data-spec="specs/c09_binmap.vg.json"></div>
-      <!-- <figcaption>TODO</figcaption> -->
+      <figcaption>Each hexagon = one or more neighbouring countries sharing the same runner-up (so one colour per bin is never a close call) — e.g. the Netherlands, Belgium and Germany share one bin, as do Switzerland, Austria and Italy.
+Yu-Gi-Oh is the runner-up in 26 of 40 bins (Europe, the Middle East, East/Southeast Asia, strongest in Greece at 28%); sports cards lead in 9 (the Americas, South/Southeast Asia, strongest in South Korea at 22%); Magic: The Gathering in 3 (central Europe); One Piece in 2 (Western Europe, Southeast Asia).</figcaption>
     </figure>
   </div>
 </section>
@@ -126,13 +133,13 @@ Percentages are each game's own share within the window.</figcaption>
   <div class="wrap">
     <p class="sec-label">5 · Conclusion</p>
     <h2 class="sec-title">A boom at the top, a changing of the guard below</h2>
-    <!-- <p class="sec-intro">TODO</p> -->
+    <p class="sec-intro">TODO</p>
 
     <figure>
       <p class="fig-title">A boom at the top, a changing of the guard below</p>
       <p class="fig-sub">Relative search interest, 2021–2026</p>
       <div class="chart" data-spec="specs/c10_timeseries.vg.json"></div>
-      <figcaption>Below Pokémon, four challengers keep trading places.</figcaption>
+      <figcaption>TODO</figcaption>
     </figure>
   </div>
 </section>
@@ -144,6 +151,7 @@ Percentages are each game's own share within the window.</figcaption>
        Natural Earth 110m country boundaries.</p>
     <p><strong>Note.</strong> Google Trends values are a relative index (100 = peak week within each query),
        not search counts.</p>
+    <p><strong>AI use.</strong> TODO — 고지 문구.</p>
   </div>
 </footer>
 
