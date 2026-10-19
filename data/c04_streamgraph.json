@@ -1,0 +1,2162 @@
+[
+ {
+  "game": "Pokémon",
+  "year": 1999,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 64
+ },
+ {
+  "game": "Pokémon",
+  "year": 1999,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 64
+ },
+ {
+  "game": "Pokémon",
+  "year": 1999,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 47
+ },
+ {
+  "game": "Pokémon",
+  "year": 1999,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 47
+ },
+ {
+  "game": "Pokémon",
+  "year": 1999,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 0
+ },
+ {
+  "game": "Pokémon",
+  "year": 2000,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 186
+ },
+ {
+  "game": "Pokémon",
+  "year": 2000,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 185
+ },
+ {
+  "game": "Pokémon",
+  "year": 2000,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 97
+ },
+ {
+  "game": "Pokémon",
+  "year": 2000,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 95
+ },
+ {
+  "game": "Pokémon",
+  "year": 2000,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 1
+ },
+ {
+  "game": "Pokémon",
+  "year": 2001,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 40
+ },
+ {
+  "game": "Pokémon",
+  "year": 2001,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 36
+ },
+ {
+  "game": "Pokémon",
+  "year": 2001,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 32
+ },
+ {
+  "game": "Pokémon",
+  "year": 2001,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 31
+ },
+ {
+  "game": "Pokémon",
+  "year": 2001,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 2
+ },
+ {
+  "game": "Pokémon",
+  "year": 2002,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 118
+ },
+ {
+  "game": "Pokémon",
+  "year": 2002,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 111
+ },
+ {
+  "game": "Pokémon",
+  "year": 2002,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 78
+ },
+ {
+  "game": "Pokémon",
+  "year": 2002,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 67
+ },
+ {
+  "game": "Pokémon",
+  "year": 2002,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 8
+ },
+ {
+  "game": "Pokémon",
+  "year": 2003,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 230
+ },
+ {
+  "game": "Pokémon",
+  "year": 2003,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 184
+ },
+ {
+  "game": "Pokémon",
+  "year": 2003,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 119
+ },
+ {
+  "game": "Pokémon",
+  "year": 2003,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 104
+ },
+ {
+  "game": "Pokémon",
+  "year": 2003,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 36
+ },
+ {
+  "game": "Pokémon",
+  "year": 2004,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 137
+ },
+ {
+  "game": "Pokémon",
+  "year": 2004,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 141
+ },
+ {
+  "game": "Pokémon",
+  "year": 2004,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 59
+ },
+ {
+  "game": "Pokémon",
+  "year": 2004,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 58
+ },
+ {
+  "game": "Pokémon",
+  "year": 2004,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 48
+ },
+ {
+  "game": "Pokémon",
+  "year": 2005,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 134
+ },
+ {
+  "game": "Pokémon",
+  "year": 2005,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 140
+ },
+ {
+  "game": "Pokémon",
+  "year": 2005,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 99
+ },
+ {
+  "game": "Pokémon",
+  "year": 2005,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 69
+ },
+ {
+  "game": "Pokémon",
+  "year": 2005,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 49
+ },
+ {
+  "game": "Pokémon",
+  "year": 2006,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 128
+ },
+ {
+  "game": "Pokémon",
+  "year": 2006,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 128
+ },
+ {
+  "game": "Pokémon",
+  "year": 2006,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 80
+ },
+ {
+  "game": "Pokémon",
+  "year": 2006,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 62
+ },
+ {
+  "game": "Pokémon",
+  "year": 2006,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 42
+ },
+ {
+  "game": "Pokémon",
+  "year": 2007,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 179
+ },
+ {
+  "game": "Pokémon",
+  "year": 2007,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 157
+ },
+ {
+  "game": "Pokémon",
+  "year": 2007,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 98
+ },
+ {
+  "game": "Pokémon",
+  "year": 2007,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 74
+ },
+ {
+  "game": "Pokémon",
+  "year": 2007,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 20
+ },
+ {
+  "game": "Pokémon",
+  "year": 2008,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 162
+ },
+ {
+  "game": "Pokémon",
+  "year": 2008,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 152
+ },
+ {
+  "game": "Pokémon",
+  "year": 2008,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 102
+ },
+ {
+  "game": "Pokémon",
+  "year": 2008,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 53
+ },
+ {
+  "game": "Pokémon",
+  "year": 2008,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 23
+ },
+ {
+  "game": "Pokémon",
+  "year": 2009,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 156
+ },
+ {
+  "game": "Pokémon",
+  "year": 2009,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 155
+ },
+ {
+  "game": "Pokémon",
+  "year": 2009,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 130
+ },
+ {
+  "game": "Pokémon",
+  "year": 2009,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 56
+ },
+ {
+  "game": "Pokémon",
+  "year": 2009,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 37
+ },
+ {
+  "game": "Pokémon",
+  "year": 2010,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 127
+ },
+ {
+  "game": "Pokémon",
+  "year": 2010,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 121
+ },
+ {
+  "game": "Pokémon",
+  "year": 2010,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 71
+ },
+ {
+  "game": "Pokémon",
+  "year": 2010,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 47
+ },
+ {
+  "game": "Pokémon",
+  "year": 2010,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 48
+ },
+ {
+  "game": "Pokémon",
+  "year": 2011,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 140
+ },
+ {
+  "game": "Pokémon",
+  "year": 2011,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 123
+ },
+ {
+  "game": "Pokémon",
+  "year": 2011,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 79
+ },
+ {
+  "game": "Pokémon",
+  "year": 2011,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 68
+ },
+ {
+  "game": "Pokémon",
+  "year": 2011,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 11
+ },
+ {
+  "game": "Pokémon",
+  "year": 2012,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 151
+ },
+ {
+  "game": "Pokémon",
+  "year": 2012,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 141
+ },
+ {
+  "game": "Pokémon",
+  "year": 2012,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 81
+ },
+ {
+  "game": "Pokémon",
+  "year": 2012,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 70
+ },
+ {
+  "game": "Pokémon",
+  "year": 2012,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 70
+ },
+ {
+  "game": "Pokémon",
+  "year": 2013,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 136
+ },
+ {
+  "game": "Pokémon",
+  "year": 2013,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 148
+ },
+ {
+  "game": "Pokémon",
+  "year": 2013,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 76
+ },
+ {
+  "game": "Pokémon",
+  "year": 2013,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 65
+ },
+ {
+  "game": "Pokémon",
+  "year": 2013,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 80
+ },
+ {
+  "game": "Pokémon",
+  "year": 2014,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 142
+ },
+ {
+  "game": "Pokémon",
+  "year": 2014,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 150
+ },
+ {
+  "game": "Pokémon",
+  "year": 2014,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 85
+ },
+ {
+  "game": "Pokémon",
+  "year": 2014,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 47
+ },
+ {
+  "game": "Pokémon",
+  "year": 2014,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 70
+ },
+ {
+  "game": "Pokémon",
+  "year": 2015,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 156
+ },
+ {
+  "game": "Pokémon",
+  "year": 2015,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 172
+ },
+ {
+  "game": "Pokémon",
+  "year": 2015,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 77
+ },
+ {
+  "game": "Pokémon",
+  "year": 2015,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 58
+ },
+ {
+  "game": "Pokémon",
+  "year": 2015,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 114
+ },
+ {
+  "game": "Pokémon",
+  "year": 2016,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 164
+ },
+ {
+  "game": "Pokémon",
+  "year": 2016,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 184
+ },
+ {
+  "game": "Pokémon",
+  "year": 2016,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 79
+ },
+ {
+  "game": "Pokémon",
+  "year": 2016,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 41
+ },
+ {
+  "game": "Pokémon",
+  "year": 2016,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 133
+ },
+ {
+  "game": "Pokémon",
+  "year": 2017,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 193
+ },
+ {
+  "game": "Pokémon",
+  "year": 2017,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 187
+ },
+ {
+  "game": "Pokémon",
+  "year": 2017,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 88
+ },
+ {
+  "game": "Pokémon",
+  "year": 2017,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 70
+ },
+ {
+  "game": "Pokémon",
+  "year": 2017,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 199
+ },
+ {
+  "game": "Pokémon",
+  "year": 2018,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 197
+ },
+ {
+  "game": "Pokémon",
+  "year": 2018,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 237
+ },
+ {
+  "game": "Pokémon",
+  "year": 2018,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 105
+ },
+ {
+  "game": "Pokémon",
+  "year": 2018,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 75
+ },
+ {
+  "game": "Pokémon",
+  "year": 2018,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 221
+ },
+ {
+  "game": "Pokémon",
+  "year": 2019,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 265
+ },
+ {
+  "game": "Pokémon",
+  "year": 2019,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 263
+ },
+ {
+  "game": "Pokémon",
+  "year": 2019,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 167
+ },
+ {
+  "game": "Pokémon",
+  "year": 2019,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 90
+ },
+ {
+  "game": "Pokémon",
+  "year": 2019,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 365
+ },
+ {
+  "game": "Pokémon",
+  "year": 2020,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 227
+ },
+ {
+  "game": "Pokémon",
+  "year": 2020,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 227
+ },
+ {
+  "game": "Pokémon",
+  "year": 2020,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 131
+ },
+ {
+  "game": "Pokémon",
+  "year": 2020,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 82
+ },
+ {
+  "game": "Pokémon",
+  "year": 2020,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 242
+ },
+ {
+  "game": "Pokémon",
+  "year": 2021,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 233
+ },
+ {
+  "game": "Pokémon",
+  "year": 2021,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 239
+ },
+ {
+  "game": "Pokémon",
+  "year": 2021,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 114
+ },
+ {
+  "game": "Pokémon",
+  "year": 2021,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 86
+ },
+ {
+  "game": "Pokémon",
+  "year": 2021,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 510
+ },
+ {
+  "game": "Pokémon",
+  "year": 2022,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 206
+ },
+ {
+  "game": "Pokémon",
+  "year": 2022,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 219
+ },
+ {
+  "game": "Pokémon",
+  "year": 2022,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 96
+ },
+ {
+  "game": "Pokémon",
+  "year": 2022,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 82
+ },
+ {
+  "game": "Pokémon",
+  "year": 2022,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 439
+ },
+ {
+  "game": "Pokémon",
+  "year": 2023,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 483
+ },
+ {
+  "game": "Pokémon",
+  "year": 2023,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 349
+ },
+ {
+  "game": "Pokémon",
+  "year": 2023,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 130
+ },
+ {
+  "game": "Pokémon",
+  "year": 2023,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 20
+ },
+ {
+  "game": "Pokémon",
+  "year": 2023,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 504
+ },
+ {
+  "game": "Pokémon",
+  "year": 2024,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 374
+ },
+ {
+  "game": "Pokémon",
+  "year": 2024,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 255
+ },
+ {
+  "game": "Pokémon",
+  "year": 2024,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 84
+ },
+ {
+  "game": "Pokémon",
+  "year": 2024,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 0
+ },
+ {
+  "game": "Pokémon",
+  "year": 2024,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 502
+ },
+ {
+  "game": "Pokémon",
+  "year": 2025,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 403
+ },
+ {
+  "game": "Pokémon",
+  "year": 2025,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 275
+ },
+ {
+  "game": "Pokémon",
+  "year": 2025,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 99
+ },
+ {
+  "game": "Pokémon",
+  "year": 2025,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 0
+ },
+ {
+  "game": "Pokémon",
+  "year": 2025,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 500
+ },
+ {
+  "game": "Pokémon",
+  "year": 2026,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 276
+ },
+ {
+  "game": "Pokémon",
+  "year": 2026,
+  "rarity_tier": "Uncommon",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 146
+ },
+ {
+  "game": "Pokémon",
+  "year": 2026,
+  "rarity_tier": "Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 80
+ },
+ {
+  "game": "Pokémon",
+  "year": 2026,
+  "rarity_tier": "Rare Holo",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 4
+ },
+ {
+  "game": "Pokémon",
+  "year": 2026,
+  "rarity_tier": "Ultra/Secret",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 346
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2001,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 1
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2001,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 0
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2001,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 0
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2001,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 0
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2001,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 0
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2002,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 537
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2002,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 117
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2002,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 65
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2002,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 57
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2002,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 28
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2003,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 449
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2003,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 93
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2003,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 69
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2003,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 54
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2003,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 41
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2004,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 517
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2004,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 96
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2004,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 74
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2004,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 51
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2004,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 41
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2005,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 869
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2005,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 150
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2005,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 101
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2005,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 70
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2005,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 37
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2006,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 537
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2006,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 147
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2006,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 89
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2006,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 55
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2006,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 36
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2007,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 536
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2007,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 159
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2007,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 116
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2007,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 54
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2007,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 97
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2008,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 511
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2008,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 160
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2008,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 115
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2008,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 79
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2008,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 116
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2009,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 447
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2009,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 159
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2009,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 126
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2009,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 51
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2009,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 109
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2010,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 577
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2010,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 212
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2010,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 236
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2010,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 87
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2010,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 126
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2011,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 688
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2011,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 212
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2011,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 258
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2011,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 117
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2011,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 169
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2012,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 840
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2012,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 286
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2012,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 237
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2012,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 114
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2012,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 193
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2013,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 894
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2013,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 143
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2013,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 284
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2013,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 72
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2013,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 140
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2014,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 926
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2014,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 238
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2014,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 310
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2014,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 251
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2014,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 177
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2015,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 742
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2015,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 150
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2015,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 270
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2015,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 178
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2015,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 162
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2016,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 793
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2016,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 147
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2016,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 201
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2016,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 280
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2016,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 146
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2017,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 774
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2017,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 136
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2017,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 280
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2017,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 334
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2017,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 123
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2018,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 838
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2018,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 136
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2018,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 320
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2018,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 271
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2018,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 228
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2019,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 988
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2019,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 121
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2019,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 369
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2019,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 391
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2019,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 191
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2020,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 1169
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2020,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 234
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2020,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 262
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2020,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 374
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2020,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 302
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2021,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 685
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2021,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 189
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2021,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 248
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2021,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 365
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2021,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 236
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2022,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 1164
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2022,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 113
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2022,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 241
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2022,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 552
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2022,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 201
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2023,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 996
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2023,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 166
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2023,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 238
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2023,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 203
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2023,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 363
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2024,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 604
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2024,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 92
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2024,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 152
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2024,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 329
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2024,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 699
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2025,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 388
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2025,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 128
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2025,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 157
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2025,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 305
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2025,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 677
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2026,
+  "rarity_tier": "Common",
+  "tier_rank": 1,
+  "rank_label": "Common (least rare)",
+  "count": 396
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2026,
+  "rarity_tier": "Rare",
+  "tier_rank": 2,
+  "rank_label": "2nd tier",
+  "count": 68
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2026,
+  "rarity_tier": "Super Rare",
+  "tier_rank": 3,
+  "rank_label": "3rd tier",
+  "count": 132
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2026,
+  "rarity_tier": "Ultra Rare",
+  "tier_rank": 4,
+  "rank_label": "4th tier",
+  "count": 268
+ },
+ {
+  "game": "Yu-Gi-Oh",
+  "year": 2026,
+  "rarity_tier": "Secret+",
+  "tier_rank": 5,
+  "rank_label": "Rarest tier",
+  "count": 426
+ }
+]
