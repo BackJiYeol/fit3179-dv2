@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Parallel coordinates: one line per era. Hue = game; lightness = time within that game (lighter = older era, darker = more recent). Hovering a line highlights it (others fade) and labels it with its era name — focus + context.",
+  "description": "Parallel coordinates: one line per era. Hue = game; lightness = time within that game (dimmer = older era, brighter = more recent). Hovering a line highlights it (others fade) and labels it with its era name — focus + context.",
   "height": 300,
   "data": {
     "url": "data/c05_parallel.json"
@@ -43,7 +43,7 @@
       "as": "t"
     },
     {
-      "calculate": "datum.game === 'Pokémon' ? 'rgb(' + round(150 - 142 * datum.t) + ',' + round(196 - 148 * datum.t) + ',' + round(228 - 121 * datum.t) + ')' : 'rgb(' + round(232 - 110 * datum.t) + ',' + round(168 - 144 * datum.t) + ',' + round(204 - 116 * datum.t) + ')'",
+      "calculate": "datum.game === 'Pokémon' ? 'rgb(' + round(40 + 70 * datum.t) + ',' + round(80 + 120 * datum.t) + ',' + round(115 + 130 * datum.t) + ')' : 'rgb(' + round(110 + 130 * datum.t) + ',' + round(55 + 105 * datum.t) + ',' + round(90 + 120 * datum.t) + ')'",
       "as": "line_colour"
     },
     {
@@ -106,7 +106,7 @@
     {
       "mark": {
         "type": "rule",
-        "color": "#c9d1dc",
+        "color": "#3a4557",
         "strokeWidth": 1
       }
     },
@@ -135,7 +135,7 @@
               "Yu-Gi-Oh"
             ],
             "range": [
-              "#0072B2",
+              "#56B4E9",
               "#CC79A7"
             ]
           },
@@ -263,7 +263,7 @@
         "dx": -10,
         "fontSize": 11.5,
         "fontWeight": 700,
-        "stroke": "white",
+        "stroke": "#0f1521",
         "strokeWidth": 4,
         "strokeJoin": "round"
       },
@@ -277,7 +277,7 @@
           "type": "nominal"
         },
         "color": {
-          "value": "white"
+          "value": "#0f1521"
         }
       }
     },
@@ -332,7 +332,7 @@
         "dx": 6,
         "dy": -2,
         "fontSize": 10,
-        "color": "#78839a"
+        "color": "#a3aec0"
       },
       "encoding": {
         "y": {
@@ -352,7 +352,7 @@
         "dx": 6,
         "dy": 10,
         "fontSize": 10,
-        "color": "#78839a"
+        "color": "#a3aec0"
       },
       "encoding": {
         "y": {

@@ -10,7 +10,7 @@
         "anchor": "start",
         "fontSize": 13,
         "dy": -4,
-        "color": "#14181f"
+        "color": "#e9edf3"
       },
       "transform": [
         {
@@ -20,7 +20,7 @@
       "height": 190,
       "mark": {
         "type": "rect",
-        "stroke": "#ffffff",
+        "stroke": "#0f1521",
         "strokeWidth": 1,
         "cornerRadius": 1
       },
@@ -89,7 +89,7 @@
         "color": {
           "condition": {
             "test": "datum.sets === 0",
-            "value": "#e4e7ec"
+            "value": "#2a3445"
           },
           "field": "pct",
           "type": "quantitative",
@@ -106,10 +106,10 @@
               2.0
             ],
             "range": [
-              "#c6dbef",
-              "#6baed6",
-              "#2171b5",
-              "#08306b"
+              "#2f6a9e",
+              "#3f8fcf",
+              "#7cc0ee",
+              "#cfe9fb"
             ],
             "clamp": true
           },
@@ -157,7 +157,7 @@
         "anchor": "start",
         "fontSize": 13,
         "dy": -4,
-        "color": "#14181f"
+        "color": "#e9edf3"
       },
       "transform": [
         {
@@ -167,7 +167,7 @@
       "height": 190,
       "mark": {
         "type": "rect",
-        "stroke": "#ffffff",
+        "stroke": "#0f1521",
         "strokeWidth": 1,
         "cornerRadius": 1
       },
@@ -249,7 +249,7 @@
         "color": {
           "condition": {
             "test": "datum.sets === 0",
-            "value": "#e4e7ec"
+            "value": "#2a3445"
           },
           "field": "pct",
           "type": "quantitative",
@@ -266,10 +266,10 @@
               2.0
             ],
             "range": [
-              "#c6dbef",
-              "#6baed6",
-              "#2171b5",
-              "#08306b"
+              "#2f6a9e",
+              "#3f8fcf",
+              "#7cc0ee",
+              "#cfe9fb"
             ],
             "clamp": true
           },

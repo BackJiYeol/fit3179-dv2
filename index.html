@@ -17,6 +17,7 @@
   <div class="wrap">
     <h1>Who's collecting trading cards?</h1>
     <p class="standfirst">TODO — 2~3문장 도입부. 포켓몬 카드 붐과, 그 아래에서 벌어지는 2위 싸움.</p>
+    <div class="key"><span><i style="background:#56B4E9"></i>Pokémon</span><span><i style="background:#CC79A7"></i>Yu-Gi-Oh</span><span><i style="background:#E69F00"></i>Sports cards</span><span><i style="background:#009E73"></i>Magic: The Gathering</span><span><i style="background:#D55E00"></i>One Piece</span></div>
     <p class="meta">FIT3179 Data Visualisation 2 · Baek · Data: Pokémon TCG catalogue, Yu-Gi-Oh card database, Google Trends</p>
   </div>
 </header>
@@ -79,17 +80,16 @@ Band width at each year = share of that year's cards in that rarity tier (both g
 
     <figure>
       <p class="fig-title">Every era collects differently</p>
-      <p class="fig-sub">Pokémon and Yu-Gi-Oh eras compared on four measures, each axis scaled from its own minimum to maximum. Darker line = more recent era. Hover a line to highlight it and see which era it is.</p>
+      <p class="fig-sub">Pokémon and Yu-Gi-Oh eras compared on four measures, each axis scaled from its own minimum to maximum. Brighter line = more recent era. Hover a line to highlight it and see which era it is.</p>
       <div class="chart" data-spec="specs/c05_parallel.vg.json"></div>
       <figcaption>TODO</figcaption>
     </figure>
 
     <figure>
-      <p class="fig-title">Pokémon saves it up; Yu-Gi-Oh keeps it coming
-Set releases by month, 2002–2025. Pokémon skips more than half of all months; Yu-Gi-Oh skips one in eight.</p>
+      <p class="fig-title">Pokémon saves it up; Yu-Gi-Oh keeps it coming</p>
       <p class="fig-sub">Set releases by month and year — 59% land in February, May, August or November</p>
       <div class="chart" data-spec="specs/c06_calendar.vg.json"></div>
-      <figcaption>Grey = that month existed but no set was released.
+      <figcaption>Pokémon skips more than half of all months; Yu-Gi-Oh skips one in eight. Grey = that month existed but no set was released.
 Blank = outside the comparison window (2001–2026, the years both games ran).
 Pokémon's first nine sets (1999–2000) fall outside this window.
 Percentages are each game's own share within the window.</figcaption>

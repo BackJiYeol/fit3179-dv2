@@ -27,8 +27,8 @@
       ],
       "mark": {
         "type": "geoshape",
-        "fill": "#ddd",
-        "stroke": "white",
+        "fill": "#333b48",
+        "stroke": "#0f1521",
         "strokeWidth": 1
       },
       "encoding": {
@@ -48,7 +48,7 @@
       },
       "mark": {
         "type": "geoshape",
-        "fill": "#eaf1f8"
+        "fill": "#1a2433"
       }
     },
     {
@@ -62,7 +62,7 @@
       "mark": {
         "type": "geoshape",
         "fill": null,
-        "stroke": "#cfd8e3",
+        "stroke": "#2a3547",
         "strokeWidth": 0.5
       }
     },
@@ -82,9 +82,7 @@
         }
       ],
       "mark": {
-        "type": "geoshape",
-        "stroke": "#ffffff",
-        "strokeWidth": 0.4
+        "type": "geoshape"
       },
       "encoding": {
         "color": {
@@ -102,10 +100,10 @@
               85
             ],
             "range": [
-              "#c6dbef",
-              "#6baed6",
-              "#2171b5",
-              "#08306b"
+              "#2f6a9e",
+              "#3f8fcf",
+              "#7cc0ee",
+              "#cfe9fb"
             ]
           },
           "legend": {
@@ -132,8 +130,46 @@
             "title": "Pokémon share (%)",
             "format": ".0f"
           }
-        ]
-      }
+        ],
+        "opacity": {
+          "condition": {
+            "param": "hl_country",
+            "empty": true,
+            "value": 1
+          },
+          "value": 0.35
+        },
+        "stroke": {
+          "condition": {
+            "param": "hl_country",
+            "empty": false,
+            "value": "#ffffff"
+          },
+          "value": "#0f1521"
+        },
+        "strokeWidth": {
+          "condition": {
+            "param": "hl_country",
+            "empty": false,
+            "value": 1.6
+          },
+          "value": 0.4
+        }
+      },
+      "name": "countries",
+      "params": [
+        {
+          "name": "hl_country",
+          "select": {
+            "type": "point",
+            "fields": [
+              "properties.NAME"
+            ],
+            "on": "@countries_marks:pointerover",
+            "clear": "pointerout"
+          }
+        }
+      ]
     }
   ],
   "config": {

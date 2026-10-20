@@ -1,29 +1,73 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "background": "white",
   "height": 380,
-  "autosize": {"type": "fit-x", "contains": "padding"},
+  "autosize": {
+    "type": "fit-x",
+    "contains": "padding"
+  },
   "signals": [
     {
       "name": "width",
       "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 660",
       "on": [
-        {"update": "isFinite(containerSize()[0]) ? containerSize()[0] : 660", "events": "window:resize"},
-        {"update": "isFinite(containerSize()[0]) ? containerSize()[0] : 660", "events": "container:resize"}
+        {
+          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 660",
+          "events": "window:resize"
+        },
+        {
+          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 660",
+          "events": "container:resize"
+        }
       ]
     },
     {
       "name": "zoom_level",
       "value": 130,
-      "bind": {"input": "range", "min": 130, "max": 600, "step": 10, "name": "Zoom: "}
+      "bind": {
+        "input": "range",
+        "min": 130,
+        "max": 600,
+        "step": 10,
+        "name": "Zoom: "
+      }
     },
     {
       "name": "center_to",
-      "value": [0, 0],
+      "value": [
+        0,
+        0
+      ],
       "bind": {
         "input": "select",
-        "options": [[0, 0], [15, 50], [110, 15], [-95, 25], [140, -25]],
-        "labels": ["Whole world", "Europe", "Asia", "North America", "Oceania"],
+        "options": [
+          [
+            0,
+            0
+          ],
+          [
+            15,
+            50
+          ],
+          [
+            110,
+            15
+          ],
+          [
+            -95,
+            25
+          ],
+          [
+            140,
+            -25
+          ]
+        ],
+        "labels": [
+          "Whole world",
+          "Europe",
+          "Asia",
+          "North America",
+          "Oceania"
+        ],
         "name": "Map Centre: "
       }
     }
@@ -32,47 +76,90 @@
     {
       "name": "proj",
       "type": "equalEarth",
-      "scale": {"signal": "zoom_level"},
-      "center": {"signal": "center_to"},
-      "translate": [{"signal": "width / 2"}, {"signal": "height / 2"}]
+      "scale": {
+        "signal": "zoom_level"
+      },
+      "center": {
+        "signal": "center_to"
+      },
+      "translate": [
+        {
+          "signal": "width / 2"
+        },
+        {
+          "signal": "height / 2"
+        }
+      ]
     }
   ],
   "data": [
     {
       "name": "countries",
       "url": "data/WorldMapWithGraticules.topojson",
-      "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+      "format": {
+        "type": "topojson",
+        "feature": "ne_110m_admin_0_countries"
+      }
     },
     {
       "name": "oceans",
       "url": "data/oceans.topojson",
-      "format": {"type": "topojson", "feature": "oceans"}
+      "format": {
+        "type": "topojson",
+        "feature": "oceans"
+      }
     },
     {
       "name": "graticules",
       "url": "data/WorldMapWithGraticules.topojson",
-      "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+      "format": {
+        "type": "topojson",
+        "feature": "ne_110m_graticules_30"
+      }
     },
     {
       "name": "pie_long",
       "url": "data/c09_pie_long.json",
-      "format": {"type": "json"},
+      "format": {
+        "type": "json"
+      },
       "transform": [
         {
           "type": "geopoint",
           "projection": "proj",
-          "fields": ["lon", "lat"],
-          "as": ["cx", "cy"]
+          "fields": [
+            "lon",
+            "lat"
+          ],
+          "as": [
+            "cx",
+            "cy"
+          ]
         },
         {
           "type": "stack",
-          "groupby": ["country"],
-          "sort": {"field": "order"},
+          "groupby": [
+            "country"
+          ],
+          "sort": {
+            "field": "order"
+          },
           "field": "pct",
-          "as": ["a0", "a1"]
+          "as": [
+            "a0",
+            "a1"
+          ]
         },
-        {"type": "formula", "expr": "datum.a0 * 2 * PI / 100", "as": "startAngle"},
-        {"type": "formula", "expr": "datum.a1 * 2 * PI / 100", "as": "endAngle"}
+        {
+          "type": "formula",
+          "expr": "datum.a0 * 2 * PI / 100",
+          "as": "startAngle"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.a1 * 2 * PI / 100",
+          "as": "endAngle"
+        }
       ]
     },
     {
@@ -81,10 +168,21 @@
       "transform": [
         {
           "type": "aggregate",
-          "groupby": ["country"],
-          "fields": ["cx", "cy"],
-          "ops": ["min", "min"],
-          "as": ["cx", "cy"]
+          "groupby": [
+            "country"
+          ],
+          "fields": [
+            "cx",
+            "cy"
+          ],
+          "ops": [
+            "min",
+            "min"
+          ],
+          "as": [
+            "cx",
+            "cy"
+          ]
         }
       ]
     }
@@ -93,52 +191,115 @@
     {
       "name": "color",
       "type": "ordinal",
-      "domain": ["Pokemon", "Yu-Gi-Oh", "Sports cards", "Magic: The Gathering", "One Piece"],
-      "range": ["#0072B2", "#CC79A7", "#E69F00", "#009E73", "#D55E00"]
+      "domain": [
+        "Pokemon",
+        "Yu-Gi-Oh",
+        "Sports cards",
+        "Magic: The Gathering",
+        "One Piece"
+      ],
+      "range": [
+        "#56B4E9",
+        "#CC79A7",
+        "#E69F00",
+        "#009E73",
+        "#D55E00"
+      ]
     },
     {
       "name": "cxScale",
       "type": "ordinal",
-      "domain": {"data": "country_pos", "field": "country"},
-      "range": {"data": "country_pos", "field": "cx"}
+      "domain": {
+        "data": "country_pos",
+        "field": "country"
+      },
+      "range": {
+        "data": "country_pos",
+        "field": "cx"
+      }
     },
     {
       "name": "cyScale",
       "type": "ordinal",
-      "domain": {"data": "country_pos", "field": "country"},
-      "range": {"data": "country_pos", "field": "cy"}
+      "domain": {
+        "data": "country_pos",
+        "field": "country"
+      },
+      "range": {
+        "data": "country_pos",
+        "field": "cy"
+      }
     }
   ],
   "marks": [
     {
       "type": "shape",
-      "from": {"data": "oceans"},
-      "encode": {"enter": {"fill": {"value": "#eaf1f8"}}},
-      "transform": [{"type": "geoshape", "projection": "proj"}]
+      "from": {
+        "data": "oceans"
+      },
+      "encode": {
+        "enter": {
+          "fill": {
+            "value": "#1a2433"
+          }
+        }
+      },
+      "transform": [
+        {
+          "type": "geoshape",
+          "projection": "proj"
+        }
+      ]
     },
     {
       "type": "shape",
-      "from": {"data": "countries"},
+      "from": {
+        "data": "countries"
+      },
       "encode": {
         "enter": {
-          "fill": {"value": "#e4e4e4"},
-          "stroke": {"value": "white"},
-          "strokeWidth": {"value": 1}
+          "fill": {
+            "value": "#333b48"
+          },
+          "stroke": {
+            "value": "#0f1521"
+          },
+          "strokeWidth": {
+            "value": 1
+          }
         }
       },
-      "transform": [{"type": "geoshape", "projection": "proj"}]
+      "transform": [
+        {
+          "type": "geoshape",
+          "projection": "proj"
+        }
+      ]
     },
     {
       "type": "shape",
-      "from": {"data": "graticules"},
+      "from": {
+        "data": "graticules"
+      },
       "encode": {
         "enter": {
-          "fill": {"value": null},
-          "stroke": {"value": "#cfd8e3"},
-          "strokeWidth": {"value": 0.5}
+          "fill": {
+            "value": null
+          },
+          "stroke": {
+            "value": "#2a3547"
+          },
+          "strokeWidth": {
+            "value": 0.5
+          }
         }
       },
-      "transform": [{"type": "geoshape", "projection": "proj"}]
+      "transform": [
+        {
+          "type": "geoshape",
+          "projection": "proj"
+        }
+      ]
     },
     {
       "type": "group",
@@ -146,34 +307,69 @@
         "facet": {
           "data": "pie_long",
           "name": "facet",
-          "groupby": ["country"]
+          "groupby": [
+            "country"
+          ]
         }
       },
       "encode": {
         "enter": {
-          "x": {"scale": "cxScale", "field": "country"},
-          "y": {"scale": "cyScale", "field": "country"}
+          "x": {
+            "scale": "cxScale",
+            "field": "country"
+          },
+          "y": {
+            "scale": "cyScale",
+            "field": "country"
+          }
         },
         "update": {
-          "x": {"scale": "cxScale", "field": "country"},
-          "y": {"scale": "cyScale", "field": "country"}
+          "x": {
+            "scale": "cxScale",
+            "field": "country"
+          },
+          "y": {
+            "scale": "cyScale",
+            "field": "country"
+          }
         }
       },
       "marks": [
         {
           "type": "arc",
-          "from": {"data": "facet"},
+          "from": {
+            "data": "facet"
+          },
           "encode": {
             "enter": {
-              "x": {"value": 0},
-              "y": {"value": 0},
-              "startAngle": {"field": "startAngle"},
-              "endAngle": {"field": "endAngle"},
-              "innerRadius": {"value": 0},
-              "outerRadius": {"value": 8},
-              "fill": {"scale": "color", "field": "game"},
-              "stroke": {"value": "white"},
-              "strokeWidth": {"value": 0.4},
+              "x": {
+                "value": 0
+              },
+              "y": {
+                "value": 0
+              },
+              "startAngle": {
+                "field": "startAngle"
+              },
+              "endAngle": {
+                "field": "endAngle"
+              },
+              "innerRadius": {
+                "value": 0
+              },
+              "outerRadius": {
+                "value": 8
+              },
+              "fill": {
+                "scale": "color",
+                "field": "game"
+              },
+              "stroke": {
+                "value": "#0f1521"
+              },
+              "strokeWidth": {
+                "value": 0.4
+              },
               "tooltip": {
                 "signal": "{'Country': datum.country, 'Game': datum.game, 'Share': format(datum.pct, '.0f') + '%', 'Non-Pokémon total': format(datum.total_nonpokemon, '.0f') + '%'}"
               }
@@ -186,23 +382,246 @@
       "type": "group",
       "encode": {
         "enter": {
-          "x": {"value": 8},
-          "y": {"signal": "height - 70"}
+          "x": {
+            "value": 8
+          },
+          "y": {
+            "signal": "height - 70"
+          }
         }
       },
       "marks": [
-        {"type": "symbol", "encode": {"enter": {"x": {"value": 6}, "y": {"value": 0}, "shape": {"value": "square"}, "size": {"value": 90}, "fill": {"scale": "color", "value": "Pokemon"}}}},
-        {"type": "text", "encode": {"enter": {"x": {"value": 14}, "y": {"value": 3}, "text": {"value": "Pokémon"}, "fontSize": {"value": 9}, "fill": {"value": "#2b2f36"}}}},
-        {"type": "symbol", "encode": {"enter": {"x": {"value": 6}, "y": {"value": 14}, "shape": {"value": "square"}, "size": {"value": 90}, "fill": {"scale": "color", "value": "Yu-Gi-Oh"}}}},
-        {"type": "text", "encode": {"enter": {"x": {"value": 14}, "y": {"value": 17}, "text": {"value": "Yu-Gi-Oh"}, "fontSize": {"value": 9}, "fill": {"value": "#2b2f36"}}}},
-        {"type": "symbol", "encode": {"enter": {"x": {"value": 6}, "y": {"value": 28}, "shape": {"value": "square"}, "size": {"value": 90}, "fill": {"scale": "color", "value": "Sports cards"}}}},
-        {"type": "text", "encode": {"enter": {"x": {"value": 14}, "y": {"value": 31}, "text": {"value": "Sports cards"}, "fontSize": {"value": 9}, "fill": {"value": "#2b2f36"}}}},
-        {"type": "symbol", "encode": {"enter": {"x": {"value": 6}, "y": {"value": 42}, "shape": {"value": "square"}, "size": {"value": 90}, "fill": {"scale": "color", "value": "Magic: The Gathering"}}}},
-        {"type": "text", "encode": {"enter": {"x": {"value": 14}, "y": {"value": 45}, "text": {"value": "Magic: The Gathering"}, "fontSize": {"value": 9}, "fill": {"value": "#2b2f36"}}}},
-        {"type": "symbol", "encode": {"enter": {"x": {"value": 6}, "y": {"value": 56}, "shape": {"value": "square"}, "size": {"value": 90}, "fill": {"scale": "color", "value": "One Piece"}}}},
-        {"type": "text", "encode": {"enter": {"x": {"value": 14}, "y": {"value": 59}, "text": {"value": "One Piece"}, "fontSize": {"value": 9}, "fill": {"value": "#2b2f36"}}}}
+        {
+          "type": "symbol",
+          "encode": {
+            "enter": {
+              "x": {
+                "value": 6
+              },
+              "y": {
+                "value": 0
+              },
+              "shape": {
+                "value": "square"
+              },
+              "size": {
+                "value": 90
+              },
+              "fill": {
+                "scale": "color",
+                "value": "Pokemon"
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "encode": {
+            "enter": {
+              "x": {
+                "value": 14
+              },
+              "y": {
+                "value": 3
+              },
+              "text": {
+                "value": "Pokémon"
+              },
+              "fontSize": {
+                "value": 9
+              },
+              "fill": {
+                "value": "#e9edf3"
+              }
+            }
+          }
+        },
+        {
+          "type": "symbol",
+          "encode": {
+            "enter": {
+              "x": {
+                "value": 6
+              },
+              "y": {
+                "value": 14
+              },
+              "shape": {
+                "value": "square"
+              },
+              "size": {
+                "value": 90
+              },
+              "fill": {
+                "scale": "color",
+                "value": "Yu-Gi-Oh"
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "encode": {
+            "enter": {
+              "x": {
+                "value": 14
+              },
+              "y": {
+                "value": 17
+              },
+              "text": {
+                "value": "Yu-Gi-Oh"
+              },
+              "fontSize": {
+                "value": 9
+              },
+              "fill": {
+                "value": "#e9edf3"
+              }
+            }
+          }
+        },
+        {
+          "type": "symbol",
+          "encode": {
+            "enter": {
+              "x": {
+                "value": 6
+              },
+              "y": {
+                "value": 28
+              },
+              "shape": {
+                "value": "square"
+              },
+              "size": {
+                "value": 90
+              },
+              "fill": {
+                "scale": "color",
+                "value": "Sports cards"
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "encode": {
+            "enter": {
+              "x": {
+                "value": 14
+              },
+              "y": {
+                "value": 31
+              },
+              "text": {
+                "value": "Sports cards"
+              },
+              "fontSize": {
+                "value": 9
+              },
+              "fill": {
+                "value": "#e9edf3"
+              }
+            }
+          }
+        },
+        {
+          "type": "symbol",
+          "encode": {
+            "enter": {
+              "x": {
+                "value": 6
+              },
+              "y": {
+                "value": 42
+              },
+              "shape": {
+                "value": "square"
+              },
+              "size": {
+                "value": 90
+              },
+              "fill": {
+                "scale": "color",
+                "value": "Magic: The Gathering"
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "encode": {
+            "enter": {
+              "x": {
+                "value": 14
+              },
+              "y": {
+                "value": 45
+              },
+              "text": {
+                "value": "Magic: The Gathering"
+              },
+              "fontSize": {
+                "value": 9
+              },
+              "fill": {
+                "value": "#e9edf3"
+              }
+            }
+          }
+        },
+        {
+          "type": "symbol",
+          "encode": {
+            "enter": {
+              "x": {
+                "value": 6
+              },
+              "y": {
+                "value": 56
+              },
+              "shape": {
+                "value": "square"
+              },
+              "size": {
+                "value": 90
+              },
+              "fill": {
+                "scale": "color",
+                "value": "One Piece"
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "encode": {
+            "enter": {
+              "x": {
+                "value": 14
+              },
+              "y": {
+                "value": 59
+              },
+              "text": {
+                "value": "One Piece"
+              },
+              "fontSize": {
+                "value": 9
+              },
+              "fill": {
+                "value": "#e9edf3"
+              }
+            }
+          }
+        }
       ]
     }
   ],
-  "config": {"view": {"stroke": null}}
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
 }

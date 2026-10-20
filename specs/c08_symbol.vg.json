@@ -21,8 +21,8 @@
       },
       "mark": {
         "type": "geoshape",
-        "fill": "#ddd",
-        "stroke": "white",
+        "fill": "#333b48",
+        "stroke": "#0f1521",
         "strokeWidth": 1
       }
     },
@@ -36,7 +36,7 @@
       },
       "mark": {
         "type": "geoshape",
-        "fill": "#eaf1f8"
+        "fill": "#1a2433"
       }
     },
     {
@@ -50,7 +50,7 @@
       "mark": {
         "type": "geoshape",
         "fill": null,
-        "stroke": "#cfd8e3",
+        "stroke": "#2a3547",
         "strokeWidth": 0.5
       }
     },
@@ -67,7 +67,7 @@
       "mark": {
         "type": "circle",
         "opacity": 0.65,
-        "stroke": "#ffffff",
+        "stroke": "#0f1521",
         "strokeWidth": 0.8
       },
       "encoding": {
@@ -87,8 +87,20 @@
             "\"trading cards\" (class)"
           ],
           "scale": {
-            "domain": ["1–5", "6–15", "16–30", "31–60", "61–100"],
-            "range": [55, 145, 280, 545, 900]
+            "domain": [
+              "1–5",
+              "6–15",
+              "16–30",
+              "31–60",
+              "61–100"
+            ],
+            "range": [
+              55,
+              145,
+              280,
+              545,
+              900
+            ]
           },
           "legend": {
             "orient": "bottom-left",
@@ -97,12 +109,12 @@
             "titleLimit": 320,
             "labelFontSize": 10,
             "offset": 6,
-            "symbolFillColor": "#0072B2",
+            "symbolFillColor": "#56B4E9",
             "symbolOpacity": 0.72
           }
         },
         "color": {
-          "value": "#0072B2"
+          "value": "#56B4E9"
         },
         "order": {
           "field": "value",

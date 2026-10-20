@@ -1,6 +1,6 @@
 :root{
-  --ink:#14181f; --muted:#5b6577; --line:#dfe4ec; --bg:#ffffff; --band:#f6f8fb;
-  --pk:#2f6fd0; --ygo:#c0392b; --sports:#7a52c7; --op:#d4a017; --mtg:#2e8b6f;
+  --ink:#e9edf3; --muted:#a3aec0; --line:#2b3547; --bg:#0f1521; --band:#141c2a;
+  --pk:#56B4E9; --ygo:#c0392b; --sports:#7a52c7; --op:#d4a017; --mtg:#2e8b6f;
   --maxw:1080px;
 }
 *{box-sizing:border-box}
@@ -48,3 +48,15 @@ figcaption{
 .vega-embed summary{opacity:.35}
 footer{padding:48px 0 72px; font-size:.84rem; color:var(--muted)}
 footer a{color:var(--pk)}
+
+html{color-scheme:dark}
+/* game colour key in the hero: the same 5 colours every chart uses */
+.key{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0 0 22px;font-size:.86rem;color:var(--muted)}
+.key span{display:inline-flex;align-items:center;gap:7px}
+.key i{width:22px;height:6px;border-radius:3px;display:inline-block}
+.hero{border-top:6px solid transparent;border-image:linear-gradient(90deg,#56B4E9 0 20%,#CC79A7 20% 40%,#E69F00 40% 60%,#009E73 60% 80%,#D55E00 80% 100%) 1}
+/* map zoom slider + region dropdown: match the page instead of browser defaults */
+.vega-bindings{font-size:.8rem;color:var(--muted);margin-top:8px;display:flex;flex-wrap:wrap;gap:4px 22px}
+.vega-bind-name{margin-right:6px}
+.vega-bindings input[type=range]{accent-color:#56B4E9;vertical-align:middle}
+.vega-bindings select{background:#141c2a;color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:2px 6px;font:inherit}

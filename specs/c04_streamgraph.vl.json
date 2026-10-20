@@ -28,7 +28,7 @@
         "interpolate": "monotone",
         "line": {
           "strokeWidth": 0.5,
-          "stroke": "white"
+          "stroke": "#0f1521"
         }
       },
       "encoding": {
@@ -69,11 +69,11 @@
               5
             ],
             "range": [
-              "#fff7bc",
-              "#fee391",
-              "#fec44f",
-              "#d95f0e",
-              "#993404"
+              "#6b4a2a",
+              "#9a5e22",
+              "#c97a1c",
+              "#f0a030",
+              "#ffd973"
             ]
           },
           "legend": {
@@ -100,8 +100,17 @@
             "title": "Cards printed",
             "format": ","
           }
-        ]
-      }
+        ],
+        "opacity": {
+          "condition": {
+            "param": "hl_tier",
+            "empty": true,
+            "value": 1
+          },
+          "value": 0.2
+        }
+      },
+      "name": "pk"
     },
     {
       "title": {
@@ -121,7 +130,7 @@
         "interpolate": "monotone",
         "line": {
           "strokeWidth": 0.5,
-          "stroke": "white"
+          "stroke": "#0f1521"
         }
       },
       "encoding": {
@@ -162,11 +171,11 @@
               5
             ],
             "range": [
-              "#fff7bc",
-              "#fee391",
-              "#fec44f",
-              "#d95f0e",
-              "#993404"
+              "#6b4a2a",
+              "#9a5e22",
+              "#c97a1c",
+              "#f0a030",
+              "#ffd973"
             ]
           },
           "legend": null
@@ -189,8 +198,17 @@
             "title": "Cards printed",
             "format": ","
           }
-        ]
-      }
+        ],
+        "opacity": {
+          "condition": {
+            "param": "hl_tier",
+            "empty": true,
+            "value": 1
+          },
+          "value": 0.2
+        }
+      },
+      "name": "ygo"
     }
   ],
   "resolve": {
@@ -203,5 +221,22 @@
       "stroke": null
     },
     "font": "Inter, Segoe UI, system-ui, sans-serif"
-  }
+  },
+  "params": [
+    {
+      "name": "hl_tier",
+      "select": {
+        "type": "point",
+        "fields": [
+          "tier_rank"
+        ],
+        "on": "area:pointerover",
+        "clear": "pointerout"
+      },
+      "views": [
+        "pk",
+        "ygo"
+      ]
+    }
+  ]
 }

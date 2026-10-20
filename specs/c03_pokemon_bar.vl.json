@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "background": "white",
   "height": 340,
   "data": {
     "url": "data/c03_pokemon_bar_data.json"
@@ -40,7 +39,10 @@
   "layer": [
     {
       "mark": {
-        "type": "bar"
+        "type": "bar",
+        "width": {
+          "band": 0.62
+        }
       },
       "encoding": {
         "y": {
@@ -116,13 +118,37 @@
           }
         ],
         "opacity": {
-          "condition": {
-            "test": "datum.era_total < 200",
-            "value": 0.4
-          },
+          "condition": [
+            {
+              "test": {
+                "not": {
+                  "param": "hl_bucket",
+                  "empty": true
+                }
+              },
+              "value": 0.15
+            },
+            {
+              "test": "datum.era_total < 200",
+              "value": 0.4
+            }
+          ],
           "value": 1
         }
-      }
+      },
+      "params": [
+        {
+          "name": "hl_bucket",
+          "select": {
+            "type": "point",
+            "fields": [
+              "bucket"
+            ],
+            "on": "rect:pointerover",
+            "clear": "pointerout"
+          }
+        }
+      ]
     },
     {
       "transform": [
@@ -150,7 +176,7 @@
         "dy": -4,
         "fontSize": 10,
         "fontWeight": 600,
-        "color": "#2b2f36"
+        "color": "#e9edf3"
       },
       "encoding": {
         "y": {
@@ -198,7 +224,7 @@
         "dy": -17,
         "fontSize": 9.5,
         "fontStyle": "italic",
-        "color": "#78839a"
+        "color": "#a3aec0"
       },
       "encoding": {
         "y": {
@@ -233,7 +259,7 @@
         "dy": -4,
         "fontSize": 10,
         "fontWeight": 600,
-        "color": "#2b2f36"
+        "color": "#e9edf3"
       },
       "encoding": {
         "y": {
@@ -272,7 +298,7 @@
         "align": "left",
         "fontSize": 10.5,
         "fontWeight": 600,
-        "color": "#2b2f36"
+        "color": "#e9edf3"
       },
       "encoding": {
         "y": {
@@ -305,7 +331,7 @@
         "align": "center",
         "fontSize": 10.5,
         "fontWeight": 600,
-        "color": "#2b2f36"
+        "color": "#e9edf3"
       },
       "encoding": {
         "y": {
@@ -343,7 +369,7 @@
         "align": "left",
         "fontSize": 10.5,
         "fontWeight": 600,
-        "color": "#2b2f36"
+        "color": "#e9edf3"
       },
       "encoding": {
         "y": {

@@ -3,15 +3,19 @@
 // error without stopping the remaining charts.
 
 const EMBED_OPT = {
-  actions: false,
-  // actions: {export:true, source:true, compiled:false, editor:true},
+  actions: {export:true, source:true, compiled:false, editor:true},
   renderer: "canvas",
+  tooltip: {theme: "dark"},
   config: {
+    background: null,                       // charts sit directly on the page background
     font: "Inter, Segoe UI, system-ui, sans-serif",
-    axis:  {labelColor:"#5b6577", titleColor:"#14181f", titleFontWeight:600,
-            labelFontSize:12, titleFontSize:12, grid:false, domainColor:"#dfe4ec",
-            tickColor:"#dfe4ec"},
-    legend:{labelColor:"#5b6577", titleColor:"#14181f", titleFontSize:12, labelFontSize:12},
+    axis:  {labelColor:"#a3aec0", titleColor:"#e9edf3", titleFontWeight:600,
+            labelFontSize:12, titleFontSize:12, grid:false, gridColor:"#253042",
+            domainColor:"#3a4557", tickColor:"#3a4557"},
+    legend:{labelColor:"#a3aec0", titleColor:"#e9edf3", titleFontSize:12, labelFontSize:12},
+    title: {color:"#e9edf3", subtitleColor:"#a3aec0"},
+    header:{labelColor:"#a3aec0", titleColor:"#e9edf3"},
+    text:  {fill:"#e9edf3"},                     // default for any text mark without its own colour
     view:  {stroke:null}
   }
 };
