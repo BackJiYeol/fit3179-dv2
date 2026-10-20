@@ -54,10 +54,10 @@
     <p class="sec-intro">TODO</p>
 
     <figure>
-      <p class="fig-title">Over half the collection was printed in the last decade</p>
-      <p class="fig-sub">Game → era → set; ribbon width = number of cards</p>
-      <div class="chart" data-spec="specs/c03_sankey.vg.json"></div>
-      <figcaption>TODO</figcaption>
+      <p class="fig-title">Every era invents its own "special" card — and the share keeps climbing</p>
+      <p class="fig-sub">Share of Pokémon cards carrying a collector/chase subtype (EX, GX, V, ex, …), by era, 1999–2026. Ordinary cards are left out on purpose, so the y-axis zooms into the 0–35% range the "special" share actually occupies.</p>
+      <div class="chart" data-spec="specs/c03_pokemon_bar.vl.json"></div>
+      <figcaption>Fewer than 2% of cards carried a collector-only subtype through 2002 (Gym has none at all). From there a new chase mechanic appears almost every generation and the total never really drops back down: EX in 2003–07 and again 2012–16 (written two different ways — lowercase "ex" the first time, capital "EX" the second, a naming quirk only visible in the raw card data), GX in 2017–19, then V/VMAX/VSTAR alone reach 25.3% of Sword &amp; Shield's cards — 32.5% once every special type in that era is counted, the highest share in the dataset. Scarlet &amp; Violet and the newest Mega Evolution era settle at ~20%, split between the revived lowercase "ex" and the new combined "Mega ex" cards. NP and POP (40 and 153 cards) are tiny Nintendo promo batches, not real sets — read their bars cautiously; hover any bar for exact counts.</figcaption>
     </figure>
   </div>
 </section>
@@ -113,17 +113,17 @@ Percentages are each game's own share within the window.</figcaption>
 
     <figure>
       <p class="fig-title">The hobby only registers in a few dozen countries</p>
-      <p class="fig-sub">Search interest in "trading cards" by country; circle size = relative interest</p>
+      <p class="fig-sub">Search interest in "trading cards" by country; circle size = interest class (grouped into 5 bands, not a continuous scale)</p>
       <div class="chart" data-spec="specs/c08_symbol.vg.json"></div>
-      <figcaption>TODO</figcaption>
+      <figcaption>50 countries have measurable search interest. Australia (100) and the United States (99) lead the top band; Canada (70) and New Zealand (69) follow. Most countries (30 of 50) fall in the bottom two bands (1–15) — the hobby barely registers outside a small cluster of English-speaking and European markets. Hover a circle for the exact value.</figcaption>
     </figure>
 
     <figure>
-      <p class="fig-title">Pokémon wins everywhere — so the real fight is for second place</p>
-      <p class="fig-sub">Runner-up card game, binned into equal-area hexagons. Colour = which game; fade = how convincingly it won 2nd place. Click a legend item to isolate one game.</p>
-      <div class="chart" data-spec="specs/c09_binmap.vg.json"></div>
-      <figcaption>Each hexagon = one or more neighbouring countries sharing the same runner-up (so one colour per bin is never a close call) — e.g. the Netherlands, Belgium and Germany share one bin, as do Switzerland, Austria and Italy.
-Yu-Gi-Oh is the runner-up in 26 of 40 bins (Europe, the Middle East, East/Southeast Asia, strongest in Greece at 28%); sports cards lead in 9 (the Americas, South/Southeast Asia, strongest in South Korea at 22%); Magic: The Gathering in 3 (central Europe); One Piece in 2 (Western Europe, Southeast Asia).</figcaption>
+      <p class="fig-title">Pokémon's slice is huge everywhere — the sliver left over is a different colour in every country</p>
+      <p class="fig-sub">Search-interest composition by country; slice colour = which game takes the share Pokémon doesn't.</p>
+      <div class="chart" data-spec="specs/c09_piemap.vg.json"></div>
+      <figcaption>Each pie = one country's full 5-game split (Pokémon included, not renormalised — shrinking the other 4 to 100% would hide how dominant Pokémon really is). All pies are drawn the same size; hover one for the exact percentages.
+Vietnam and Argentina have the largest non-Pokémon share (44%, 43%), with Greece, Mexico, Brazil and Germany close behind (39–41%); India has the smallest (7%). Yu-Gi-Oh is the biggest "other" slice in 30 of 44 countries; sports cards take over in the Americas and South Korea (11 countries); Magic: The Gathering and One Piece lead only in a handful of European and Southeast Asian countries.</figcaption>
     </figure>
   </div>
 </section>
@@ -137,9 +137,9 @@ Yu-Gi-Oh is the runner-up in 26 of 40 bins (Europe, the Middle East, East/Southe
 
     <figure>
       <p class="fig-title">A boom at the top, a changing of the guard below</p>
-      <p class="fig-sub">Relative search interest, 2021–2026</p>
-      <div class="chart" data-spec="specs/c10_timeseries.vg.json"></div>
-      <figcaption>TODO</figcaption>
+      <p class="fig-sub">Top: relative search interest for all 5 games, 2021–2026 (Google Trends index, 100 = peak week). Bottom: quarterly rank of the 4 challengers once Pokémon is set aside.</p>
+      <div class="chart" data-spec="specs/c10_bump.vl.json"></div>
+      <figcaption>Pokémon's own line (top) is the real headline: a quiet index around 20 through most of 2022–2024, then a spike past 80 — and briefly to 100 — in 2026. Ranking the four challengers on their own scale (bottom) tells a calmer story: Sports cards holds #1 for all but one quarter (Yu-Gi-Oh briefly ties it in early 2022). The real "changing of the guard" happens one rank down — Yu-Gi-Oh held #2 for four straight years before One Piece overtook it in late 2025 and hasn't given it back since, while Magic: The Gathering spends the whole window swapping #3/#4 with One Piece before settling at #4. Quarterly averages, not weekly values: a bump chart needs a steadier signal than week-to-week search noise to show rank changes honestly.</figcaption>
     </figure>
   </div>
 </section>

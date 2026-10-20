@@ -1,9 +1,17 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "width": 660,
+  "background": "white",
   "height": 380,
-  "autosize": {"type": "pad", "contains": "padding"},
+  "autosize": {"type": "fit-x", "contains": "padding"},
   "signals": [
+    {
+      "name": "width",
+      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 660",
+      "on": [
+        {"update": "isFinite(containerSize()[0]) ? containerSize()[0] : 660", "events": "window:resize"},
+        {"update": "isFinite(containerSize()[0]) ? containerSize()[0] : 660", "events": "container:resize"}
+      ]
+    },
     {
       "name": "zoom_level",
       "value": 130,
@@ -89,14 +97,6 @@
       "range": ["#d7dce2", "#CC79A7", "#E69F00", "#009E73", "#D55E00"]
     },
     {
-      "name": "radiusScale",
-      "type": "sqrt",
-      "domain": [0, 44],
-      "range": [0, 18],
-      "zero": true,
-      "clamp": true
-    },
-    {
       "name": "cxScale",
       "type": "ordinal",
       "domain": {"data": "country_pos", "field": "country"},
@@ -153,6 +153,10 @@
         "enter": {
           "x": {"scale": "cxScale", "field": "country"},
           "y": {"scale": "cyScale", "field": "country"}
+        },
+        "update": {
+          "x": {"scale": "cxScale", "field": "country"},
+          "y": {"scale": "cyScale", "field": "country"}
         }
       },
       "marks": [
@@ -166,7 +170,7 @@
               "startAngle": {"field": "startAngle"},
               "endAngle": {"field": "endAngle"},
               "innerRadius": {"value": 0},
-              "outerRadius": {"scale": "radiusScale", "field": "total_nonpokemon"},
+              "outerRadius": {"value": 8},
               "fill": {"scale": "color", "field": "game"},
               "stroke": {"value": "white"},
               "strokeWidth": {"value": 0.4},
@@ -175,80 +179,6 @@
               }
             }
           }
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "encode": {
-        "enter": {
-          "x": {"value": 4},
-          "y": {"value": 160},
-          "width": {"value": 128},
-          "height": {"value": 98},
-          "fill": {"value": "white"},
-          "fillOpacity": {"value": 0.85},
-          "stroke": {"value": "#d7dce2"}
-        }
-      },
-      "marks": [
-        {
-          "type": "text",
-          "encode": {
-            "enter": {
-              "x": {"value": 8}, "y": {"value": 14},
-              "text": {"value": "Non-Pokémon share"},
-              "fontSize": {"value": 9}, "fontWeight": {"value": 700}, "fill": {"value": "#2b2f36"}
-            }
-          }
-        },
-        {
-          "type": "symbol",
-          "encode": {
-            "enter": {
-              "x": {"value": 30}, "y": {"value": 57},
-              "shape": {"value": "circle"},
-              "size": {"value": 925},
-              "fill": {"value": "#bcbcbc"}, "fillOpacity": {"value": 0.55},
-              "stroke": {"value": "#8a8a8a"}, "strokeWidth": {"value": 0.5}
-            }
-          }
-        },
-        {
-          "type": "text",
-          "encode": {"enter": {"x": {"value": 30}, "y": {"value": 86}, "align": {"value": "center"}, "text": {"value": "40%"}, "fontSize": {"value": 8.5}, "fill": {"value": "#555"}}}
-        },
-        {
-          "type": "symbol",
-          "encode": {
-            "enter": {
-              "x": {"value": 78}, "y": {"value": 64.6},
-              "shape": {"value": "circle"},
-              "size": {"value": 278},
-              "fill": {"value": "#bcbcbc"}, "fillOpacity": {"value": 0.55},
-              "stroke": {"value": "#8a8a8a"}, "strokeWidth": {"value": 0.5}
-            }
-          }
-        },
-        {
-          "type": "text",
-          "encode": {"enter": {"x": {"value": 78}, "y": {"value": 86}, "align": {"value": "center"}, "text": {"value": "12%"}, "fontSize": {"value": 8.5}, "fill": {"value": "#555"}}}
-        },
-        {
-          "type": "symbol",
-          "encode": {
-            "enter": {
-              "x": {"value": 112}, "y": {"value": 68.6},
-              "shape": {"value": "circle"},
-              "size": {"value": 93},
-              "fill": {"value": "#bcbcbc"}, "fillOpacity": {"value": 0.55},
-              "stroke": {"value": "#8a8a8a"}, "strokeWidth": {"value": 0.5}
-            }
-          }
-        },
-        {
-          "type": "text",
-          "encode": {"enter": {"x": {"value": 112}, "y": {"value": 86}, "align": {"value": "center"}, "text": {"value": "4%"}, "fontSize": {"value": 8.5}, "fill": {"value": "#555"}}}
         }
       ]
     },

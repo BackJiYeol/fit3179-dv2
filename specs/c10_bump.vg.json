@@ -1,0 +1,117 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "data/c10_timeseries.json"
+  },
+
+  "vconcat": [
+    {
+      "height": 180,
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2,
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "title": null,
+          "axis": { "format": "%Y", "tickCount": 6 }
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "title": ["Search interest", "(index, 100 = peak week)"]
+        },
+        "color": {
+          "field": "game",
+          "type": "nominal",
+          "title": null,
+          "scale": {
+            "domain": ["Pokémon", "Sports cards", "Yu-Gi-Oh", "One Piece", "Magic: The Gathering"],
+            "range": ["#0072B2", "#E69F00", "#CC79A7", "#D55E00", "#009E73"]
+          },
+          "legend": {
+            "orient": "top",
+            "columns": 3,
+            "symbolType": "stroke",
+            "labelLimit": 200,
+            "labelFontSize": 12,
+            "symbolStrokeWidth": 3
+          }
+        },
+        "tooltip": [
+          { "field": "date", "type": "temporal", "title": "Week", "format": "%d %b %Y" },
+          { "field": "game", "type": "nominal", "title": "Game" },
+          { "field": "value", "type": "quantitative", "title": "Search interest" }
+        ]
+      }
+    },
+    {
+      "height": 190,
+      "data": { "url": "data/c10_bump_data.json" },
+      "encoding": {
+        "x": {
+          "field": "period",
+          "type": "ordinal",
+          "sort": { "field": "period_order" },
+          "title": null,
+          "axis": { "labelAngle": -40, "labelFontSize": 9.5, "labelLimit": 40 }
+        }
+      },
+      "layer": [
+        {
+          "mark": { "type": "line", "point": { "filled": true, "size": 55 }, "strokeWidth": 2.5 },
+          "encoding": {
+            "y": {
+              "field": "rank", "type": "quantitative",
+              "scale": { "domain": [1, 4], "reverse": true },
+              "axis": {
+                "values": [1, 2, 3, 4],
+                "labelExpr": "'#' + datum.value",
+                "title": ["Rank among the", "4 challengers"]
+              }
+            },
+            "order": { "field": "period_order" },
+            "color": {
+              "field": "game", "type": "nominal",
+              "scale": {
+                "domain": ["Sports cards", "Yu-Gi-Oh", "One Piece", "Magic: The Gathering"],
+                "range": ["#E69F00", "#CC79A7", "#D55E00", "#009E73"]
+              },
+              "legend": null
+            },
+            "tooltip": [
+              { "field": "period", "title": "Quarter" },
+              { "field": "game", "title": "Game" },
+              { "field": "rank", "title": "Rank" },
+              { "field": "avg_value", "title": "Avg. search interest" }
+            ]
+          }
+        },
+        {
+          "transform": [{ "filter": "datum.is_last" }],
+          "mark": { "type": "text", "align": "left", "dx": 7, "fontWeight": 600, "fontSize": 10.5 },
+          "encoding": {
+            "y": {
+              "field": "rank", "type": "quantitative",
+              "scale": { "domain": [1, 4], "reverse": true }
+            },
+            "text": { "field": "game_short" },
+            "color": {
+              "field": "game", "type": "nominal",
+              "scale": {
+                "domain": ["Sports cards", "Yu-Gi-Oh", "One Piece", "Magic: The Gathering"],
+                "range": ["#E69F00", "#CC79A7", "#D55E00", "#009E73"]
+              },
+              "legend": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "resolve": { "scale": { "y": "independent", "color": "independent" } },
+  "config": { "concat": { "spacing": 18 }, "view": { "stroke": null } }
+}
