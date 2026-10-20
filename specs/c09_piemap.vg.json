@@ -94,7 +94,7 @@
       "name": "color",
       "type": "ordinal",
       "domain": ["Pokemon", "Yu-Gi-Oh", "Sports cards", "Magic: The Gathering", "One Piece"],
-      "range": ["#d7dce2", "#CC79A7", "#E69F00", "#009E73", "#D55E00"]
+      "range": ["#0072B2", "#CC79A7", "#E69F00", "#009E73", "#D55E00"]
     },
     {
       "name": "cxScale",

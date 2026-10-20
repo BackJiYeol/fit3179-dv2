@@ -1,0 +1,332 @@
+[
+ {
+  "era": "Base",
+  "chrono_order": 0,
+  "era_total": 494,
+  "special_pct": 1.2,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 6,
+  "pct": 1.2
+ },
+ {
+  "era": "Neo",
+  "chrono_order": 2,
+  "era_total": 365,
+  "special_pct": 1.1,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 4,
+  "pct": 1.1
+ },
+ {
+  "era": "Other",
+  "chrono_order": 3,
+  "era_total": 294,
+  "special_pct": 0.7,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 2,
+  "pct": 0.7
+ },
+ {
+  "era": "E-Card",
+  "chrono_order": 4,
+  "era_total": 529,
+  "special_pct": 2.1,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 11,
+  "pct": 2.1
+ },
+ {
+  "era": "EX",
+  "chrono_order": 5,
+  "era_total": 1766,
+  "special_pct": 11.9,
+  "bucket": "ex",
+  "bucket_order": 5,
+  "value": 139,
+  "pct": 7.9
+ },
+ {
+  "era": "EX",
+  "chrono_order": 5,
+  "era_total": 1766,
+  "special_pct": 11.9,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 71,
+  "pct": 4.0
+ },
+ {
+  "era": "NP",
+  "chrono_order": 6,
+  "era_total": 40,
+  "special_pct": 20.0,
+  "bucket": "EX",
+  "bucket_order": 1,
+  "value": 8,
+  "pct": 20.0
+ },
+ {
+  "era": "POP",
+  "chrono_order": 7,
+  "era_total": 153,
+  "special_pct": 7.8,
+  "bucket": "ex",
+  "bucket_order": 5,
+  "value": 5,
+  "pct": 3.3
+ },
+ {
+  "era": "POP",
+  "chrono_order": 7,
+  "era_total": 153,
+  "special_pct": 7.8,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 7,
+  "pct": 4.6
+ },
+ {
+  "era": "Diamond & Pearl",
+  "chrono_order": 8,
+  "era_total": 900,
+  "special_pct": 2.0,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 18,
+  "pct": 2.0
+ },
+ {
+  "era": "Platinum",
+  "chrono_order": 9,
+  "era_total": 517,
+  "special_pct": 19.5,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 101,
+  "pct": 19.5
+ },
+ {
+  "era": "HeartGold & SoulSilver",
+  "chrono_order": 10,
+  "era_total": 545,
+  "special_pct": 9.9,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 54,
+  "pct": 9.9
+ },
+ {
+  "era": "Black & White",
+  "chrono_order": 11,
+  "era_total": 1437,
+  "special_pct": 9.3,
+  "bucket": "EX",
+  "bucket_order": 1,
+  "value": 112,
+  "pct": 7.8
+ },
+ {
+  "era": "Black & White",
+  "chrono_order": 11,
+  "era_total": 1437,
+  "special_pct": 9.3,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 21,
+  "pct": 1.5
+ },
+ {
+  "era": "XY",
+  "chrono_order": 12,
+  "era_total": 1926,
+  "special_pct": 19.2,
+  "bucket": "EX",
+  "bucket_order": 1,
+  "value": 224,
+  "pct": 11.6
+ },
+ {
+  "era": "XY",
+  "chrono_order": 12,
+  "era_total": 1926,
+  "special_pct": 19.2,
+  "bucket": "Mega (ex/EX)",
+  "bucket_order": 4,
+  "value": 91,
+  "pct": 4.7
+ },
+ {
+  "era": "XY",
+  "chrono_order": 12,
+  "era_total": 1926,
+  "special_pct": 19.2,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 55,
+  "pct": 2.9
+ },
+ {
+  "era": "Sun & Moon",
+  "chrono_order": 13,
+  "era_total": 2973,
+  "special_pct": 23.6,
+  "bucket": "GX",
+  "bucket_order": 2,
+  "value": 600,
+  "pct": 20.2
+ },
+ {
+  "era": "Sun & Moon",
+  "chrono_order": 13,
+  "era_total": 2973,
+  "special_pct": 23.6,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 101,
+  "pct": 3.4
+ },
+ {
+  "era": "Sword & Shield",
+  "chrono_order": 14,
+  "era_total": 3667,
+  "special_pct": 32.5,
+  "bucket": "EX",
+  "bucket_order": 1,
+  "value": 2,
+  "pct": 0.1
+ },
+ {
+  "era": "Sword & Shield",
+  "chrono_order": 14,
+  "era_total": 3667,
+  "special_pct": 32.5,
+  "bucket": "GX",
+  "bucket_order": 2,
+  "value": 1,
+  "pct": 0.0
+ },
+ {
+  "era": "Sword & Shield",
+  "chrono_order": 14,
+  "era_total": 3667,
+  "special_pct": 32.5,
+  "bucket": "V / VMAX / VSTAR",
+  "bucket_order": 3,
+  "value": 928,
+  "pct": 25.3
+ },
+ {
+  "era": "Sword & Shield",
+  "chrono_order": 14,
+  "era_total": 3667,
+  "special_pct": 32.5,
+  "bucket": "Mega (ex/EX)",
+  "bucket_order": 4,
+  "value": 1,
+  "pct": 0.0
+ },
+ {
+  "era": "Sword & Shield",
+  "chrono_order": 14,
+  "era_total": 3667,
+  "special_pct": 32.5,
+  "bucket": "ex",
+  "bucket_order": 5,
+  "value": 2,
+  "pct": 0.1
+ },
+ {
+  "era": "Sword & Shield",
+  "chrono_order": 14,
+  "era_total": 3667,
+  "special_pct": 32.5,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 259,
+  "pct": 7.1
+ },
+ {
+  "era": "Scarlet & Violet",
+  "chrono_order": 15,
+  "era_total": 3595,
+  "special_pct": 20.3,
+  "bucket": "ex",
+  "bucket_order": 5,
+  "value": 607,
+  "pct": 16.9
+ },
+ {
+  "era": "Scarlet & Violet",
+  "chrono_order": 15,
+  "era_total": 3595,
+  "special_pct": 20.3,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 123,
+  "pct": 3.4
+ },
+ {
+  "era": "Mega Evolution",
+  "chrono_order": 16,
+  "era_total": 1170,
+  "special_pct": 20.3,
+  "bucket": "EX",
+  "bucket_order": 1,
+  "value": 2,
+  "pct": 0.2
+ },
+ {
+  "era": "Mega Evolution",
+  "chrono_order": 16,
+  "era_total": 1170,
+  "special_pct": 20.3,
+  "bucket": "GX",
+  "bucket_order": 2,
+  "value": 3,
+  "pct": 0.3
+ },
+ {
+  "era": "Mega Evolution",
+  "chrono_order": 16,
+  "era_total": 1170,
+  "special_pct": 20.3,
+  "bucket": "V / VMAX / VSTAR",
+  "bucket_order": 3,
+  "value": 3,
+  "pct": 0.3
+ },
+ {
+  "era": "Mega Evolution",
+  "chrono_order": 16,
+  "era_total": 1170,
+  "special_pct": 20.3,
+  "bucket": "Mega (ex/EX)",
+  "bucket_order": 4,
+  "value": 115,
+  "pct": 9.8
+ },
+ {
+  "era": "Mega Evolution",
+  "chrono_order": 16,
+  "era_total": 1170,
+  "special_pct": 20.3,
+  "bucket": "ex",
+  "bucket_order": 5,
+  "value": 100,
+  "pct": 8.5
+ },
+ {
+  "era": "Mega Evolution",
+  "chrono_order": 16,
+  "era_total": 1170,
+  "special_pct": 20.3,
+  "bucket": "Other special",
+  "bucket_order": 6,
+  "value": 14,
+  "pct": 1.2
+ }
+]

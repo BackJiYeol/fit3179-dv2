@@ -1,9 +1,18 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "Pokémon species names, Yu-Gi-Oh/Magic/One Piece card-name words in one cloud, sized by each word's share (%) within its own game so all four games are compared fairly",
+  "description": "Pokémon species names, Yu-Gi-Oh/Magic/One Piece card-name words in one cloud, sized by each word's share (%) within its own game so all four games are compared fairly Words are set in Bangers, a comic-style display typeface that matches the trading-card topic (display fonts suit short, single-word labels); everything else on the page stays in Inter.",
   "width": 600,
-  "height": 420,
-  "padding": {"left": 10, "top": 10, "right": 200, "bottom": 10},  "autosize": {"type": "none", "contains": "padding"},
+  "height": 450,
+  "padding": {
+    "left": 10,
+    "top": 10,
+    "right": 200,
+    "bottom": 10
+  },
+  "autosize": {
+    "type": "none",
+    "contains": "padding"
+  },
   "data": [
     {
       "name": "source",
@@ -11,14 +20,28 @@
       "transform": [
         {
           "type": "wordcloud",
-          "size": [{"signal": "width"}, {"signal": "height"}],
-          "text": {"field": "word"},
-          "font": "Inter, Segoe UI, system-ui, sans-serif",
-          "fontWeight": "bold",
-          "fontSize": {"field": "pct"},
-          "fontSizeRange": [13, 64],
+          "size": [
+            {
+              "signal": "width"
+            },
+            {
+              "signal": "height"
+            }
+          ],
+          "text": {
+            "field": "word"
+          },
+          "font": "Bangers, Inter, sans-serif",
+          "fontWeight": "normal",
+          "fontSize": {
+            "field": "pct"
+          },
+          "fontSizeRange": [
+            15,
+            60
+          ],
           "rotate": 0,
-          "padding": 3
+          "padding": 2
         }
       ]
     }
@@ -27,8 +50,18 @@
     {
       "name": "color",
       "type": "ordinal",
-      "domain": ["Pokémon", "Yu-Gi-Oh", "Magic: The Gathering", "One Piece"],
-      "range": ["#0072B2", "#CC79A7", "#009E73", "#D55E00"]
+      "domain": [
+        "Pokémon",
+        "Yu-Gi-Oh",
+        "Magic: The Gathering",
+        "One Piece"
+      ],
+      "range": [
+        "#0072B2",
+        "#CC79A7",
+        "#009E73",
+        "#D55E00"
+      ]
     }
   ],
   "legends": [
@@ -44,24 +77,47 @@
   "marks": [
     {
       "type": "text",
-      "from": {"data": "source"},
+      "from": {
+        "data": "source"
+      },
       "encode": {
         "enter": {
-          "text": {"field": "word"},
-          "align": {"value": "center"},
-          "baseline": {"value": "alphabetic"},
-          "fill": {"scale": "color", "field": "game"},
+          "text": {
+            "field": "word"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "alphabetic"
+          },
+          "fill": {
+            "scale": "color",
+            "field": "game"
+          },
           "tooltip": {
             "signal": "datum.word + ' (' + datum.game + ') — ' + format(datum.pct, '.2f') + '% of that game\\'s cards'"
           }
         },
         "update": {
-          "x": {"field": "x"},
-          "y": {"field": "y"},
-          "angle": {"field": "angle"},
-          "fontSize": {"field": "fontSize"},
-          "fontFamily": {"field": "font"},
-          "fontWeight": {"field": "fontWeight"}
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "angle": {
+            "field": "angle"
+          },
+          "fontSize": {
+            "field": "fontSize"
+          },
+          "fontWeight": {
+            "field": "fontWeight"
+          },
+          "font": {
+            "field": "font"
+          }
         }
       }
     }

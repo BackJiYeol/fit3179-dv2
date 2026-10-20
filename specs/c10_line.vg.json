@@ -1,0 +1,83 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "data/c10_timeseries.json"
+  },
+  "height": 180,
+  "mark": {
+    "type": "line",
+    "strokeWidth": 2,
+    "interpolate": "monotone"
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": null,
+      "axis": {
+        "format": "%Y",
+        "tickCount": 6
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": [
+        "Search interest",
+        "(index, 100 = peak week)"
+      ]
+    },
+    "color": {
+      "field": "game",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+        "domain": [
+          "Pokémon",
+          "Sports cards",
+          "Yu-Gi-Oh",
+          "One Piece",
+          "Magic: The Gathering"
+        ],
+        "range": [
+          "#0072B2",
+          "#E69F00",
+          "#CC79A7",
+          "#D55E00",
+          "#009E73"
+        ]
+      },
+      "legend": {
+        "orient": "top",
+        "columns": 3,
+        "symbolType": "stroke",
+        "labelLimit": 200,
+        "labelFontSize": 12,
+        "symbolStrokeWidth": 3
+      }
+    },
+    "tooltip": [
+      {
+        "field": "date",
+        "type": "temporal",
+        "title": "Week",
+        "format": "%d %b %Y"
+      },
+      {
+        "field": "game",
+        "type": "nominal",
+        "title": "Game"
+      },
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Search interest"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

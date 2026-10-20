@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Who's Collecting Trading Cards?</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Bangers&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
@@ -40,7 +40,7 @@
         <p class="fig-title">Yu-Gi-Oh repeats concepts; Pokémon repeats characters</p>
         <p class="fig-sub">The names that keep coming back, as a share of each game's catalogue</p>
         <div class="chart" data-spec="specs/c02_wordcloud.vg.json"></div>
-        <figcaption>TODO — 주석.</figcaption>
+        <figcaption>Yu-Gi-Oh's most repeated words are creature types and concepts — "Dragon" alone appears in about 1 in 20 of its card names. Pokémon's biggest names are characters, led by Pikachu, yet even Pikachu is on only 1% of cards: no single character dominates. Magic's 35,000 card names are so varied that its top word, "Goblin", reaches just 0.7%. Pokémon is counted by species and the other three games by repeated words in card names, so compare the patterns rather than exact sizes. Hover a word for its exact share.</figcaption>
       </figure>
     </div>
   </div>
@@ -55,7 +55,7 @@
 
     <figure>
       <p class="fig-title">Every era invents its own "special" card — and the share keeps climbing</p>
-      <p class="fig-sub">Share of Pokémon cards carrying a collector/chase subtype (EX, GX, V, ex, …), by era, 1999–2026. Ordinary cards are left out on purpose, so the y-axis zooms into the 0–35% range the "special" share actually occupies.</p>
+      <p class="fig-sub">Share of Pokémon cards carrying a collector/chase subtype (EX, GX, V, ex, …), by era, 1999–2026. Ordinary cards are left out on purpose, so the y-axis zooms into the 0–35% range the "special" share actually occupies. Faded bars are tiny promo batches (n = cards in that era).</p>
       <div class="chart" data-spec="specs/c03_pokemon_bar.vl.json"></div>
       <figcaption>Fewer than 2% of cards carried a collector-only subtype through 2002 (Gym has none at all). From there a new chase mechanic appears almost every generation and the total never really drops back down: EX in 2003–07 and again 2012–16 (written two different ways — lowercase "ex" the first time, capital "EX" the second, a naming quirk only visible in the raw card data), GX in 2017–19, then V/VMAX/VSTAR alone reach 25.3% of Sword &amp; Shield's cards — 32.5% once every special type in that era is counted, the highest share in the dataset. Scarlet &amp; Violet and the newest Mega Evolution era settle at ~20%, split between the revived lowercase "ex" and the new combined "Mega ex" cards. NP and POP (40 and 153 cards) are tiny Nintendo promo batches, not real sets — read their bars cautiously; hover any bar for exact counts.</figcaption>
     </figure>
@@ -79,7 +79,7 @@ Band width at each year = share of that year's cards in that rarity tier (both g
 
     <figure>
       <p class="fig-title">Every era collects differently</p>
-      <p class="fig-sub">Pokémon eras compared on cards per set, rare-card share and sets released</p>
+      <p class="fig-sub">Pokémon and Yu-Gi-Oh eras compared on four measures, each axis scaled from its own minimum to maximum. Darker line = more recent era. Hover a line to highlight it and see which era it is.</p>
       <div class="chart" data-spec="specs/c05_parallel.vg.json"></div>
       <figcaption>TODO</figcaption>
     </figure>
@@ -136,10 +136,17 @@ Vietnam and Argentina have the largest non-Pokémon share (44%, 43%), with Greec
     <p class="sec-intro">TODO</p>
 
     <figure>
-      <p class="fig-title">A boom at the top, a changing of the guard below</p>
-      <p class="fig-sub">Top: relative search interest for all 5 games, 2021–2026 (Google Trends index, 100 = peak week). Bottom: quarterly rank of the 4 challengers once Pokémon is set aside.</p>
-      <div class="chart" data-spec="specs/c10_bump.vl.json"></div>
-      <figcaption>Pokémon's own line (top) is the real headline: a quiet index around 20 through most of 2022–2024, then a spike past 80 — and briefly to 100 — in 2026. Ranking the four challengers on their own scale (bottom) tells a calmer story: Sports cards holds #1 for all but one quarter (Yu-Gi-Oh briefly ties it in early 2022). The real "changing of the guard" happens one rank down — Yu-Gi-Oh held #2 for four straight years before One Piece overtook it in late 2025 and hasn't given it back since, while Magic: The Gathering spends the whole window swapping #3/#4 with One Piece before settling at #4. Quarterly averages, not weekly values: a bump chart needs a steadier signal than week-to-week search noise to show rank changes honestly.</figcaption>
+      <p class="fig-title">At the top: Pokémon's search boom</p>
+      <p class="fig-sub">Relative search interest for all 5 games, weekly, 2021–2026 (Google Trends index, 100 = peak week)</p>
+      <div class="chart" data-spec="specs/c10_line.vg.json"></div>
+      <figcaption>Pokémon's line is the real headline: a quiet index around 20 through most of 2022–2024, then a climb past 80 — and briefly to 100 — in 2026. The other four games are squeezed into a thin band near the bottom on this shared scale, so their own contest is invisible here. The chart below sets Pokémon aside and ranks just those four.</figcaption>
+    </figure>
+
+    <figure>
+      <p class="fig-title">Below it: One Piece takes the #2 seat from Yu-Gi-Oh</p>
+      <p class="fig-sub">Quarterly rank of the 4 challengers once Pokémon is set aside (#1 = highest average search interest that quarter), 2021 Q4 – 2026 Q3</p>
+      <div class="chart" data-spec="specs/c10_bump.vg.json"></div>
+      <figcaption>Sports cards holds #1 for all but one quarter (Yu-Gi-Oh briefly overtakes it in early 2022). The real "changing of the guard" happens one rank down — Yu-Gi-Oh held #2 for four straight years before One Piece overtook it in late 2025 and hasn't given it back since, while Magic: The Gathering swaps #3/#4 with One Piece several times before settling at #4. Ranks use quarterly averages, not weekly values: week-to-week search noise would make the lines flicker without any real change behind them.</figcaption>
     </figure>
   </div>
 </section>

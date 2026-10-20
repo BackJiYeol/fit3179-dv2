@@ -1,0 +1,370 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "white",
+  "height": 340,
+  "data": {
+    "url": "data/c03_pokemon_bar_data.json"
+  },
+  "encoding": {
+    "x": {
+      "field": "era",
+      "type": "ordinal",
+      "scale": {
+        "domain": [
+          "Base",
+          "Gym",
+          "Neo",
+          "Other",
+          "E-Card",
+          "EX",
+          "NP",
+          "POP",
+          "Diamond & Pearl",
+          "Platinum",
+          "HeartGold & SoulSilver",
+          "Black & White",
+          "XY",
+          "Sun & Moon",
+          "Sword & Shield",
+          "Scarlet & Violet",
+          "Mega Evolution"
+        ]
+      },
+      "axis": {
+        "labelAngle": -45,
+        "title": null,
+        "labelFontSize": 10.5
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar"
+      },
+      "encoding": {
+        "y": {
+          "field": "pct",
+          "type": "quantitative",
+          "stack": "zero",
+          "scale": {
+            "domain": [
+              0,
+              36
+            ]
+          },
+          "axis": {
+            "title": "Share of era's cards (%)",
+            "format": ".0f"
+          },
+          "title": "Share of era's cards (%)"
+        },
+        "order": {
+          "field": "bucket_order",
+          "type": "ordinal"
+        },
+        "color": {
+          "field": "bucket",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "EX",
+              "GX",
+              "V / VMAX / VSTAR",
+              "Mega (ex/EX)",
+              "ex",
+              "Other special"
+            ],
+            "range": [
+              "#4477AA",
+              "#EE6677",
+              "#228833",
+              "#CCBB44",
+              "#66CCEE",
+              "#AA3377"
+            ]
+          },
+          "legend": {
+            "title": null,
+            "orient": "top",
+            "direction": "horizontal",
+            "columns": 6,
+            "labelFontSize": 10.5
+          }
+        },
+        "tooltip": [
+          {
+            "field": "era",
+            "title": "Era"
+          },
+          {
+            "field": "bucket",
+            "title": "Category"
+          },
+          {
+            "field": "value",
+            "title": "Cards"
+          },
+          {
+            "field": "era_total",
+            "title": "Cards in era"
+          },
+          {
+            "field": "pct",
+            "title": "Share of era",
+            "format": ".1f"
+          }
+        ],
+        "opacity": {
+          "condition": {
+            "test": "datum.era_total < 200",
+            "value": 0.4
+          },
+          "value": 1
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [
+            {
+              "op": "max",
+              "field": "special_pct",
+              "as": "total"
+            }
+          ],
+          "groupby": [
+            "era",
+            "era_total"
+          ]
+        },
+        {
+          "calculate": "format(datum.total, '.1f') + '%'",
+          "as": "total_label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "baseline": "bottom",
+        "dy": -4,
+        "fontSize": 10,
+        "fontWeight": 600,
+        "color": "#2b2f36"
+      },
+      "encoding": {
+        "y": {
+          "field": "total",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              36
+            ]
+          }
+        },
+        "text": {
+          "field": "total_label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [
+            {
+              "op": "max",
+              "field": "special_pct",
+              "as": "total"
+            }
+          ],
+          "groupby": [
+            "era",
+            "era_total"
+          ]
+        },
+        {
+          "filter": "datum.era_total < 200"
+        },
+        {
+          "calculate": "'n=' + datum.era_total",
+          "as": "n_label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "baseline": "bottom",
+        "dy": -17,
+        "fontSize": 9.5,
+        "fontStyle": "italic",
+        "color": "#78839a"
+      },
+      "encoding": {
+        "y": {
+          "field": "total",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              36
+            ]
+          }
+        },
+        "text": {
+          "field": "n_label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "era": "Gym",
+            "total": 0,
+            "total_label": "0%"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "baseline": "bottom",
+        "dy": -4,
+        "fontSize": 10,
+        "fontWeight": 600,
+        "color": "#2b2f36"
+      },
+      "encoding": {
+        "y": {
+          "field": "total",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              36
+            ]
+          }
+        },
+        "text": {
+          "field": "total_label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "era": "Base",
+            "y": 7,
+            "text": "1999–2002: under 2% of"
+          },
+          {
+            "era": "Base",
+            "y": 5,
+            "text": "cards were \"special\""
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 10.5,
+        "fontWeight": 600,
+        "color": "#2b2f36"
+      },
+      "encoding": {
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              36
+            ]
+          }
+        },
+        "text": {
+          "field": "text"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "era": "Sword & Shield",
+            "y": 35.6,
+            "text": "the highest share in the dataset"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "fontSize": 10.5,
+        "fontWeight": 600,
+        "color": "#2b2f36"
+      },
+      "encoding": {
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              36
+            ]
+          }
+        },
+        "text": {
+          "field": "text"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "era": "EX",
+            "y": 28,
+            "text": "lowercase \"ex\" first appeared in 2003"
+          },
+          {
+            "era": "EX",
+            "y": 26,
+            "text": "— and returns 20 years later, in 2023"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "fontSize": 10.5,
+        "fontWeight": 600,
+        "color": "#2b2f36"
+      },
+      "encoding": {
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              36
+            ]
+          }
+        },
+        "text": {
+          "field": "text"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

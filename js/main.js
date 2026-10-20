@@ -17,6 +17,10 @@ const EMBED_OPT = {
 };
 
 async function drawAll(){
+  // The word cloud measures every word with its font to lay them out. Bangers is used only
+  // inside the chart canvas, so the browser would not fetch it on its own; load it explicitly
+  // and wait, otherwise words get measured in a fallback font and then overlap once Bangers arrives.
+  try { await Promise.all([document.fonts.load("20px Bangers"), document.fonts.ready]); } catch (e) {}
   const nodes = document.querySelectorAll(".chart[data-spec]");
   for (const el of nodes){
     el.classList.add("is-loading");
