@@ -1,49 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Parallel coordinates: one line per era. Hue = game; lightness = time within that game (dimmer = older era, brighter = more recent). Hovering a line highlights it (others fade) and labels it with its era name — focus + context.",
+  "description": "Parallel coordinates: one line per era. Colour = game. Hovering a line highlights it (others fade) and labels it with its era name — focus + context.",
   "height": 300,
   "data": {
     "url": "data/c05_parallel.json"
   },
   "transform": [
     {
-      "calculate": "toNumber(substring(datum._years, 0, 4))",
-      "as": "start_year"
-    },
-    {
-      "window": [
-        {
-          "op": "dense_rank",
-          "as": "era_rank"
-        }
-      ],
-      "sort": [
-        {
-          "field": "start_year"
-        }
-      ],
-      "groupby": [
-        "game"
-      ]
-    },
-    {
-      "joinaggregate": [
-        {
-          "op": "max",
-          "field": "era_rank",
-          "as": "era_n"
-        }
-      ],
-      "groupby": [
-        "game"
-      ]
-    },
-    {
-      "calculate": "(datum.era_rank - 1) / max(1, datum.era_n - 1)",
-      "as": "t"
-    },
-    {
-      "calculate": "datum.game === 'Pokémon' ? 'rgb(' + round(40 + 70 * datum.t) + ',' + round(80 + 120 * datum.t) + ',' + round(115 + 130 * datum.t) + ')' : 'rgb(' + round(110 + 130 * datum.t) + ',' + round(55 + 105 * datum.t) + ',' + round(90 + 120 * datum.t) + ')'",
+      "calculate": "datum.game === 'Pokémon' ? '#56B4E9' : '#CC79A7'",
       "as": "line_colour"
     },
     {
@@ -98,7 +62,10 @@
         "orient": "top",
         "domain": false,
         "ticks": false,
-        "labelPadding": 10
+        "labelPadding": 40,
+        "labelExpr": "{'Sets released': ['Sets released', 'number of sets in the era', '3 → 69'], 'Sets per year': ['Sets per year', 'release pace', '1.3 → 31.5'], 'Cards per set': ['Cards per set', 'average set size', '17 → 205 cards'], 'Share of all cards': ['Share of all cards', '% of that game’s catalogue', '0.8% → 18.9%']}[datum.value]",
+        "labelLineHeight": 15,
+        "labelLimit": 220
       }
     }
   },
@@ -180,7 +147,14 @@
             "labels": false,
             "ticks": false,
             "domain": false,
-            "grid": false
+            "grid": false,
+            "title": [
+              "↑ higher = larger value",
+              "(each axis: its own min → max)"
+            ],
+            "titleFontWeight": 500,
+            "titleFontSize": 11,
+            "titlePadding": 10
           }
         },
         "color": {
@@ -322,46 +296,6 @@
           "field": "line_colour",
           "type": "nominal",
           "scale": null
-        }
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": 6,
-        "dy": -2,
-        "fontSize": 10,
-        "color": "#a3aec0"
-      },
-      "encoding": {
-        "y": {
-          "value": 0
-        },
-        "text": {
-          "field": "axis_max",
-          "type": "quantitative",
-          "format": ".0f"
-        }
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": 6,
-        "dy": 10,
-        "fontSize": 10,
-        "color": "#a3aec0"
-      },
-      "encoding": {
-        "y": {
-          "value": 300
-        },
-        "text": {
-          "field": "axis_min",
-          "type": "quantitative",
-          "format": ".0f"
         }
       }
     }

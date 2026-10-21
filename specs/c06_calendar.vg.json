@@ -80,7 +80,7 @@
           },
           "title": null,
           "axis": {
-            "labelExpr": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value - 1]",
+            "labelExpr": "['January','February','March','April','May','June','July','August','September','October','November','December'][datum.value - 1]",
             "labelFontSize": 10,
             "domain": false,
             "ticks": false
@@ -133,8 +133,8 @@
             "title": "Year"
           },
           {
-            "field": "month",
-            "type": "ordinal",
+            "field": "month_name",
+            "type": "nominal",
             "title": "Month"
           },
           {
@@ -240,7 +240,7 @@
           },
           "title": null,
           "axis": {
-            "labelExpr": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.value - 1]",
+            "labelExpr": "['January','February','March','April','May','June','July','August','September','October','November','December'][datum.value - 1]",
             "labelFontSize": 10,
             "domain": false,
             "ticks": false
@@ -293,8 +293,8 @@
             "title": "Year"
           },
           {
-            "field": "month",
-            "type": "ordinal",
+            "field": "month_name",
+            "type": "nominal",
             "title": "Month"
           },
           {
@@ -319,5 +319,11 @@
     "view": {
       "stroke": null
     }
-  }
+  },
+  "transform": [
+    {
+      "calculate": "['January','February','March','April','May','June','July','August','September','October','November','December'][datum.month - 1]",
+      "as": "month_name"
+    }
+  ]
 }

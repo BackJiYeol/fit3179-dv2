@@ -1,6 +1,6 @@
 :root{
   --ink:#e9edf3; --muted:#a3aec0; --line:#2b3547; --bg:#0f1521; --band:#141c2a;
-  --pk:#56B4E9; --ygo:#c0392b; --sports:#7a52c7; --op:#d4a017; --mtg:#2e8b6f;
+  --pk:#56B4E9; --err:#e5484d;
   --maxw:1080px;
 }
 *{box-sizing:border-box}
@@ -35,7 +35,7 @@ figure:last-child{margin-bottom:0}
 .fig-sub{font-size:.86rem; color:var(--muted); margin:0 0 16px}
 .chart{min-height:120px}
 .chart.is-loading::after{content:"loading…"; color:var(--muted); font-size:.85rem}
-.chart.is-error{color:var(--ygo); font-size:.85rem; white-space:pre-wrap}
+.chart.is-error{color:var(--err); font-size:.85rem; white-space:pre-wrap}
 figcaption{
   font-size:.84rem; color:var(--muted); margin-top:14px;
   border-left:3px solid var(--line); padding-left:14px; max-width:72ch;
@@ -60,3 +60,14 @@ html{color-scheme:dark}
 .vega-bind-name{margin-right:6px}
 .vega-bindings input[type=range]{accent-color:#56B4E9;vertical-align:middle}
 .vega-bindings select{background:#141c2a;color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:2px 6px;font:inherit}
+
+/* contents list under the title */
+.toc{display:flex;flex-wrap:wrap;gap:6px 22px;margin:0 0 20px;font-size:.9rem}
+.toc a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+.toc a:hover{border-color:var(--pk)}
+figcaption p{margin:0 0 4px}
+.sources{margin:0 0 12px;padding-left:18px}
+
+/* footer: About block heading — one step below section titles */
+.about-title{font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 12px;letter-spacing:-.005em}
+footer p{max-width:72ch}

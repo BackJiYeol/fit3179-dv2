@@ -33,7 +33,7 @@ from collections import defaultdict
 from datetime import date
 
 SRC = "c10_timeseries.json"
-OUT = "c10_bump_data.json"
+OUT = "c10_bump.json"
 
 rows = json.load(open(SRC, encoding="utf-8"))
 

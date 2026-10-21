@@ -32,7 +32,9 @@
       "axis": {
         "labelAngle": -45,
         "title": null,
-        "labelFontSize": 10.5
+        "labelFontSize": 10.5,
+        "labelExpr": "({'NP':'Nintendo Promos','POP':'POP Series'}[datum.value] || datum.value) + ' (' + {'Base': '1999–2000', 'Gym': '2000', 'Neo': '2000–2002', 'Other': '2001–2022', 'E-Card': '2002–2003', 'EX': '2003–2007', 'NP': '2003', 'POP': '2004–2009', 'Diamond & Pearl': '2007–2008', 'Platinum': '2009', 'HeartGold & SoulSilver': '2010–2011', 'Black & White': '2011–2013', 'XY': '2013–2016', 'Sun & Moon': '2017–2019', 'Sword & Shield': '2019–2023', 'Scarlet & Violet': '2023–2025', 'Mega Evolution': '2025–2026'}[datum.value] + ')'",
+        "labelLimit": 220
       }
     }
   },
@@ -100,6 +102,10 @@
             "title": "Era"
           },
           {
+            "field": "years",
+            "title": "Years"
+          },
+          {
             "field": "bucket",
             "title": "Category"
           },
@@ -118,22 +124,12 @@
           }
         ],
         "opacity": {
-          "condition": [
-            {
-              "test": {
-                "not": {
-                  "param": "hl_bucket",
-                  "empty": true
-                }
-              },
-              "value": 0.15
-            },
-            {
-              "test": "datum.era_total < 200",
-              "value": 0.4
-            }
-          ],
-          "value": 1
+          "condition": {
+            "param": "hl_bucket",
+            "empty": true,
+            "value": 1
+          },
+          "value": 0.15
         }
       },
       "params": [
@@ -148,135 +144,13 @@
             "clear": "pointerout"
           }
         }
+      ],
+      "transform": [
+        {
+          "calculate": "{'Base': '1999–2000', 'Gym': '2000', 'Neo': '2000–2002', 'Other': '2001–2022', 'E-Card': '2002–2003', 'EX': '2003–2007', 'NP': '2003', 'POP': '2004–2009', 'Diamond & Pearl': '2007–2008', 'Platinum': '2009', 'HeartGold & SoulSilver': '2010–2011', 'Black & White': '2011–2013', 'XY': '2013–2016', 'Sun & Moon': '2017–2019', 'Sword & Shield': '2019–2023', 'Scarlet & Violet': '2023–2025', 'Mega Evolution': '2025–2026'}[datum.era]",
+          "as": "years"
+        }
       ]
-    },
-    {
-      "transform": [
-        {
-          "aggregate": [
-            {
-              "op": "max",
-              "field": "special_pct",
-              "as": "total"
-            }
-          ],
-          "groupby": [
-            "era",
-            "era_total"
-          ]
-        },
-        {
-          "calculate": "format(datum.total, '.1f') + '%'",
-          "as": "total_label"
-        }
-      ],
-      "mark": {
-        "type": "text",
-        "baseline": "bottom",
-        "dy": -4,
-        "fontSize": 10,
-        "fontWeight": 600,
-        "color": "#e9edf3"
-      },
-      "encoding": {
-        "y": {
-          "field": "total",
-          "type": "quantitative",
-          "scale": {
-            "domain": [
-              0,
-              36
-            ]
-          }
-        },
-        "text": {
-          "field": "total_label",
-          "type": "nominal"
-        }
-      }
-    },
-    {
-      "transform": [
-        {
-          "aggregate": [
-            {
-              "op": "max",
-              "field": "special_pct",
-              "as": "total"
-            }
-          ],
-          "groupby": [
-            "era",
-            "era_total"
-          ]
-        },
-        {
-          "filter": "datum.era_total < 200"
-        },
-        {
-          "calculate": "'n=' + datum.era_total",
-          "as": "n_label"
-        }
-      ],
-      "mark": {
-        "type": "text",
-        "baseline": "bottom",
-        "dy": -17,
-        "fontSize": 9.5,
-        "fontStyle": "italic",
-        "color": "#a3aec0"
-      },
-      "encoding": {
-        "y": {
-          "field": "total",
-          "type": "quantitative",
-          "scale": {
-            "domain": [
-              0,
-              36
-            ]
-          }
-        },
-        "text": {
-          "field": "n_label",
-          "type": "nominal"
-        }
-      }
-    },
-    {
-      "data": {
-        "values": [
-          {
-            "era": "Gym",
-            "total": 0,
-            "total_label": "0%"
-          }
-        ]
-      },
-      "mark": {
-        "type": "text",
-        "baseline": "bottom",
-        "dy": -4,
-        "fontSize": 10,
-        "fontWeight": 600,
-        "color": "#e9edf3"
-      },
-      "encoding": {
-        "y": {
-          "field": "total",
-          "type": "quantitative",
-          "scale": {
-            "domain": [
-              0,
-              36
-            ]
-          }
-        },
-        "text": {
-          "field": "total_label",
-          "type": "nominal"
-        }
-      }
     },
     {
       "data": {
@@ -321,7 +195,7 @@
         "values": [
           {
             "era": "Sword & Shield",
-            "y": 35.6,
+            "y": 34.6,
             "text": "the highest share in the dataset"
           }
         ]

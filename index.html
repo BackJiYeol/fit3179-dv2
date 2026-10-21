@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Who's Collecting Trading Cards?</title>
+<title>Who Is Collecting Trading Cards?</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Bangers&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -15,10 +15,11 @@
 
 <header class="hero">
   <div class="wrap">
-    <h1>Who's collecting trading cards?</h1>
-    <p class="standfirst">TODO — 2~3문장 도입부. 포켓몬 카드 붐과, 그 아래에서 벌어지는 2위 싸움.</p>
+    <h1>Who is collecting trading cards?</h1>
+    <p class="standfirst">Five trading card games, one hobby: who collects, what they chase, and where.</p>
     <div class="key"><span><i style="background:#56B4E9"></i>Pokémon</span><span><i style="background:#CC79A7"></i>Yu-Gi-Oh</span><span><i style="background:#E69F00"></i>Sports cards</span><span><i style="background:#009E73"></i>Magic: The Gathering</span><span><i style="background:#D55E00"></i>One Piece</span></div>
-    <p class="meta">FIT3179 Data Visualisation 2 · Baek · Data: Pokémon TCG catalogue, Yu-Gi-Oh card database, Google Trends</p>
+    <nav class="toc"><a href="#overview">Overview</a><a href="#structure">Themes</a><a href="#trends">Trends</a><a href="#world">World</a><a href="#conclusion">Conclusion</a></nav>
+    <p class="meta">FIT3179 Data Visualisation 2 · Back Jiyeol</p>
   </div>
 </header>
 
@@ -27,21 +28,21 @@
   <div class="wrap">
     <p class="sec-label">1 · Overview</p>
     <h2 class="sec-title">How big is each card world?</h2>
-    <p class="sec-intro">TODO — 섹션 도입 1~2문장.</p>
+    <p class="sec-intro">Pokémon draws far more searches than any rival. The words each game repeats show what it is built around.</p>
 
     <div class="row2">
       <figure>
         <p class="fig-title">Pokémon dominates the trading card world</p>
-        <p class="fig-sub">Average relative search interest, 2021–2026 (Google Trends index, 100 = peak week)</p>
+        <p class="fig-sub">Average weekly search interest, 2021–2026 (index, 100 = peak week)</p>
         <div class="chart" data-spec="specs/c01_ranking.vg.json"></div>
-        <figcaption>TODO — 주석.</figcaption>
+        <figcaption>Pokémon draws about five times more searches than sports cards.</figcaption>
       </figure>
 
       <figure>
         <p class="fig-title">Yu-Gi-Oh repeats concepts; Pokémon repeats characters</p>
-        <p class="fig-sub">The names that keep coming back, as a share of each game's catalogue</p>
+        <p class="fig-sub">Most repeated card-name words, as a percentage of each game’s cards</p>
         <div class="chart" data-spec="specs/c02_wordcloud.vg.json"></div>
-        <figcaption>Yu-Gi-Oh's most repeated words are creature types and concepts — "Dragon" alone appears in about 1 in 20 of its card names. Pokémon's biggest names are characters, led by Pikachu, yet even Pikachu is on only 1% of cards: no single character dominates. Magic's 35,000 card names are so varied that its top word, "Goblin", reaches just 0.7%. Pokémon is counted by species and the other three games by repeated words in card names, so compare the patterns rather than exact sizes. Hover a word for its exact share.</figcaption>
+        <figcaption><p>Yu-Gi-Oh repeats concepts like Dragon; Pokémon spreads across characters.</p><p>Pokémon is counted by species; others by name words.</p></figcaption>
       </figure>
     </div>
   </div>
@@ -52,13 +53,13 @@
   <div class="wrap">
     <p class="sec-label">2 · Themes &amp; structure</p>
     <h2 class="sec-title">What is a collection made of?</h2>
-    <p class="sec-intro">TODO</p>
+    <p class="sec-intro">Collectors chase special cards. In Pokémon, almost every era adds a new special type, and their share keeps rising.</p>
 
     <figure>
-      <p class="fig-title">Every era invents its own "special" card — and the share keeps climbing</p>
-      <p class="fig-sub">Share of Pokémon cards carrying a collector/chase subtype (EX, GX, V, ex, …), by era, 1999–2026. Ordinary cards are left out on purpose, so the y-axis zooms into the 0–35% range the "special" share actually occupies. Faded bars are tiny promo batches (n = cards in that era).</p>
+      <p class="fig-title">Each era invents a new special card; the share climbs</p>
+      <p class="fig-sub">Percentage of each era’s cards with a special subtype, 1999–2026</p>
       <div class="chart" data-spec="specs/c03_pokemon_bar.vl.json"></div>
-      <figcaption>Fewer than 2% of cards carried a collector-only subtype through 2002 (Gym has none at all). From there a new chase mechanic appears almost every generation and the total never really drops back down: EX in 2003–07 and again 2012–16 (written two different ways — lowercase "ex" the first time, capital "EX" the second, a naming quirk only visible in the raw card data), GX in 2017–19, then V/VMAX/VSTAR alone reach 25.3% of Sword &amp; Shield's cards — 32.5% once every special type in that era is counted, the highest share in the dataset. Scarlet &amp; Violet and the newest Mega Evolution era settle at ~20%, split between the revived lowercase "ex" and the new combined "Mega ex" cards. NP and POP (40 and 153 cards) are tiny Nintendo promo batches, not real sets — read their bars cautiously; hover any bar for exact counts.</figcaption>
+      <figcaption><p>A new special card type arrives almost every era.</p><p>Nintendo Promos and POP Series are tiny promotional batches.</p></figcaption>
     </figure>
   </div>
 </section>
@@ -68,31 +69,27 @@
   <div class="wrap">
     <p class="sec-label">3 · Collecting trends</p>
     <h2 class="sec-title">How has collecting changed?</h2>
-    <p class="sec-intro">TODO</p>
+    <p class="sec-intro">Rare tiers now fill more of every year’s cards, and Pokémon and Yu-Gi-Oh release sets on very different rhythms.</p>
 
     <figure>
       <p class="fig-title">Chasing the rare card got much harder — in both games</p>
-      <p class="fig-sub">Share of cards by rarity tier, year by year (1999/2001–2026)</p>
+      <p class="fig-sub">Cards printed in each rarity tier, by year, 1999–2026</p>
       <div class="chart" data-spec="specs/c04_streamgraph.vl.json"></div>
-      <figcaption>Pokémon's top tier (Ultra/Secret) rose from 2.4% to 39.0%; Yu-Gi-Oh's (Secret+) rose from 4.2% to 26.1%.
-Band width at each year = share of that year's cards in that rarity tier (both games stacked symmetrically around a centre line).</figcaption>
+      <figcaption>Top-tier share rose: Pokémon 2.4% → 39%, Yu-Gi-Oh 4.2% → 26%.</figcaption>
     </figure>
 
     <figure>
       <p class="fig-title">Every era collects differently</p>
-      <p class="fig-sub">Pokémon and Yu-Gi-Oh eras compared on four measures, each axis scaled from its own minimum to maximum. Brighter line = more recent era. Hover a line to highlight it and see which era it is.</p>
+      <p class="fig-sub">Pokémon and Yu-Gi-Oh eras on four release measures</p>
       <div class="chart" data-spec="specs/c05_parallel.vg.json"></div>
-      <figcaption>TODO</figcaption>
+      <figcaption>Yu-Gi-Oh releases many small sets; Pokémon releases fewer, bigger ones.</figcaption>
     </figure>
 
     <figure>
       <p class="fig-title">Pokémon saves it up; Yu-Gi-Oh keeps it coming</p>
-      <p class="fig-sub">Set releases by month and year — 59% land in February, May, August or November</p>
+      <p class="fig-sub">Share of each game’s sets released per month, 2001–2026</p>
       <div class="chart" data-spec="specs/c06_calendar.vg.json"></div>
-      <figcaption>Pokémon skips more than half of all months; Yu-Gi-Oh skips one in eight. Grey = that month existed but no set was released.
-Blank = outside the comparison window (2001–2026, the years both games ran).
-Pokémon's first nine sets (1999–2000) fall outside this window.
-Percentages are each game's own share within the window.</figcaption>
+      <figcaption><p>Pokémon skips over half of months; Yu-Gi-Oh, one in eight.</p><p>Grey: no release that month. Blank: outside 2001–2026.</p></figcaption>
     </figure>
   </div>
 </section>
@@ -102,28 +99,27 @@ Percentages are each game's own share within the window.</figcaption>
   <div class="wrap">
     <p class="sec-label">4 · Around the world</p>
     <h2 class="sec-title">Where in the world?</h2>
-    <p class="sec-intro">TODO</p>
+    <p class="sec-intro">Pokémon takes over half of card-game searches in every country. The runner-up changes from place to place.</p>
 
     <figure>
       <p class="fig-title">Pokémon's grip is tightest in India, loosest in Vietnam</p>
-      <p class="fig-sub">Pokémon as a share of all card-game search interest, by country</p>
+      <p class="fig-sub">Pokémon’s share of five-game search interest, by country, 2021–2026</p>
       <div class="chart" data-spec="specs/c07_share.vg.json"></div>
-      <figcaption>TODO</figcaption>
+      <figcaption>Pokémon takes over half of searches in every country.</figcaption>
     </figure>
 
     <figure>
       <p class="fig-title">The hobby only registers in a few dozen countries</p>
-      <p class="fig-sub">Search interest in "trading cards" by country; circle size = interest class (grouped into 5 bands, not a continuous scale)</p>
+      <p class="fig-sub">Search interest in “trading cards”, by country, 2021–2026</p>
       <div class="chart" data-spec="specs/c08_symbol.vg.json"></div>
-      <figcaption>50 countries have measurable search interest. Australia (100) and the United States (99) lead the top band; Canada (70) and New Zealand (69) follow. Most countries (30 of 50) fall in the bottom two bands (1–15) — the hobby barely registers outside a small cluster of English-speaking and European markets. Hover a circle for the exact value.</figcaption>
+      <figcaption>Australia and the United States lead; most countries barely register.</figcaption>
     </figure>
 
     <figure>
-      <p class="fig-title">Pokémon's slice is huge everywhere — the sliver left over is a different colour in every country</p>
-      <p class="fig-sub">Search-interest composition by country; slice colour = which game takes the share Pokémon doesn't.</p>
+      <p class="fig-title">Pokémon’s slice is huge everywhere; the leftover sliver varies</p>
+      <p class="fig-sub">Search split across five card games, by country, 2021–2026</p>
       <div class="chart" data-spec="specs/c09_piemap.vg.json"></div>
-      <figcaption>Each pie = one country's full 5-game split (Pokémon included, not renormalised — shrinking the other 4 to 100% would hide how dominant Pokémon really is). All pies are drawn the same size; hover one for the exact percentages.
-Vietnam and Argentina have the largest non-Pokémon share (44%, 43%), with Greece, Mexico, Brazil and Germany close behind (39–41%); India has the smallest (7%). Yu-Gi-Oh is the biggest "other" slice in 30 of 44 countries; sports cards take over in the Americas and South Korea (11 countries); Magic: The Gathering and One Piece lead only in a handful of European and Southeast Asian countries.</figcaption>
+      <figcaption>Yu-Gi-Oh is the runner-up in 30 of 44 countries.</figcaption>
     </figure>
   </div>
 </section>
@@ -133,32 +129,42 @@ Vietnam and Argentina have the largest non-Pokémon share (44%, 43%), with Greec
   <div class="wrap">
     <p class="sec-label">5 · Conclusion</p>
     <h2 class="sec-title">A boom at the top, a changing of the guard below</h2>
-    <p class="sec-intro">TODO</p>
+    <p class="sec-intro">Pokémon searches roughly quadrupled after 2024, while One Piece overtook Yu-Gi-Oh for second place in late 2025.</p>
 
     <figure>
       <p class="fig-title">At the top: Pokémon's search boom</p>
-      <p class="fig-sub">Relative search interest for all 5 games, weekly, 2021–2026 (Google Trends index, 100 = peak week)</p>
+      <p class="fig-sub">Weekly search interest, 2021–2026 (index, 100 = peak week)</p>
       <div class="chart" data-spec="specs/c10_line.vg.json"></div>
-      <figcaption>Pokémon's line is the real headline: a quiet index around 20 through most of 2022–2024, then a climb past 80 — and briefly to 100 — in 2026. The other four games are squeezed into a thin band near the bottom on this shared scale, so their own contest is invisible here. The chart below sets Pokémon aside and ranks just those four.</figcaption>
+      <figcaption>Pokémon searches quadrupled after 2024; rivals stayed near the bottom.</figcaption>
     </figure>
 
     <figure>
-      <p class="fig-title">Below it: One Piece takes the #2 seat from Yu-Gi-Oh</p>
-      <p class="fig-sub">Quarterly rank of the 4 challengers once Pokémon is set aside (#1 = highest average search interest that quarter), 2021 Q4 – 2026 Q3</p>
+      <p class="fig-title">Below it: One Piece takes second place from Yu-Gi-Oh</p>
+      <p class="fig-sub">Quarterly rank of the four non-Pokémon games, 2021–2026</p>
       <div class="chart" data-spec="specs/c10_bump.vg.json"></div>
-      <figcaption>Sports cards holds #1 for all but one quarter (Yu-Gi-Oh briefly overtakes it in early 2022). The real "changing of the guard" happens one rank down — Yu-Gi-Oh held #2 for four straight years before One Piece overtook it in late 2025 and hasn't given it back since, while Magic: The Gathering swaps #3/#4 with One Piece several times before settling at #4. Ranks use quarterly averages, not weekly values: week-to-week search noise would make the lines flicker without any real change behind them.</figcaption>
+      <figcaption><p>One Piece overtook Yu-Gi-Oh for second place in late 2025.</p><p>Ranks use quarterly averages to smooth weekly noise.</p></figcaption>
     </figure>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
-    <p><strong>Data sources.</strong> Pokémon TCG catalogue (pokemon-tcg-data, 176 sets / 20,635 cards) ·
-       Yu-Gi-Oh card database (7,968 cards) · Google Trends (2021-10-02 – 2026-10-02) ·
-       Natural Earth 110m country boundaries.</p>
-    <p><strong>Note.</strong> Google Trends values are a relative index (100 = peak week within each query),
-       not search counts.</p>
-    <p><strong>AI use.</strong> TODO — 고지 문구.</p>
+    <h2 class="about-title">About this visualisation</h2>
+    <p><strong>Who it is for.</strong> Anyone curious about trading card games; no expertise needed.</p>
+    <p><strong>How to read it.</strong> Hover any chart for exact values. Hover a line, band or bar to highlight it. On maps, use Zoom and Map Centre to explore regions.</p>
+    <p><strong>Things to know.</strong> Google Trends values are relative (100 = each query’s peak week), not search counts. Pokémon card names are counted by species; other games by repeated words.</p>
+    <p><strong>Colour.</strong> Each game keeps one colour on every chart (key at the top).</p>
+    <p><strong>Author.</strong> Back Jiyeol, FIT3179 Data Visualisation 2, October 2026.</p>
+    <p><strong>Data sources.</strong></p>
+    <ul class="sources">
+      <li><a href="https://github.com/PokemonTCG/pokemon-tcg-data">Pokémon Trading Card Game data</a> (176 sets, 20,635 cards)</li>
+      <li><a href="https://github.com/KianBennett/Yugioh-Database-Downloader">Yu-Gi-Oh card database</a> (7,968 cards)</li>
+      <li><a href="https://scryfall.com/docs/api">Scryfall</a> (Magic: The Gathering card names)</li>
+      <li><a href="https://github.com/buhbbl/punk-records">punk-records</a> (One Piece card names)</li>
+      <li><a href="https://trends.google.com/">Google Trends</a> (October 2021 to October 2026)</li>
+      <li><a href="https://www.naturalearthdata.com/">Natural Earth</a> (country boundaries)</li>
+    </ul>
+    <p><strong>AI use.</strong> Claude (Anthropic) assisted with data processing and code.</p>
   </div>
 </footer>
 

@@ -3,7 +3,8 @@
 // error without stopping the remaining charts.
 
 const EMBED_OPT = {
-  actions: {export:true, source:true, compiled:false, editor:true},
+  // actions: {export:true, source:true, compiled:false, editor:true},
+  actions: false,
   renderer: "canvas",
   tooltip: {theme: "dark"},
   config: {

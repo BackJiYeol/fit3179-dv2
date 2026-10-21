@@ -13,9 +13,9 @@
       },
       "title": null,
       "axis": {
-        "labelAngle": -40,
+        "labelAngle": 0,
         "labelFontSize": 9.5,
-        "labelLimit": 40
+        "labelExpr": "(indexof(datum.value, 'Q1') > 0 || datum.value == '21 Q4') ? '20' + substring(datum.value, 0, 2) : ''"
       }
     }
   },
@@ -78,7 +78,7 @@
         },
         "tooltip": [
           {
-            "field": "period",
+            "field": "quarter_name",
             "title": "Quarter"
           },
           {
@@ -91,7 +91,7 @@
           },
           {
             "field": "avg_value",
-            "title": "Avg. search interest"
+            "title": "Average search interest"
           }
         ],
         "opacity": {
@@ -151,7 +151,7 @@
           }
         },
         "text": {
-          "field": "game_short"
+          "field": "game"
         },
         "color": {
           "field": "game",
@@ -187,5 +187,11 @@
     "view": {
       "stroke": null
     }
-  }
+  },
+  "transform": [
+    {
+      "calculate": "({'Q1':'January–March','Q2':'April–June','Q3':'July–September','Q4':'October–December'})[substring(datum.period,3,5)] + ' 20' + substring(datum.period,0,2)",
+      "as": "quarter_name"
+    }
+  ]
 }
