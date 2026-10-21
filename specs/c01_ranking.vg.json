@@ -3,13 +3,17 @@
   "data": {
     "url": "data/c01_ranking.json"
   },
+  "height": 393,
   "mark": "bar",
   "encoding": {
     "y": {
       "field": "game",
       "type": "nominal",
       "sort": "-x",
-      "title": null
+      "title": null,
+      "scale": {
+        "paddingInner": 0.3
+      }
     },
     "x": {
       "field": "value",

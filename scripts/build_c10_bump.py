@@ -1,39 +1,24 @@
 """
-#10 chart, advanced-idiom upgrade (2026-10-20): the bottom panel ("Pokémon
-removed" line chart) becomes a Bump chart, so the dashboard keeps 8/10
-advanced idioms after #3 was reclassified from advanced (Icicle/Mosaic,
-Tree idiom family) to basic (plain stacked bar, Bar chart family) on
-2026-10-19.
+#10 Bump chart: quarterly rank of the four games below Pokémon.
 
-Why a Bump chart fits here specifically: #10's own title is "A boom at the
-top, a changing of the guard below" -- the ORIGINAL design already implied
-a rank story for the four challengers beneath Pokémon, but the old bottom
-panel only plotted their raw values as a second line chart (still Line
-chart family = basic, same idiom as the top panel, so it didn't add any
-new idiom to the dashboard's diversity count either). A Bump chart plots
-RANK over time instead of raw value, which is the literal idiom for
-"changing of the guard" (Kirk 2019 calls this a slope graph; FIT3179 Week 5
-Workshop's own idiom list names it directly as idiom #10, "Bump chart",
-grouped with Slope chart / Streamgraph / Parallel coordinates -- confirming
-it's taught and advanced-tier, not a Marimekko-style exclusion risk).
+Input:  data/c10_timeseries.json  weekly Google Trends values (build_c10.py)
+Output: data/c10_bump.json
 
-Data: reuses the exact same Google Trends weekly data as the existing #10
-top panel (site/data/c10_timeseries.json, 2021-09-26 to 2026-09-27, 5
-games) -- no new collection. Weekly resolution is too noisy for a rank
-chart (ranks would flicker almost every week from search-interest noise),
-so this script aggregates to quarterly means first, then ranks the four
-non-Pokémon games within each quarter. Pokémon is excluded from the ranking
-itself (it is #1 every single quarter by a huge margin -- that's the
-"boom at the top" the TOP panel already shows; putting it in the bump
-chart too would just draw a flat uninteresting line at rank 1 forever and
-visually crowd out the actual story, which is what happens BELOW it).
+Method:
+  - Weekly values are too noisy for ranks, so average per quarter first.
+  - Drop partial quarters (fewer than 10 weeks per game).
+  - Rank the four games per quarter (1 = highest average).
+  - Pokémon is left out: it is first in every quarter.
+
+Run: python scripts/build_c10_bump.py
 """
 import json
 from collections import defaultdict
-from datetime import date
+from pathlib import Path
 
-SRC = "c10_timeseries.json"
-OUT = "c10_bump.json"
+ROOT = Path(__file__).resolve().parent.parent
+SRC = ROOT / "data" / "c10_timeseries.json"
+OUT = ROOT / "data" / "c10_bump.json"
 
 rows = json.load(open(SRC, encoding="utf-8"))
 
@@ -56,14 +41,11 @@ for r in rows:
 quarters = sorted(set((y, q) for (y, q, _g) in sums.keys()))
 games = sorted(set(g for (_y, _q, g) in sums.keys()))
 
-# drop the first and last quarter if they are partial (few weeks only),
-# so the ranking isn't distorted by a half-quarter average
+# drop partial first/last quarters
 qweeks = defaultdict(int)
 for (y, q, _g), c in counts.items():
     qweeks[(y, q)] += c
-full_quarters = [qq for qq in quarters if qweeks[qq] >= games.__len__() * 10]
-# (10 weeks/game minimum ~ roughly a full quarter's worth per game; drops
-#  the partial first/last quarter automatically)
+full_quarters = [qq for qq in quarters if qweeks[qq] >= len(games) * 10]
 quarters = full_quarters if full_quarters else quarters
 
 rows_out = []
@@ -95,7 +77,7 @@ for qi, (y, q) in enumerate(quarters):
         })
 
 json.dump(rows_out, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print(f"wrote {OUT} - {len(rows_out)} rows, {len(quarters)} quarters ({quarters[0]} to {quarters[-1]})")
+print(f"wrote {OUT.relative_to(ROOT)}: {len(rows_out)} rows, {len(quarters)} quarters ({quarters[0]} to {quarters[-1]})")
 print("games ranked:", games)
 
 # sanity check: print final-quarter standings

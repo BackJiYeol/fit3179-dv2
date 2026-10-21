@@ -1,64 +1,38 @@
 """
-c06_calendar.json 생성 스크립트  (6번 Calendar heatmap)
----------------------------------------------------------------
-입력 : raw/pkm_sets.json      Pokémon TCG 세트 목록 (176세트)
-                              출처: github.com/PokemonTCG/pokemon-tcg-data
-                                    sets/en.json 을 그대로 저장한 것
-       raw/ygo_cardsets.json  Yu-Gi-Oh 세트 목록 (1,035세트)
-                              출처: db.ygoprodeck.com/api/v7/cardsets.php
-                                    응답 JSON 을 그대로 저장한 것
+#6 Calendar heatmap: set releases per month, both games.
 
-출력 : data/c06_calendar.json
-       [{"game": "Pokémon", "year": 1999, "month": 1,
-         "sets": 1, "pct": 0.57}, ...]
-       두 게임이 모두 존재한 공통 기간만 넣는다 (= 늦게 시작한 쪽의 첫
-       발매월 ~ 먼저 끝난 쪽의 마지막 발매월). 그 안의 모든 연·월을
-       빠짐없이 넣고, 세트가 없던 달도 sets=0 으로 넣는다.
-       공통 기간으로 자르는 이유: 한쪽에만 데이터가 있는 구간이 있으면
-       두 패널의 가로 길이가 달라져 리듬 비교가 어긋난다.
-       sets=0 은 '측정된 0건'이며 차트에서 회색으로 그린다.
+Input:  raw/pkm_sets.json      (github.com/PokemonTCG/pokemon-tcg-data, sets/en.json)
+        raw/ygo_cardsets.json  (db.ygoprodeck.com/api/v7/cardsets.php)
+Output: data/c06_calendar.json
+        [{"game": "Pokémon", "year": 2002, "month": 3, "sets": 1, "pct": 0.57}, ...]
 
-변환 : 세트 발매일(release date)에서 연·월만 꺼내 건수를 센다.
-       카드 수가 아니라 '세트가 몇 번 나왔나'를 센다.
-       pct = 그 칸의 세트 수 / 공통 기간 안에서 그 게임이 낸 세트 수 x 100.
-       비율로 바꾸는 이유: 두 게임의 세트 수 규모가 달라, 건수를 그대로
-       색에 넣으면 적게 내는 쪽이 전부 흐려져 보이지 않는다. 그리고 이
-       차트가 묻는 것은 '규모'가 아니라 '시기'이므로 의미상으로도 맞다.
+Method:
+  - Common window only: from the later first release to the earlier last
+    release (2002-03 to 2025-12), so both panels share one time axis.
+  - Every month in the window is kept; months with no release get sets=0.
+  - pct = sets that month / that game's sets in the window x 100.
+    Shares, not counts, because the two games release at different scales.
+  - Date formats differ: Pokémon "1999/01/09" (releaseDate),
+    Yu-Gi-Oh "2015-05-28" (tcg_date). Both start with year-month.
 
-날짜 형식이 두 소스에서 다르다
-  Pokémon : "1999/01/09"  (슬래시)   필드명 releaseDate
-  Yu-Gi-Oh: "2015-05-28"  (하이픈)   필드명 tcg_date
-  둘 다 앞 7글자가 연-월이므로 구분자만 통일해서 읽는다.
+Rules:
+  - MIN_CARDS = 10: Yu-Gi-Oh counts single promos as sets
+    (median 8 cards vs 111 for Pokémon). Dropping sets under 10 cards
+    removes 3 of 176 Pokémon sets and makes the units comparable.
+  - 4 undated Yu-Gi-Oh sets are dropped.
+  - Both games use English (TCG) release dates.
+  - 2026 is dropped (year not finished).
 
-판단이 들어간 지점 (보고서에 명시할 것)
-  0) MIN_CARDS = 10 — 카드가 10장 미만인 'set'은 양쪽 모두 제외한다.
-     두 데이터베이스가 'set'을 다르게 세기 때문이다. 필터 전 분포:
-                       1~9장   10~19장  20장 이상   중앙값
-       Pokémon            3       25       148      111장
-       Yu-Gi-Oh         525       28       478        8장
-     Yu-Gi-Oh 쪽 525개는 대부분 프로모 1장짜리 배포, 틴, 스타터 덱이며
-     Pokémon DB 가 세는 expansion 과 같은 단위가 아니다. 거르지 않으면
-     "Yu-Gi-Oh 가 6배 자주 낸다"는 결론이 나오는데, 그것은 실제 발매
-     빈도가 아니라 집계 기준의 차이다.
-     임계값 10 은 임의 선택이다. 다만 양쪽에 같은 규칙을 적용하며,
-     Pokémon 쪽 손실이 3/176 로 작아 한쪽만 깎는 비대칭이 생기지 않는다.
-  1) Yu-Gi-Oh 세트 1,035개 중 발매일이 없는 4개는 제외.
-  2) Yu-Gi-Oh 의 tcg_date 는 TCG(영문판) 발매일이다. 일본 OCG 발매일과
-     다르며, Pokémon 쪽도 영문판 기준이므로 비교 기준은 맞다.
-  3) 아직 끝나지 않은 해(2026)는 제외한다. 9월까지만 집계되어 있어
-     완료된 해와 나란히 놓으면 "그 해에 적게 냈다"처럼 보인다.
-
-실행 : python scripts/build_c06.py
+Run: python scripts/build_c06.py
 """
 import json
 from collections import Counter
 from pathlib import Path
 
-# 카드가 이 수보다 적은 'set'은 expansion 으로 보지 않고 제외한다.
-# 자세한 이유는 위 docstring 의 판단 0) 참고.
+# Sets with fewer cards are promos, not expansions (see docstring).
 MIN_CARDS = 10
 
-# 아직 끝나지 않은 해는 제외한다.
+# Skip the unfinished year.
 LAST_COMPLETE_YEAR = 2025
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -68,14 +42,13 @@ OUT = ROOT / "data" / "c06_calendar.json"
 
 
 def year_month(raw_date: str):
-    """'1999/01/09' 와 '2015-05-28' 을 모두 (1999, 1) 형태로."""
+    """'1999/01/09' or '2015-05-28' -> (year, month)."""
     d = raw_date.replace("/", "-")
     return int(d[0:4]), int(d[5:7])
 
 
 def count_sets(records, date_field, size_field):
-    """발매일이 있고 카드가 MIN_CARDS 장 이상인 레코드만 세어
-    Counter{(year, month): 건수} 를 돌려준다."""
+    """Count dated sets with at least MIN_CARDS cards per (year, month)."""
     counter = Counter()
     no_date = 0
     too_small = 0
@@ -95,15 +68,15 @@ def main() -> None:
     pkm = json.loads(PKM.read_text(encoding="utf-8"))
     ygo = json.loads(YGO.read_text(encoding="utf-8"))
 
-    # Pokémon 쪽 카드 수 필드는 total, Yu-Gi-Oh 쪽은 num_of_cards
+    # Card-count field: total (Pokémon), num_of_cards (Yu-Gi-Oh)
     pkm_counts, pkm_no_date, pkm_small = count_sets(pkm, "releaseDate", "total")
     ygo_counts, ygo_no_date, ygo_small = count_sets(ygo, "tcg_date", "num_of_cards")
 
     def to_index(ym):
-        """(2001, 1) -> 월 단위 일련번호. 구간 계산을 쉽게 하기 위한 것."""
+        """(year, month) -> running month number."""
         return ym[0] * 12 + (ym[1] - 1)
 
-    # 두 게임이 모두 존재한 공통 구간. 끝은 마지막 완결 연도의 12월까지.
+    # Common window, capped at December of the last complete year.
     start = max(to_index(min(pkm_counts)), to_index(min(ygo_counts)))
     end = min(to_index(max(pkm_counts)),
               to_index(max(ygo_counts)),
@@ -111,9 +84,7 @@ def main() -> None:
 
     rows = []
     for game, counts in (("Pokémon", pkm_counts), ("Yu-Gi-Oh", ygo_counts)):
-        # 분모는 '공통 구간 안에서 그 게임이 낸 세트 수'.
-        # 구간 밖 세트까지 분모에 넣으면 두 게임의 비율이 서로 다른 모수를
-        # 쓰게 되어 비교가 어긋난다.
+        # Denominator: this game's sets inside the window only.
         window_total = sum(n for ym, n in counts.items()
                            if start <= to_index(ym) <= end)
 
@@ -131,7 +102,7 @@ def main() -> None:
 
     OUT.write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    # ---- 확인용 출력 ----
+    # ---- summary ----
     for game, counts, no_date, small, total in (
         ("Pokémon", pkm_counts, pkm_no_date, pkm_small, len(pkm)),
         ("Yu-Gi-Oh", ygo_counts, ygo_no_date, ygo_small, len(ygo)),

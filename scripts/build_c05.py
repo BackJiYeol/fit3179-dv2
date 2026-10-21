@@ -1,42 +1,24 @@
 """
-c05_parallel.json 생성 스크립트  (#5 Parallel coordinates)
----------------------------------------------------------------
-입력 : raw/pkm_sets.json       Pokémon TCG 세트 목록
-       raw/ygo_cardsets.json   Yu-Gi-Oh 세트 목록
+#5 Parallel coordinates: one line per era.
 
-출력 : data/c05_parallel.json
-       [{"game":"Pokémon","era":"XY","Sets released":16,
-         "Cards per set":120.3,"Sets per year":4.0,"Share of all cards":11.6}, ...]
+Input:  raw/pkm_sets.json, raw/ygo_cardsets.json
+Output: data/c05_parallel.json
 
-네 축은 단위가 서로 다르다. 이것이 #4 Slope chart 와 구분되는 핵심이다.
-  Sets released       개        그 시대에 나온 세트 수
-  Cards per set       장        세트 하나의 평균 카드 수
-  Sets per year       개/년     발매 속도 (세트 수 / 시대 길이)
-  Share of all cards  %         그 게임 전체 카드 중 그 시대가 차지하는 비중
+Axes (each has its own unit):
+  Sets released       sets in the era
+  Sets per year       sets / era length in years
+  Cards per set       average cards per set
+  Share of all cards  % of that game's cards released in the era
 
-  Slope chart(#4)는 축 2개가 '같은 변수의 다른 시점'이라 기울기 자체가
-  의미를 갖는다. Parallel coordinates 는 축마다 단위가 달라 기울기에는
-  의미가 없고, '비슷한 모양으로 움직이는 선들의 무리'를 읽는 차트다.
+Rules:
+  - MIN_CARDS = 10: drop promo sets with fewer than 10 cards (same as c06).
+  - LAST_COMPLETE_YEAR = 2025: skip the unfinished year.
+  - Pokémon eras use the "series" field; "Other" and series with
+    fewer than 3 sets are dropped.
+  - Yu-Gi-Oh has no series field, so eras follow the anime air years.
+  - Era length = first to last year with a release in the data.
 
-판단이 들어간 지점 (보고서에 명시할 것)
-  1) MIN_CARDS = 10 — 두 데이터베이스가 'set'을 다르게 센다. Pokémon 은
-     expansion 을, Yu-Gi-Oh 는 프로모 1장짜리까지 'set'으로 센다.
-     build_c06.py 와 같은 규칙을 양쪽에 똑같이 적용한다.
-  2) LAST_COMPLETE_YEAR = 2025 — 끝나지 않은 해는 제외.
-  3) 시대(era) 의 정의가 두 게임에서 다르다.
-     Pokémon : 데이터에 있는 공식 'series' 필드를 그대로 쓴다.
-     Yu-Gi-Oh: 대응하는 필드가 없어, 애니메이션 시리즈의 실제 방영 연도로
-               9개 구간을 직접 나눴다. 공개된 방영 연도이며 지어낸 값이 아니다.
-               두 게임의 '시대'가 같은 성격의 단위가 아니라는 점은 밝혀야 한다.
-  4) Pokémon series 중 다음은 제외한다.
-     - "Other": 여러 잡다한 세트를 묶은 분류이지 하나의 시대가 아니다.
-     - 세트가 3개 미만인 series: 평균과 발매 속도가 한두 세트에 좌우된다.
-       (NP 1세트, Gym 2세트, Mega Evolution 2세트 — 마지막 것은 2025년에
-        막 시작한 시대라 아직 완결되지 않았다.)
-  5) 시대 길이는 '그 시대에 실제로 세트가 나온 첫 해와 마지막 해'로 계산한다.
-     공식 시작·종료일이 아니라 데이터에서 관측된 범위다.
-
-실행 : python scripts/build_c05.py
+Run: python scripts/build_c05.py
 """
 import json
 from collections import defaultdict
@@ -52,7 +34,7 @@ LAST_COMPLETE_YEAR = 2025
 MIN_SETS_PER_ERA = 3
 EXCLUDED_POKEMON_SERIES = {"Other"}
 
-# Yu-Gi-Oh 는 series 필드가 없어 애니메이션 방영 연도로 시대를 나눈다.
+# Yu-Gi-Oh eras by anime air years (no series field in the data).
 YGO_ERAS = [
     ("Duel Monsters", 2002, 2004), ("GX", 2005, 2008), ("5D's", 2009, 2011),
     ("Zexal", 2012, 2014), ("Arc-V", 2015, 2017), ("VRAINS", 2018, 2019),
@@ -68,7 +50,7 @@ def ygo_era(year):
 
 
 def collect(records, date_field, size_field, era_of):
-    """시대별로 (세트 수, 카드 수, 첫 해, 마지막 해) 를 모은다."""
+    """Per era: set count, card count, first year, last year."""
     buckets = defaultdict(lambda: {"sets": 0, "cards": 0,
                                    "first": 9999, "last": 0})
     for rec in records:

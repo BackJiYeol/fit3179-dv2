@@ -1,31 +1,62 @@
-# FIT3179 DV2 — Who's Collecting Trading Cards?
+# FIT3179 Data Visualisation 2: Who is collecting trading cards?
 
-## 구조
+Live site: https://backjiyeol.github.io/fit3179-dv2/
+
+## Structure
 ```
-index.html          페이지 (섹션 5개 · 차트 슬롯 10개)
-css/style.css       스타일
-js/main.js          .chart[data-spec] 을 찾아 Vega-Lite 스펙을 불러와 그림
-specs/*.vg.json     차트별 Vega-Lite 스펙  ← 여기를 하나씩 채우는 중
-data/*.json         차트 데이터
-data/_PROVENANCE.json  각 데이터의 출처·가공·판단이 들어간 지점 기록
+index.html              page (5 sections, 11 charts)
+css/style.css           styles
+js/main.js              embeds every .chart[data-spec] with Vega-Embed
+specs/                  Vega and Vega-Lite chart specs
+data/*.json             chart data
+csv/                    original Google Trends downloads (unchanged)
+raw/                    original set lists and map helpers (unchanged)
+scripts/                Python scripts that build data/ from csv/ and raw/
 ```
 
-## 차트를 추가하는 방법
-1. `specs/cNN_xxx.vg.json` 에 Vega-Lite 스펙을 쓴다
-2. 데이터는 `{"data": {"url": "data/cNN_xxx.json"}}` — 경로는 **index.html 기준**
-3. `width` 는 쓰지 않아도 됨 (main.js가 `"container"` 로 채움)
+## Run locally
+Serve the folder, for example `python -m http.server`, then open
+http://localhost:8000. Opening index.html as `file://` blocks fetch.
 
-## 로컬에서 보기
-`python -m http.server` 로 띄워서 볼 것. `file://` 로 열면 fetch가 막힘.
+## Rebuild the data
+```
+python scripts/build_c01.py
+python scripts/build_c05.py
+python scripts/build_c06.py
+python scripts/build_maps.py
+python scripts/build_c09.py      # needs build_maps.py first
+python scripts/build_c10.py
+python scripts/build_c10_bump.py # needs build_c10.py first
+```
+c02, c03 and c04 were built from full card dumps that are too large for
+this repo. Their method is described under Data processing.
 
-## 데이터 출처
-- Pokémon TCG: [pokemon-tcg-data](https://github.com/PokemonTCG/pokemon-tcg-data) — 176 sets / 20,635 cards
-- Yu-Gi-Oh: [Yugioh-Database-Downloader](https://github.com/KianBennett/Yugioh-Database-Downloader) — 7,968 cards
-- Magic: The Gathering: [Scryfall API — `/catalog/card-names`](https://api.scryfall.com/catalog/card-names) — 35,176 unique card names
-- One Piece: [buhbbl/punk-records — `english/index/by_name.json`](https://raw.githubusercontent.com/buhbbl/punk-records/main/english/index/by_name.json) (vegapull로 공식 One Piece TCG 사이트를 스크래핑한 데이터) — 1,170 unique card names
-- Google Trends: 2021-10-02 ~ 2026-10-02
+## Data processing
+- c01: mean of 262 weekly Google Trends values per game.
+- c02: Pokémon counted by species; other games by words of 3+ letters in
+  card names. Top 12 per game, as % of that game's cards.
+- c03: Pokémon cards per era grouped by special subtype (EX, GX, V, ex, ...).
+  Ordinary cards left out.
+- c04: cards per rarity tier per year. Rarity labels grouped into 5 tiers
+  per game. Pokémon promos dropped.
+- c05, c06: sets under 10 cards dropped (Yu-Gi-Oh counts single promos as
+  sets). 2026 dropped. Yu-Gi-Oh eras follow anime air years.
+- c06: window 2002-03 to 2025-12, the months both games were active.
+- c07 to c09: country names matched to Natural Earth
+  (Türkiye -> Turkey, United States -> United States of America).
+- c09: raw shares of all 5 games, not renormalised.
+- c10 bump: quarterly means, then rank of the four games below Pokémon.
+- Google Trends '<1' is read as 0.5.
+
+## Data sources
+- Pokémon TCG: [pokemon-tcg-data](https://github.com/PokemonTCG/pokemon-tcg-data), 176 sets, 20,635 cards
+- Yu-Gi-Oh: [Yugioh-Database-Downloader](https://github.com/KianBennett/Yugioh-Database-Downloader), 7,968 cards; [YGOPRODeck card sets API](https://db.ygoprodeck.com/api/v7/cardsets.php)
+- Magic: The Gathering: [Scryfall `/catalog/card-names`](https://api.scryfall.com/catalog/card-names), 35,176 card names
+- One Piece: [punk-records `english/index/by_name.json`](https://raw.githubusercontent.com/buhbbl/punk-records/main/english/index/by_name.json), 1,170 card names
+- Google Trends, worldwide, 2021-10-02 to 2026-10-02
 - Natural Earth 110m country boundaries
 
-⚠ Google Trends 값은 검색량이 아니라 **상대 지수**(쿼리 내 최고 주 = 100)
-
-The CSV files in csv/ are the original downloads from Google Trends and have not been modified. All transformation happens in scripts/.
+## Notes
+- Google Trends values are a relative index (100 = peak week), not search counts.
+- The Google Trends CSVs were downloaded from a Korean-language browser, so
+  their header lines are in Korean. The scripts accept both Korean and English headers.

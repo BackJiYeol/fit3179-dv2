@@ -1,3 +1,9 @@
+"""
+#10 Line chart: weekly Google search interest for five games.
+
+Input : csv/time_5games.csv  (Google Trends, weekly, worldwide, 2021-2026)
+Output: data/c10_timeseries.json  [{"date", "game", "value"}]  (long format)
+"""
 import csv
 import json
 from pathlib import Path
@@ -5,6 +11,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "csv" / "time_5games.csv"
 OUT = ROOT / "data" / "c10_timeseries.json"
+
+# CSVs were saved from a Korean browser: first header cell is "\uc8fc" ("Week").
+HEADER_FIRST_CELL = ("Week", "\uc8fc")
 
 LABEL = {
     "Pokemon cards":             "Pokémon",
@@ -16,7 +25,7 @@ LABEL = {
 
 
 def to_number(raw: str) -> float:
-    """'<1' 을 0.5 로. 그 외에는 그대로 숫자 변환."""
+    """'<1' becomes 0.5; anything else is read as a number."""
     raw = raw.strip()
     return 0.5 if raw.startswith("<") else float(raw)
 
@@ -24,7 +33,7 @@ def to_number(raw: str) -> float:
 def main() -> None:
     rows = list(csv.reader(SRC.open(encoding="utf-8-sig")))
 
-    header_i = next(i for i, r in enumerate(rows) if r and r[0] in ("주", "Week"))
+    header_i = next(i for i, r in enumerate(rows) if r and r[0] in HEADER_FIRST_CELL)
     header = rows[header_i]
     body = [r for r in rows[header_i + 1:] if r and r[0]]
 

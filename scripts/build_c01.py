@@ -1,3 +1,11 @@
+"""
+#1 Bar chart: average Google search interest per game.
+
+Input : csv/time_5games.csv  (Google Trends, weekly, worldwide, 2021-2026)
+Output: data/c01_ranking.json  [{"game", "value", "source"}]
+
+value = mean of the 262 weekly index values (100 = peak week in the query).
+"""
 import csv
 import json
 import statistics
@@ -6,6 +14,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "csv" / "time_5games.csv"
 OUT = ROOT / "data" / "c01_ranking.json"
+
+# Google Trends exports headers in the browser language. Our CSVs were saved
+# from a Korean browser, so the first column is "\uc8fc" ("Week").
+HEADER_FIRST_CELL = ("Week", "\uc8fc")
 
 LABEL = {
     "Pokemon cards":             "Pokémon",
@@ -19,7 +31,7 @@ SOURCE_NOTE = "Google Trends multiTimeline.csv, 5y weekly mean"
 
 
 def to_number(raw: str) -> float:
-    """'<1' 을 0.5 로. 그 외에는 그대로 숫자 변환."""
+    """'<1' becomes 0.5; anything else is read as a number."""
     raw = raw.strip()
     return 0.5 if raw.startswith("<") else float(raw)
 
@@ -27,7 +39,7 @@ def to_number(raw: str) -> float:
 def main() -> None:
     rows = list(csv.reader(SRC.open(encoding="utf-8-sig")))
 
-    header_i = next(i for i, r in enumerate(rows) if r and r[0] in ("Week"))
+    header_i = next(i for i, r in enumerate(rows) if r and r[0] in HEADER_FIRST_CELL)
     header = rows[header_i]
     body = [r for r in rows[header_i + 1:] if r and r[0]]
 

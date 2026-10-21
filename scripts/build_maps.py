@@ -1,3 +1,16 @@
+"""
+#7 Choropleth, #8 Proportional symbol map, and country points for #9.
+
+Input:  csv/geo_5games.csv        Google Trends, 5 games by country
+        csv/geo_tradingcards.csv  Google Trends, "trading cards" by country
+        raw/country_points.json   country label points
+        raw/ne_110m_places.geojson  points for city-states missing at 110m
+Output: data/c07_share.json   Pokémon share of the 5 games per country
+        data/c08_symbol.json  "trading cards" interest per country
+        data/c09_runnerup.json  largest non-Pokémon game per country, with point
+
+Run: python scripts/build_maps.py
+"""
 import csv
 import json
 from pathlib import Path
@@ -13,7 +26,11 @@ OUT_SHARE = ROOT / "data" / "c07_share.json"
 OUT_SYMBOL = ROOT / "data" / "c08_symbol.json"
 OUT_RUNNER = ROOT / "data" / "c09_runnerup.json"
 
-# CSV 헤더의 검색어 -> 차트에 표시할 이름
+# Google Trends writes headers in the browser language. Our CSVs were saved
+# from a Korean browser, so the header row starts with "\uad6d\uac00" ("Country").
+HEADER_FIRST_CELL = ("Country", "\uad6d\uac00")
+
+# Search term in the CSV header -> display name
 GAME = {
     "Pokemon cards": "Pokémon",
     "Yugioh cards": "Yu-Gi-Oh",
@@ -22,19 +39,18 @@ GAME = {
     "sports cards": "Sports cards",
 }
 
-# Google Trends 표기 -> Natural Earth 110m 표기.
-# 같은 나라를 두 출처가 다르게 적는 경우만 맞춘다. 데이터는 건드리지 않는다.
+# Google Trends name -> Natural Earth 110m name (names only, values unchanged)
 RENAME = {
-    "Türkiye": "Turkey",                      # 구글은 새 공식 국명, NE 는 옛 표기
+    "Türkiye": "Turkey",
     "United States": "United States of America",
 }
 
-# 110m 국경에 없어 populated places 에서 좌표를 가져올 나라
+# Too small for the 110m borders: take the point from populated places
 PLACE_FALLBACK = {"Singapore": "Singapore", "Hong Kong": "Hong Kong"}
 
 
 def to_number(raw):
-    """'83%' -> 83.0, '<1' -> 0.5, 빈칸 -> None"""
+    """'83%' -> 83.0, '<1' -> 0.5, blank -> None"""
     v = raw.strip().rstrip("%").strip()
     if not v:
         return None
@@ -42,9 +58,9 @@ def to_number(raw):
 
 
 def read_geo_csv(path):
-    """Trends geoMap CSV 에서 (검색어 목록, 값이 있는 행들) 을 돌려준다."""
+    """Return (search terms, rows with values) from a Trends geoMap CSV."""
     rows = list(csv.reader(path.open(encoding="utf-8-sig")))
-    i = next(j for j, r in enumerate(rows) if r and r[0] in ("국가", "Country"))
+    i = next(j for j, r in enumerate(rows) if r and r[0] in HEADER_FIRST_CELL)
     columns = [c.split(":")[0].strip() for c in rows[i][1:]]
     body = [r for r in rows[i + 1:]
             if r and r[0] and any(c.strip() for c in r[1:])]
@@ -52,7 +68,7 @@ def read_geo_csv(path):
 
 
 def load_points():
-    """나라 -> (lon, lat). 국경 라벨 좌표 + 도시국가 보정."""
+    """Country -> (lon, lat), plus city-state points."""
     points = json.loads(CENTROID.read_text(encoding="utf-8"))
     places = json.loads(PLACES.read_text(encoding="utf-8"))
     for feature in places["features"]:
@@ -66,7 +82,7 @@ def load_points():
 def main() -> None:
     points = load_points()
 
-    # ---------- #7 과 #9 : 5게임 비중 ----------
+    # ---------- #7 and #9: share of the 5 games ----------
     columns, body = read_geo_csv(GEO_5)
     share_rows, runner_rows = [], []
 
@@ -89,7 +105,7 @@ def main() -> None:
                 "lat": lonlat[1],
             })
 
-    # ---------- #8 : trading cards 관심도 ----------
+    # ---------- #8: "trading cards" interest ----------
     columns_tc, body_tc = read_geo_csv(GEO_TC)
     symbol_rows = []
     for r in body_tc:
@@ -111,11 +127,9 @@ def main() -> None:
                         encoding="utf-8")
         print(f"{len(rows):3d} rows -> {path.relative_to(ROOT)}")
 
-    # 매칭 실패는 조용히 사라지면 안 되므로 반드시 보고한다.
-    # encoding="utf-8" 를 반드시 적는다. 적지 않으면 Windows 한국어 환경에서
-    # 기본값 cp949 로 읽으려다 UnicodeDecodeError 가 난다.
+    # Report countries that failed to match the map.
     topo = json.loads(
-        (ROOT / "data" / "ne_110m_admin_0_countries.topojson")
+        (ROOT / "data" / "WorldMapWithGraticules.topojson")
         .read_text(encoding="utf-8"))
     map_names = {g["properties"]["NAME"] for g in
                  topo["objects"]["ne_110m_admin_0_countries"]["geometries"]}
