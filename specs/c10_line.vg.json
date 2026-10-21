@@ -142,6 +142,174 @@
           }
         ]
       }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "date": "2024-11-03",
+            "value": 40
+          },
+          {
+            "date": "2026-09-13",
+            "value": 100
+          }
+        ]
+      },
+      "mark": {
+        "type": "circle",
+        "size": 36,
+        "color": "#e9edf3",
+        "opacity": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "date": "2024-11-03",
+            "value": 40,
+            "label": "Late 2024: searches double"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -8,
+        "dy": -8,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#e9edf3",
+        "stroke": "#0f1521",
+        "strokeWidth": 3,
+        "strokeJoin": "round"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "date": "2024-11-03",
+            "value": 40,
+            "label": "Late 2024: searches double"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -8,
+        "dy": -8,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#e9edf3"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "date": "2026-09-13",
+            "value": 100,
+            "label": "Peak week: September 2026"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -8,
+        "dy": 2,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#e9edf3",
+        "stroke": "#0f1521",
+        "strokeWidth": 3,
+        "strokeJoin": "round"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "date": "2026-09-13",
+            "value": 100,
+            "label": "Peak week: September 2026"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -8,
+        "dy": 2,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#e9edf3"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
     }
   ]
 }

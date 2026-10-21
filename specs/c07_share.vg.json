@@ -170,6 +170,256 @@
           }
         }
       ]
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 79.36,
+            "lat": 22.69,
+            "label": "India 93% (highest)"
+          },
+          {
+            "lon": 105.39,
+            "lat": 21.72,
+            "label": "Vietnam 56% (lowest)"
+          },
+          {
+            "lon": 113.84,
+            "lat": 2.53,
+            "label": "Malaysia 81%"
+          }
+        ]
+      },
+      "mark": {
+        "type": "circle",
+        "size": 22,
+        "color": "#e9edf3",
+        "opacity": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 79.36,
+            "lat": 22.69,
+            "label": "India 93% (highest)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -20,
+        "dy": 24,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#e9edf3",
+        "stroke": "#0f1521",
+        "strokeWidth": 3,
+        "strokeJoin": "round"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 79.36,
+            "lat": 22.69,
+            "label": "India 93% (highest)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -20,
+        "dy": 24,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#e9edf3"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 105.39,
+            "lat": 21.72,
+            "label": "Vietnam 56% (lowest)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "dy": -6,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#e9edf3",
+        "stroke": "#0f1521",
+        "strokeWidth": 3,
+        "strokeJoin": "round"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 105.39,
+            "lat": 21.72,
+            "label": "Vietnam 56% (lowest)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "dy": -6,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#e9edf3"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 113.84,
+            "lat": 2.53,
+            "label": "Malaysia 81%"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "dy": 6,
+        "fontSize": 12,
+        "fontWeight": 700,
+        "color": "#e9edf3",
+        "stroke": "#0f1521",
+        "strokeWidth": 3,
+        "strokeJoin": "round"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 113.84,
+            "lat": 2.53,
+            "label": "Malaysia 81%"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "dy": 6,
+        "fontSize": 12,
+        "fontWeight": 700,
+        "color": "#e9edf3"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
     }
   ],
   "config": {

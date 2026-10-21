@@ -27,4 +27,8 @@ http://localhost:8000. Opening index.html as `file://` blocks fetch.
 - Natural Earth 110m country boundaries
 
 ## Notes
+<<<<<<< HEAD
 - Google Trends values are a relative index (100 = peak week), not search counts.
+=======
+- Google Trends values are a relative index (100 = peak week), not search counts.
+>>>>>>> 68b9800ae22c343e14481ceb8574e92ae6aa496a

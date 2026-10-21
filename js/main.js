@@ -40,7 +40,15 @@ async function drawAll(){
       } else {
         spec.width = spec.width ?? "container";
       }
-      await vegaEmbed(el, spec, EMBED_OPT);
+      let result = await vegaEmbed(el, spec, EMBED_OPT);
+      // Panels get the column width, but a side legend can push the chart past it.
+      // Measure the overflow once and redraw the panels that much narrower.
+      const overflow = el.scrollWidth - el.clientWidth;
+      if (panels && overflow > 0) {
+        for (const p of panels) p.width -= overflow;
+        result.finalize();
+        result = await vegaEmbed(el, spec, EMBED_OPT);
+      }
       el.classList.remove("is-loading");
     }catch(err){
       el.classList.remove("is-loading");
