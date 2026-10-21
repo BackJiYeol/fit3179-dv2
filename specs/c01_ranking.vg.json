@@ -36,25 +36,11 @@
       }
     ],
     "color": {
-      "field": "game",
-      "type": "nominal",
-      "legend": null,
-      "scale": {
-        "domain": [
-          "Pokémon",
-          "Yu-Gi-Oh",
-          "Sports cards",
-          "Magic: The Gathering",
-          "One Piece"
-        ],
-        "range": [
-          "#56B4E9",
-          "#CC79A7",
-          "#E69F00",
-          "#009E73",
-          "#D55E00"
-        ]
-      }
+      "condition": {
+        "test": "datum.game === 'Pokémon'",
+        "value": "#56B4E9"
+      },
+      "value": "#4b5568"
     }
   }
 }
