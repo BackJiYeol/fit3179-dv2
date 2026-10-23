@@ -23,94 +23,135 @@
           "filter": "datum.game === 'Pokémon'"
         }
       ],
-      "mark": {
-        "type": "area",
-        "interpolate": "monotone",
-        "line": {
-          "strokeWidth": 0.5,
-          "stroke": "#0f1521"
-        }
-      },
-      "encoding": {
-        "x": {
-          "field": "year",
-          "type": "quantitative",
-          "axis": {
-            "title": null,
-            "format": "d",
-            "tickCount": 10,
-            "grid": false
+      "layer": [
+        {
+          "mark": {
+            "type": "area",
+            "interpolate": "monotone",
+            "line": {
+              "strokeWidth": 0.5,
+              "stroke": "#0f1521"
+            }
           },
-          "scale": {
-            "domain": [
-              1999,
-              2026
-            ]
-          }
-        },
-        "y": {
-          "field": "count",
-          "type": "quantitative",
-          "stack": "center",
-          "axis": null
-        },
-        "order": {
-          "field": "tier_rank"
-        },
-        "color": {
-          "field": "tier_rank",
-          "type": "ordinal",
-          "scale": {
-            "domain": [
-              1,
-              2,
-              3,
-              4,
-              5
+          "encoding": {
+            "x": {
+              "field": "year",
+              "type": "quantitative",
+              "axis": {
+                "title": null,
+                "format": "d",
+                "tickCount": 10,
+                "grid": false
+              },
+              "scale": {
+                "domain": [
+                  1999,
+                  2026
+                ]
+              }
+            },
+            "y": {
+              "field": "count",
+              "type": "quantitative",
+              "stack": "center",
+              "axis": null
+            },
+            "order": {
+              "field": "tier_rank"
+            },
+            "color": {
+              "field": "tier_rank",
+              "type": "ordinal",
+              "scale": {
+                "domain": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "range": [
+                  "#6b4a2a",
+                  "#9a5e22",
+                  "#c97a1c",
+                  "#f0a030",
+                  "#ffd973"
+                ]
+              },
+              "legend": {
+                "title": "Rarity tier",
+                "orient": "right",
+                "labelExpr": "{1:'1 — most common',2:'2',3:'3',4:'4',5:'5 — rarest'}[datum.value]"
+              }
+            },
+            "tooltip": [
+              {
+                "field": "game",
+                "title": "Game"
+              },
+              {
+                "field": "year",
+                "title": "Year"
+              },
+              {
+                "field": "rarity_tier",
+                "title": "Rarity tier"
+              },
+              {
+                "field": "count",
+                "title": "Cards printed",
+                "format": ","
+              }
             ],
-            "range": [
-              "#6b4a2a",
-              "#9a5e22",
-              "#c97a1c",
-              "#f0a030",
-              "#ffd973"
+            "opacity": {
+              "condition": {
+                "param": "hl_tier",
+                "empty": true,
+                "value": 1
+              },
+              "value": 0.2
+            }
+          },
+          "name": "pk"
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "year": 1999,
+                "label": "Rarest tier: 2.4% of cards in 1999–2003, 39% in 2022–2026"
+              }
             ]
           },
-          "legend": {
-            "title": "Rarity tier",
-            "orient": "right",
-            "labelExpr": "{1:'1 — most common',2:'2',3:'3',4:'4',5:'5 — rarest'}[datum.value]"
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "dy": -2,
+            "fontSize": 11,
+            "fontWeight": 600,
+            "color": "#ffd973"
+          },
+          "encoding": {
+            "x": {
+              "field": "year",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  1999,
+                  2026
+                ]
+              }
+            },
+            "y": {
+              "value": 0
+            },
+            "text": {
+              "field": "label"
+            }
           }
-        },
-        "tooltip": [
-          {
-            "field": "game",
-            "title": "Game"
-          },
-          {
-            "field": "year",
-            "title": "Year"
-          },
-          {
-            "field": "rarity_tier",
-            "title": "Rarity tier"
-          },
-          {
-            "field": "count",
-            "title": "Cards printed",
-            "format": ","
-          }
-        ],
-        "opacity": {
-          "condition": {
-            "param": "hl_tier",
-            "empty": true,
-            "value": 1
-          },
-          "value": 0.2
         }
-      },
-      "name": "pk"
+      ]
     },
     {
       "title": {
@@ -125,90 +166,131 @@
           "filter": "datum.game === 'Yu-Gi-Oh'"
         }
       ],
-      "mark": {
-        "type": "area",
-        "interpolate": "monotone",
-        "line": {
-          "strokeWidth": 0.5,
-          "stroke": "#0f1521"
-        }
-      },
-      "encoding": {
-        "x": {
-          "field": "year",
-          "type": "quantitative",
-          "axis": {
-            "title": "Year",
-            "format": "d",
-            "tickCount": 10,
-            "grid": false
+      "layer": [
+        {
+          "mark": {
+            "type": "area",
+            "interpolate": "monotone",
+            "line": {
+              "strokeWidth": 0.5,
+              "stroke": "#0f1521"
+            }
           },
-          "scale": {
-            "domain": [
-              1999,
-              2026
-            ]
-          }
-        },
-        "y": {
-          "field": "count",
-          "type": "quantitative",
-          "stack": "center",
-          "axis": null
-        },
-        "order": {
-          "field": "tier_rank"
-        },
-        "color": {
-          "field": "tier_rank",
-          "type": "ordinal",
-          "scale": {
-            "domain": [
-              1,
-              2,
-              3,
-              4,
-              5
+          "encoding": {
+            "x": {
+              "field": "year",
+              "type": "quantitative",
+              "axis": {
+                "title": "Year",
+                "format": "d",
+                "tickCount": 10,
+                "grid": false
+              },
+              "scale": {
+                "domain": [
+                  1999,
+                  2026
+                ]
+              }
+            },
+            "y": {
+              "field": "count",
+              "type": "quantitative",
+              "stack": "center",
+              "axis": null
+            },
+            "order": {
+              "field": "tier_rank"
+            },
+            "color": {
+              "field": "tier_rank",
+              "type": "ordinal",
+              "scale": {
+                "domain": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "range": [
+                  "#6b4a2a",
+                  "#9a5e22",
+                  "#c97a1c",
+                  "#f0a030",
+                  "#ffd973"
+                ]
+              },
+              "legend": null
+            },
+            "tooltip": [
+              {
+                "field": "game",
+                "title": "Game"
+              },
+              {
+                "field": "year",
+                "title": "Year"
+              },
+              {
+                "field": "rarity_tier",
+                "title": "Rarity tier"
+              },
+              {
+                "field": "count",
+                "title": "Cards printed",
+                "format": ","
+              }
             ],
-            "range": [
-              "#6b4a2a",
-              "#9a5e22",
-              "#c97a1c",
-              "#f0a030",
-              "#ffd973"
+            "opacity": {
+              "condition": {
+                "param": "hl_tier",
+                "empty": true,
+                "value": 1
+              },
+              "value": 0.2
+            }
+          },
+          "name": "ygo"
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "year": 1999,
+                "label": "Rarest tier: 4.2% of cards in 2001–2005, 26% in 2022–2026"
+              }
             ]
           },
-          "legend": null
-        },
-        "tooltip": [
-          {
-            "field": "game",
-            "title": "Game"
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "dy": -2,
+            "fontSize": 11,
+            "fontWeight": 600,
+            "color": "#ffd973"
           },
-          {
-            "field": "year",
-            "title": "Year"
-          },
-          {
-            "field": "rarity_tier",
-            "title": "Rarity tier"
-          },
-          {
-            "field": "count",
-            "title": "Cards printed",
-            "format": ","
+          "encoding": {
+            "x": {
+              "field": "year",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  1999,
+                  2026
+                ]
+              }
+            },
+            "y": {
+              "value": 0
+            },
+            "text": {
+              "field": "label"
+            }
           }
-        ],
-        "opacity": {
-          "condition": {
-            "param": "hl_tier",
-            "empty": true,
-            "value": 1
-          },
-          "value": 0.2
         }
-      },
-      "name": "ygo"
+      ]
     }
   ],
   "resolve": {

@@ -185,6 +185,29 @@
           ]
         }
       ]
+    },
+    {
+      "name": "malaysia_label",
+      "values": [
+        {
+          "lon": 113.84,
+          "lat": 2.53
+        }
+      ],
+      "transform": [
+        {
+          "type": "geopoint",
+          "projection": "proj",
+          "fields": [
+            "lon",
+            "lat"
+          ],
+          "as": [
+            "px",
+            "py"
+          ]
+        }
+      ]
     }
   ],
   "scales": [
@@ -617,6 +640,97 @@
           }
         }
       ]
+    },
+    {
+      "type": "text",
+      "interactive": false,
+      "from": {
+        "data": "malaysia_label"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "field": "px"
+          },
+          "y": {
+            "field": "py"
+          },
+          "text": {
+            "value": "Malaysia: Yu-Gi-Oh second (8%)"
+          },
+          "dx": {
+            "value": 12
+          },
+          "dy": {
+            "value": 4
+          },
+          "align": {
+            "value": "left"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fontSize": {
+            "value": 12
+          },
+          "fontWeight": {
+            "value": 700
+          },
+          "fill": {
+            "value": "#e9edf3"
+          },
+          "stroke": {
+            "value": "#0f1521"
+          },
+          "strokeWidth": {
+            "value": 3
+          },
+          "strokeJoin": {
+            "value": "round"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "interactive": false,
+      "from": {
+        "data": "malaysia_label"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "field": "px"
+          },
+          "y": {
+            "field": "py"
+          },
+          "text": {
+            "value": "Malaysia: Yu-Gi-Oh second (8%)"
+          },
+          "dx": {
+            "value": 12
+          },
+          "dy": {
+            "value": 4
+          },
+          "align": {
+            "value": "left"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fontSize": {
+            "value": 12
+          },
+          "fontWeight": {
+            "value": 700
+          },
+          "fill": {
+            "value": "#e9edf3"
+          }
+        }
+      }
     }
   ],
   "config": {

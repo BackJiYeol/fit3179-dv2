@@ -71,9 +71,17 @@ figcaption p{margin:0 0 4px}
 
 /* footer: About block heading — one step below section titles */
 .about-title{font-size:1.05rem;font-weight:700;color:var(--ink);margin:0 0 12px;letter-spacing:-.005em}
-footer p{max-width:72ch}
+footer p{max-width:36ch}
 
 /* display typeface: Bangers echoes trading-card packaging; body text stays in Inter */
 .hero h1, .sec-title{font-family:"Bangers","Inter",sans-serif; font-weight:400; letter-spacing:.03em}
 .hero h1{font-size:clamp(2.6rem,6vw,4.3rem); line-height:1.05}
 .sec-title{font-size:clamp(1.8rem,3.4vw,2.5rem); line-height:1.1}
+
+/* DV1 feedback: no more than 10 words per line in paragraphs */
+.hero .standfirst, .sec-intro, figcaption{max-width:42ch}
+footer p{max-width:36ch}
+/* visual hierarchy in text: game names in their chart colour, key figures bright and bold */
+.g-pk{color:#56B4E9}.g-ygo{color:#CC79A7}.g-sc{color:#E69F00}.g-mtg{color:#009E73}.g-op{color:#D55E00}
+.g-pk,.g-ygo,.g-sc,.g-mtg,.g-op{font-weight:600}
+.sec-intro strong, figcaption strong{color:var(--ink); font-weight:700}

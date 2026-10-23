@@ -10,7 +10,11 @@
         "anchor": "start",
         "fontSize": 13,
         "dy": -4,
-        "color": "#e9edf3"
+        "color": "#e9edf3",
+        "subtitle": "Bold months hold about two in three of its sets",
+        "subtitleColor": "#a3aec0",
+        "subtitleFontSize": 11,
+        "subtitlePadding": 3
       },
       "transform": [
         {
@@ -83,7 +87,13 @@
             "labelExpr": "['January','February','March','April','May','June','July','August','September','October','November','December'][datum.value - 1]",
             "labelFontSize": 10,
             "domain": false,
-            "ticks": false
+            "ticks": false,
+            "labelFontWeight": {
+              "expr": "indexof([2,5,8,11], datum.value) >= 0 ? 700 : 400"
+            },
+            "labelColor": {
+              "expr": "indexof([2,5,8,11], datum.value) >= 0 ? '#e9edf3' : '#a3aec0'"
+            }
           }
         },
         "color": {
@@ -157,7 +167,11 @@
         "anchor": "start",
         "fontSize": 13,
         "dy": -4,
-        "color": "#e9edf3"
+        "color": "#e9edf3",
+        "subtitle": "Sets arrive almost every month",
+        "subtitleColor": "#a3aec0",
+        "subtitleFontSize": 11,
+        "subtitlePadding": 3
       },
       "transform": [
         {
