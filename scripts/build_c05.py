@@ -10,14 +10,6 @@ Axes (each has its own unit):
   Cards per set       average cards per set
   Share of all cards  % of that game's cards released in the era
 
-Rules:
-  - MIN_CARDS = 10: drop promo sets with fewer than 10 cards (same as c06).
-  - LAST_COMPLETE_YEAR = 2025: skip the unfinished year.
-  - Pokémon eras use the "series" field; "Other" and series with
-    fewer than 3 sets are dropped.
-  - Yu-Gi-Oh has no series field, so eras follow the anime air years.
-  - Era length = first to last year with a release in the data.
-
 Run: python scripts/build_c05.py
 """
 import json

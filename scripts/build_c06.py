@@ -14,15 +14,7 @@ Method:
     Shares, not counts, because the two games release at different scales.
   - Date formats differ: Pokémon "1999/01/09" (releaseDate),
     Yu-Gi-Oh "2015-05-28" (tcg_date). Both start with year-month.
-
-Rules:
-  - MIN_CARDS = 10: Yu-Gi-Oh counts single promos as sets
-    (median 8 cards vs 111 for Pokémon). Dropping sets under 10 cards
-    removes 3 of 176 Pokémon sets and makes the units comparable.
-  - 4 undated Yu-Gi-Oh sets are dropped.
-  - Both games use English (TCG) release dates.
-  - 2026 is dropped (year not finished).
-
+    
 Run: python scripts/build_c06.py
 """
 import json
