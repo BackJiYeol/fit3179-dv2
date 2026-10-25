@@ -1,0 +1,363 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Parallel coordinates: one line per era. Colour = game. Hovering a line highlights it (others fade) and labels it with its era name — focus + context.",
+  "height": 300,
+  "data": {
+    "url": "data/c05_parallel.json"
+  },
+  "transform": [
+    {
+      "calculate": "datum.game === 'Pokémon' ? '#56B4E9' : '#CC79A7'",
+      "as": "line_colour"
+    },
+    {
+      "fold": [
+        "Sets released",
+        "Sets per year",
+        "Cards per set",
+        "Share of all cards"
+      ],
+      "as": [
+        "axis",
+        "value"
+      ]
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "min",
+          "field": "value",
+          "as": "axis_min"
+        },
+        {
+          "op": "max",
+          "field": "value",
+          "as": "axis_max"
+        }
+      ],
+      "groupby": [
+        "axis"
+      ]
+    },
+    {
+      "calculate": "(datum.value - datum.axis_min) / (datum.axis_max - datum.axis_min)",
+      "as": "norm"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "axis",
+      "type": "nominal",
+      "sort": [
+        "Sets released",
+        "Sets per year",
+        "Cards per set",
+        "Share of all cards"
+      ],
+      "title": null,
+      "axis": {
+        "labelAngle": 0,
+        "labelFontSize": 11,
+        "labelFontWeight": 600,
+        "orient": "top",
+        "domain": false,
+        "ticks": false,
+        "labelPadding": 40,
+        "labelExpr": "{'Sets released': ['Sets released', 'number of sets in the era', '3 → 69'], 'Sets per year': ['Sets per year', 'release pace', '1.3 → 31.5'], 'Cards per set': ['Cards per set', 'average set size', '17 → 205 cards'], 'Share of all cards': ['Share of all cards', '% of that game’s catalogue', '0.8% → 18.9%']}[datum.value]",
+        "labelLineHeight": 15,
+        "labelLimit": 220
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#3a4557",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "description": "legend carrier only: invisible marks so the game legend shows the base hue of each game",
+      "mark": {
+        "type": "line",
+        "opacity": 0
+      },
+      "encoding": {
+        "y": {
+          "field": "norm",
+          "type": "quantitative"
+        },
+        "detail": {
+          "field": "era",
+          "type": "nominal"
+        },
+        "color": {
+          "field": "game",
+          "type": "nominal",
+          "title": null,
+          "scale": {
+            "domain": [
+              "Pokémon",
+              "Yu-Gi-Oh"
+            ],
+            "range": [
+              "#56B4E9",
+              "#CC79A7"
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "symbolType": "stroke",
+            "symbolStrokeWidth": 3,
+            "symbolOpacity": 1,
+            "labelFontSize": 12
+          }
+        }
+      }
+    },
+    {
+      "params": [
+        {
+          "name": "hl",
+          "select": {
+            "type": "point",
+            "fields": [
+              "game",
+              "era"
+            ],
+            "on": "line:pointerover, symbol:pointerover",
+            "clear": "pointerout"
+          }
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "point": {
+          "size": 30,
+          "filled": true
+        }
+      },
+      "encoding": {
+        "y": {
+          "field": "norm",
+          "type": "quantitative",
+          "title": null,
+          "axis": {
+            "labels": false,
+            "ticks": false,
+            "domain": false,
+            "grid": false,
+            "title": [
+              "↑ higher = larger value",
+              "(each axis: its own min → max)"
+            ],
+            "titleFontWeight": 500,
+            "titleFontSize": 11,
+            "titlePadding": 10
+          }
+        },
+        "color": {
+          "field": "line_colour",
+          "type": "nominal",
+          "scale": null
+        },
+        "detail": {
+          "field": "era",
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "param": "hl",
+            "empty": true,
+            "value": 0.9
+          },
+          "value": 0.1
+        },
+        "strokeWidth": {
+          "condition": {
+            "param": "hl",
+            "empty": false,
+            "value": 3.2
+          },
+          "value": 1.6
+        },
+        "tooltip": [
+          {
+            "field": "game",
+            "type": "nominal",
+            "title": "Game"
+          },
+          {
+            "field": "era",
+            "type": "nominal",
+            "title": "Era"
+          },
+          {
+            "field": "_years",
+            "type": "nominal",
+            "title": "Years"
+          },
+          {
+            "field": "axis",
+            "type": "nominal",
+            "title": "Measure"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Value"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": {
+            "param": "hl",
+            "empty": false
+          }
+        },
+        {
+          "filter": "datum.axis === 'Share of all cards'"
+        },
+        {
+          "calculate": "datum.era + ' (' + datum._years + ')'",
+          "as": "hl_label"
+        },
+        {
+          "calculate": "datum.norm > 0.85 ? datum.norm - 0.07 : datum.norm + 0.05",
+          "as": "label_y"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -10,
+        "fontSize": 11.5,
+        "fontWeight": 700,
+        "stroke": "#0f1521",
+        "strokeWidth": 4,
+        "strokeJoin": "round"
+      },
+      "encoding": {
+        "y": {
+          "field": "label_y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "hl_label",
+          "type": "nominal"
+        },
+        "color": {
+          "value": "#0f1521"
+        }
+      }
+    },
+    {
+      "description": "era label for the hovered line, at the right-most axis",
+      "transform": [
+        {
+          "filter": {
+            "param": "hl",
+            "empty": false
+          }
+        },
+        {
+          "filter": "datum.axis === 'Share of all cards'"
+        },
+        {
+          "calculate": "datum.era + ' (' + datum._years + ')'",
+          "as": "hl_label"
+        },
+        {
+          "calculate": "datum.norm > 0.85 ? datum.norm - 0.07 : datum.norm + 0.05",
+          "as": "label_y"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -10,
+        "fontSize": 11.5,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "y": {
+          "field": "label_y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "hl_label",
+          "type": "nominal"
+        },
+        "color": {
+          "field": "line_colour",
+          "type": "nominal",
+          "scale": null
+        }
+      }
+    },
+    {
+      "description": "annotation: the contrast the caption describes, placed next to the first axis",
+      "data": {
+        "values": [
+          {
+            "axis": "Sets released",
+            "norm": 0.93,
+            "note": [
+              "Yu-Gi-Oh:",
+              "many sets"
+            ],
+            "c": "#CC79A7"
+          },
+          {
+            "axis": "Sets released",
+            "norm": 0.1,
+            "note": [
+              "Pokémon:",
+              "few sets"
+            ],
+            "c": "#56B4E9"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -12,
+        "fontSize": 11,
+        "fontWeight": 700,
+        "lineHeight": 14
+      },
+      "encoding": {
+        "y": {
+          "field": "norm",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "note"
+        },
+        "color": {
+          "field": "c",
+          "type": "nominal",
+          "scale": null
+        }
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    },
+    "legend": {
+      "color": "independent"
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

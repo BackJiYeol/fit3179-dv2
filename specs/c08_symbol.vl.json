@@ -1,0 +1,410 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 380,
+  "projection": {
+    "type": "equalEarth",
+    "center": {
+      "expr": "center_to"
+    },
+    "scale": {
+      "expr": "zoom_level"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/WorldMapWithGraticules.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_0_countries"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#333b48",
+        "stroke": "#0f1521",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "url": "data/oceans.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "oceans"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#1a2433"
+      }
+    },
+    {
+      "data": {
+        "url": "data/WorldMapWithGraticules.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_graticules_30"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": null,
+        "stroke": "#2a3547",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {
+        "url": "data/c08_symbol.json"
+      },
+      "transform": [
+        {
+          "calculate": "datum.value <= 5 ? '1–5' : datum.value <= 15 ? '6–15' : datum.value <= 30 ? '16–30' : datum.value <= 60 ? '31–60' : '61–100'",
+          "as": "size_class"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "opacity": 0.65,
+        "stroke": "#0f1521",
+        "strokeWidth": 0.8
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "size_class",
+          "type": "ordinal",
+          "title": [
+            "Search interest in",
+            "\"trading cards\" (class)"
+          ],
+          "scale": {
+            "domain": [
+              "1–5",
+              "6–15",
+              "16–30",
+              "31–60",
+              "61–100"
+            ],
+            "range": [
+              55,
+              145,
+              280,
+              545,
+              900
+            ]
+          },
+          "legend": {
+            "orient": "bottom-left",
+            "direction": "vertical",
+            "titleFontSize": 11,
+            "titleLimit": 320,
+            "labelFontSize": 10,
+            "offset": 6,
+            "symbolFillColor": "#56B4E9",
+            "symbolOpacity": 0.72
+          }
+        },
+        "color": {
+          "value": "#56B4E9"
+        },
+        "order": {
+          "field": "value",
+          "type": "quantitative",
+          "sort": "descending"
+        },
+        "tooltip": [
+          {
+            "field": "country",
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Search interest (0-100, exact)"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 134.05,
+            "lat": -24.13,
+            "label": "Australia 100 (highest)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 18,
+        "dy": 0,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#e9edf3",
+        "stroke": "#0f1521",
+        "strokeWidth": 3,
+        "strokeJoin": "round"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 134.05,
+            "lat": -24.13,
+            "label": "Australia 100 (highest)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 18,
+        "dy": 0,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#e9edf3"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": -97.48,
+            "lat": 39.54,
+            "label": "United States 99"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -18,
+        "dy": 0,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#e9edf3",
+        "stroke": "#0f1521",
+        "strokeWidth": 3,
+        "strokeJoin": "round"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": -97.48,
+            "lat": 39.54,
+            "label": "United States 99"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -18,
+        "dy": 0,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#e9edf3"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 113.84,
+            "lat": 2.53,
+            "label": "Malaysia 11"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 10,
+        "dy": 8,
+        "fontSize": 12,
+        "fontWeight": 700,
+        "color": "#e9edf3",
+        "stroke": "#0f1521",
+        "strokeWidth": 3,
+        "strokeJoin": "round"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 113.84,
+            "lat": 2.53,
+            "label": "Malaysia 11"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 10,
+        "dy": 8,
+        "fontSize": 12,
+        "fontWeight": 700,
+        "color": "#e9edf3"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  },
+  "params": [
+    {
+      "name": "zoom_level",
+      "value": 130,
+      "bind": {
+        "input": "range",
+        "min": 130,
+        "max": 600,
+        "step": 10,
+        "name": "Zoom: "
+      }
+    },
+    {
+      "name": "center_to",
+      "value": [
+        0,
+        0
+      ],
+      "bind": {
+        "input": "select",
+        "options": [
+          [
+            0,
+            0
+          ],
+          [
+            15,
+            50
+          ],
+          [
+            110,
+            15
+          ],
+          [
+            -95,
+            25
+          ],
+          [
+            140,
+            -25
+          ]
+        ],
+        "labels": [
+          "Whole world",
+          "Europe",
+          "Asia",
+          "North America",
+          "Oceania"
+        ],
+        "name": "Map Centre: "
+      }
+    }
+  ]
+}

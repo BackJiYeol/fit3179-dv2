@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "data/c01_ranking.json"
+  },
+  "height": 393,
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "game",
+      "type": "nominal",
+      "sort": "-x",
+      "title": null,
+      "scale": {
+        "paddingInner": 0.3
+      }
+    },
+    "x": {
+      "field": "value",
+      "type": "quantitative",
+      "title": [
+        "Average relative search interest",
+        "(Google Trends index, 100 = peak week)"
+      ]
+    },
+    "tooltip": [
+      {
+        "field": "game",
+        "type": "nominal",
+        "title": "Game"
+      },
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Search Interest"
+      }
+    ],
+    "color": {
+      "condition": {
+        "test": "datum.game === 'Pokémon'",
+        "value": "#56B4E9"
+      },
+      "value": "#4b5568"
+    }
+  }
+}

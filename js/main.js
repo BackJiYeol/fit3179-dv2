@@ -1,9 +1,8 @@
 // Finds every .chart[data-spec] slot on the page, fetches its
-// Vega-Lite spec and renders it. A missing spec shows an inline
-// error without stopping the remaining charts.
+// Vega or Vega-Lite spec and renders it. A missing spec is logged to the console
+// without stopping the remaining charts.
 
 const EMBED_OPT = {
-  // actions: {export:true, source:true, compiled:false, editor:true},
   actions: false,
   renderer: "canvas",
   tooltip: {theme: "dark"},
@@ -53,7 +52,6 @@ async function drawAll(){
     }catch(err){
       el.classList.remove("is-loading");
       el.classList.add("is-error");
-      // el.textContent = "⚠ " + err.message;
       console.error(el.dataset.spec, err);
     }
   }
