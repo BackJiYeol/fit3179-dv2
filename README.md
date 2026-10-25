@@ -24,4 +24,4 @@ To run locally, serve the folder (for example `python -m http.server`) and open 
 - [Google Trends](https://trends.google.com/), worldwide, October 2021 to October 2026 (relative index, 100 = peak week)
 - [Natural Earth](https://www.naturalearthdata.com/) 110m country boundaries
 
-AI use: Claude (Anthropic) assisted with brainstorming, data-processing scripts, chart code and proofreading.
+AI use: Claude (Anthropic) assisted with brainstorming, data-processing scripts.
